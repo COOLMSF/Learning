@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center|left" android:id="@id/tv_back" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="群管理" android:drawableLeft="@mipmap/icon_back_black" android:drawablePadding="@dimen/dp_10" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/img_more" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="群管理员" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View style="@style/Line05" />
+    <TextView android:textSize="@dimen/sp_15" android:padding="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="群主" />
+    <RelativeLayout android:background="@color/white" android:paddingLeft="@dimen/pt_padding" android:layout_width="fill_parent" android:layout_height="@dimen/pt_item_height_one">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/iv_admin_head" android:background="@drawable/shape_btn_radius" android:layout_width="@dimen/pt_avatar_size" android:layout_height="@dimen/pt_avatar_size" android:scaleType="fitXY" android:layout_centerVertical="true" app:riv_corner_radius="@dimen/pt_5" />
+        <TextView android:textSize="@dimen/sp_item_title" android:textColor="@color/black" android:id="@id/tv_admin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_12" android:layout_toRightOf="@id/iv_admin_head" android:layout_centerVertical="true" android:layout_marginStart="@dimen/pt_12" android:layout_marginEnd="@dimen/pt_18" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/sp_15" android:id="@id/tv_admin_num" android:padding="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="群管理员" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_recycler" />
+</LinearLayout>

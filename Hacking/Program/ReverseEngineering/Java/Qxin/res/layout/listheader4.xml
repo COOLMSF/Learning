@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingTop="@dimen/y15" android:paddingBottom="@dimen/y15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/y40" android:textColor="#ffaaaaaa" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="期号" android:layout_weight="0.8" />
+    <TextView android:textSize="@dimen/y40" android:textColor="#ffaaaaaa" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="号码" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/y40" android:textColor="#ffaaaaaa" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="大小" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/y40" android:textColor="#ffaaaaaa" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="单双" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/y40" android:textColor="#ffaaaaaa" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="总和" android:layout_weight="0.5" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/grey_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:lock="http://schemas.android.com/apk/res-auto">
+    <com.chat.hotgame.ui.custom.RoundedImageView android:id="@id/iv_tou" android:visibility="visible" android:layout_width="@dimen/y200" android:layout_height="@dimen/y200" android:layout_marginTop="@dimen/y200" android:src="@mipmap/moren" />
+    <TextView android:textSize="@dimen/y39" android:textColor="@color/red" android:id="@id/textView_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y50" android:layout_marginBottom="34.0dip" android:text="" android:layout_above="@id/lock" android:layout_centerHorizontal="true" />
+    <com.chat.hotgame.ui.custom.GestureLockView android:id="@id/lock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y100" android:layout_marginRight="@dimen/y100" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" lock:normalColor="@color/grey" lock:wrongColor="@android:color/holo_blue_bright" />
+    <TextView android:id="@id/tv_passLogin" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y50" android:text="密码登录" />
+</LinearLayout>

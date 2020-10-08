@@ -1,0 +1,6 @@
+int arr[1][2] = { 123, 234 } equals to int arr[2] = { 123, 234 }
+
+int arr[0] is legal but int arr[0] = 123 is illegal
+int arr[1] = 123 is illegal
+
+the size of array[0] is 0

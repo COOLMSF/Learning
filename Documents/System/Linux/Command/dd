@@ -1,0 +1,4 @@
+#This file is to scribe how to spit file within bytes
+
+dd if=a of=b bs=1 count 100 skip=5 //skip the 0-5 bytes and read 6-6+100 bytes in b
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:gravity="center" android:id="@id/tv_title" android:background="#ffefeff4" android:layout_width="fill_parent" android:layout_height="@dimen/y120" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/iv_t1" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/tv_title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/llt_type_layout" android:layout_width="fill_parent" android:layout_height="@dimen/y90" android:layout_below="@id/iv_t1">
+        <TextView android:textSize="@dimen/y40" android:textStyle="bold" android:textColor="@color/color_black" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="类型" android:layout_weight="1.0" />
+        <ImageView android:background="@color/grey" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/y10" android:layout_marginBottom="@dimen/y10" />
+        <TextView android:textSize="@dimen/y40" android:textStyle="bold" android:textColor="@color/color_black" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="打码量" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_t2" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/llt_type_layout" />
+    <com.chat.hotgame.ui.custom.MaxListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:cacheColorHint="@null" android:divider="@color/grey" android:dividerHeight="0.0px" android:layout_above="@id/iv_t3" android:layout_below="@id/iv_t2" />
+    <ImageView android:id="@id/iv_t3" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/llt_all_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/llt_all_layout" android:layout_width="fill_parent" android:layout_height="@dimen/y90" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/y40" android:textStyle="bold" android:textColor="@color/color_black" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="总计" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y40" android:textStyle="bold" android:textColor="@color/color_black" android:gravity="center" android:id="@id/tv_damaAll" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

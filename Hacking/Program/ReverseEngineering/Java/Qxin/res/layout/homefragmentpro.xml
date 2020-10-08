@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_titlebar_root" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <ImageView android:id="@id/iv_bar_kefu" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@mipmap/icon_kefu" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_bar_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_bar_Refresh" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/hotgame_refresh" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/line" android:background="@color/color_gray_999999" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/rl_titlebar_root" />
+    <com.chat.hotgame.ui.custom.EmptyLayout android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/line">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.flyco.tablayout.SlidingTabLayout android:id="@id/tab_sliding" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" app:tl_indicator_color="@color/orange" app:tl_indicator_margin_left="2.0dip" app:tl_indicator_margin_right="2.0dip" app:tl_indicator_style="BLOCK" app:tl_textSelectColor="@color/white" app:tl_textUnselectColor="@color/black" app:tl_textsize="15.0dip" />
+            <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="@dimen/dp_0" android:fillViewport="true" android:layout_weight="1.0" />
+            <View android:background="@color/color_gray_999999" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+    </com.chat.hotgame.ui.custom.EmptyLayout>
+</RelativeLayout>

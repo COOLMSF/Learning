@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/rbSelect" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textColor="@color/black" android:id="@id/rbSelectText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/dp_10" />
+</LinearLayout>

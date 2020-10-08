@@ -1,0 +1,6 @@
+#Creat vpn
+sudo pptpsetup --creat vpn0 --server coolder.club --username cooolder --password hushanglai --encrypt --start
+#vpn online 
+pon vpn0
+#vpn offline
+poff vpn0

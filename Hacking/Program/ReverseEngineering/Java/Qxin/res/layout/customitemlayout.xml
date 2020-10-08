@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/cb_check" android:background="@drawable/buy_grid_selector" android:layout_width="@dimen/y280" android:layout_height="@dimen/y280" android:button="@null" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llr_layout" android:layout_width="@dimen/y280" android:layout_height="@dimen/y280" android:minHeight="@dimen/y110">
+        <TextView android:textSize="@dimen/y42" android:textColor="@color/color_black" android:gravity="center" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/y30" android:textColor="@color/color_gray_999999" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_peilv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y12" android:layout_marginBottom="@dimen/y12" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_sz1" android:layout_width="@dimen/y50" android:layout_height="@dimen/y50" />
+            <ImageView android:id="@id/iv_sz2" android:layout_width="@dimen/y50" android:layout_height="@dimen/y50" android:layout_marginLeft="@dimen/y18" android:layout_marginRight="@dimen/y18" />
+            <ImageView android:id="@id/iv_sz3" android:layout_width="@dimen/y50" android:layout_height="@dimen/y50" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

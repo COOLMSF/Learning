@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.base_lib.widget.ClearEditText android:textSize="@dimen/sp_14" android:id="@id/etSearch" android:background="@drawable/shape_search" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:layout_width="@dimen/dp_0" android:layout_height="@dimen/dp_30" android:layout_marginLeft="@dimen/dp_10" android:layout_marginTop="@dimen/dp_10" android:hint="搜索" android:maxLines="1" android:drawableLeft="@drawable/svg_search" android:drawablePadding="@dimen/dp_5" android:inputType="text" android:imeOptions="actionSearch" android:drawableStart="@drawable/svg_search" android:layout_marginStart="@dimen/dp_10" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/tvCancel" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/sp_16" android:textColor="@color/textLink" android:id="@id/tvCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:text="取消" app:layout_constraintBottom_toBottomOf="@id/etSearch" app:layout_constraintLeft_toRightOf="@id/etSearch" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/etSearch" />
+    <View android:id="@id/line0" android:layout_height="@dimen/dp_10" app:layout_constraintTop_toBottomOf="@id/etSearch" style="@style/Line05" />
+    <android.support.constraint.ConstraintLayout android:id="@id/clTiShi" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_60" app:layout_constraintTop_toBottomOf="@id/line0">
+        <com.coorchice.library.SuperTextView android:id="@id/stvIcon" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:layout_marginStart="@dimen/dp_10" app:layout_constraintBottom_toTopOf="@id/line" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:stv_corner="@dimen/dp_5" app:stv_drawableAsBackground="true" app:stv_state_drawable="@drawable/add_friend_search_icon" />
+        <TextView android:textSize="@dimen/sp_16" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_10" app:layout_constraintBottom_toBottomOf="@id/stvIcon" app:layout_constraintLeft_toRightOf="@id/stvIcon" app:layout_constraintTop_toTopOf="@id/stvIcon" />
+        <View android:id="@id/line" android:layout_marginTop="@dimen/dp_10" app:layout_constraintBottom_toBottomOf="parent" style="@style/Line05" />
+    </android.support.constraint.ConstraintLayout>
+    <ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/clTiShi">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_0">
+            <LinearLayout android:orientation="vertical" android:id="@id/llJingQue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:background="@color/titleBar" android:paddingLeft="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="@dimen/dp_35" android:text="网络联系人（精确查找）" />
+                <android.support.v7.widget.RecyclerView android:id="@id/rvJingQue" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/llLocalUser" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:background="@color/titleBar" android:paddingLeft="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="@dimen/dp_35" android:text="本地联系人" />
+                <android.support.v7.widget.RecyclerView android:id="@id/rvLocalUser" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/llLocalGroup" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:background="@color/titleBar" android:paddingLeft="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:text="本地群组" />
+                <android.support.v7.widget.RecyclerView android:id="@id/rvLocalGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

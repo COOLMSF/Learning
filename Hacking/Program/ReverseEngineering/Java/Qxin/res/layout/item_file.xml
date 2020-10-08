@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/bg_clickable" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_file_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="16.0dip" android:src="@drawable/ic_folder_48dp" android:alpha="0.6" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textStyle="bold" android:id="@id/item_file_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.AppCompat.Medium" />
+        <TextView android:id="@id/item_file_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

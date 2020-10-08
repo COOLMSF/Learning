@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_title_bar" />
+    <com.base_lib.widget.ClearEditText android:textSize="@dimen/sp_14" android:id="@id/etSelect" android:background="@color/white" android:paddingRight="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" android:hint="搜索" android:drawableLeft="@drawable/add_friend_search_icon" />
+    <View style="@style/Line05" />
+    <ListView android:id="@id/srvFriend" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/gray_F2F2F2" android:dividerHeight="0.5dip" />
+</LinearLayout>

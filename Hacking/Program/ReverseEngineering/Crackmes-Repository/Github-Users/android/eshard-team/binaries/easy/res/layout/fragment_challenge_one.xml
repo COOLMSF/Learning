@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/repeating_texture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <TextView android:textSize="24.0sp" android:textColor="@color/color_nebula_selected" android:id="@id/TextView_Title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:layout_marginTop="@dimen/margin_small" android:layout_marginBottom="15.0dip" android:text="@string/string_challenge_one_title" />
+        <View android:background="@color/color_nebula_selected" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginLeft="@dimen/margin_small" android:layout_marginBottom="30.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/color_nebula_dark" android:layout_gravity="center_horizontal" android:id="@id/TextView_Challenge_Intro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:layout_marginRight="@dimen/margin_small" android:layout_marginBottom="@dimen/margin_medium" android:text="@string/string_challenge_one_intro" />
+        <EditText android:enabled="true" android:textColor="@color/color_nebula_dark" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/challenge_one_text_guess" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_medium" android:text="@string/string_challenge_guess" android:width="200.0dip" android:singleLine="true" android:editable="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="419.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_small">
+            <Button android:enabled="true" android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/challenge_one_button_check" android:background="@color/color_actionbar_blue" android:focusable="true" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/margin_medium" android:text="@string/string_challenge_check" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

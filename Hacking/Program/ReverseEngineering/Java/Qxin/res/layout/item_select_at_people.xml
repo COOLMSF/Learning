@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/pt_68"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivHeader" android:layout_width="@dimen/pt_40" android:layout_height="@dimen/pt_40" android:layout_marginLeft="@dimen/pt_padding" android:src="@drawable/default_head" app:layout_constraintBottom_toTopOf="@id/line" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_16" app:layout_constraintBottom_toTopOf="@id/line" app:layout_constraintLeft_toRightOf="@id/ivHeader" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/line" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tvName" style="@style/Line05" />
+</android.support.constraint.ConstraintLayout>

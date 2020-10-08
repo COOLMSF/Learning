@@ -1,0 +1,7 @@
+#get length in terminal
+
+str=1234567
+echo ${#str} //it will print 7 (the length of 1234567)
+
+array=(1, 3, 5, 7, 9)
+echo ${#array[*]} //it will print 5 (the length of array)

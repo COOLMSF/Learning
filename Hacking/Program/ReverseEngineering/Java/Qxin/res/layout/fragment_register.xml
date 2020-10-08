@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_F2F2F2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivg_close" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:layout_marginLeft="@dimen/dp_10" android:layout_marginTop="@dimen/dp_10" android:src="@mipmap/icon_close" />
+    <TextView android:textSize="@dimen/sp_24" android:textColor="@color/black" android:gravity="left" android:id="@id/title_bar" android:padding="@dimen/dp_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_50" android:text="注册" />
+    <ScrollView android:orientation="vertical" android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/btnRegister" android:layout_below="@id/title_bar">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/dp_40" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:paddingLeft="@dimen/dp_25" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp_16" android:textColor="@color/black" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="*为必填项(姓名与手机为你找回密码的凭证，请牢记)" />
+            </LinearLayout>
+            <View android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginTop="@dimen/dp_10" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dp_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_20" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="昵称" />
+                <EditText android:textSize="@dimen/sp_15" android:textColor="@color/black" android:textColorHint="@color/gray_cccccc" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/et_nick_name" android:background="@null" android:padding="@dimen/dp_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:hint="例如：陈晨" android:maxLines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="@color/green" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/dp_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center_vertical" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_20" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="性别" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/rg_sex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <RadioButton android:id="@id/rb_man" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:text="男" android:layout_weight="1.0" />
+                    <RadioButton android:id="@id/rb_woman" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="女" android:layout_weight="1.0" />
+                </RadioGroup>
+            </LinearLayout>
+            <View android:background="@color/gray_cccccc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dp_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_20" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="手机" />
+                <EditText android:textSize="@dimen/sp_15" android:textColor="@color/black" android:textColorHint="@color/gray_cccccc" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/et_phone" android:background="@null" android:padding="@dimen/dp_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:hint="输入你的手机号" android:maxLines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="@color/gray_cccccc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_20" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="账号" />
+                <EditText android:textSize="@dimen/sp_15" android:textColor="@color/black" android:textColorHint="@color/gray_cccccc" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/et_user_name" android:background="@null" android:padding="@dimen/dp_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:hint="账号必须为6-16数字字母组合" android:maxLines="1" android:maxLength="16" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="@color/gray_cccccc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_20" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="密码" />
+                <EditText android:textSize="@dimen/sp_15" android:textColor="@color/black" android:textColorHint="@color/gray_cccccc" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/et_password" android:background="@null" android:padding="@dimen/dp_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:hint="输入你的密码" android:maxLines="1" android:layout_weight="1.0" android:inputType="textPassword" />
+            </LinearLayout>
+            <View android:background="@color/gray_cccccc" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:gravity="center_vertical" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_20" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="确认密码" />
+                <EditText android:textSize="@dimen/sp_15" android:textColor="@color/black" android:textColorHint="@color/gray_cccccc" android:gravity="center_vertical" android:id="@id/et_confirm_password" android:background="@null" android:padding="@dimen/dp_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:hint="确认你的密码" android:maxLines="1" android:layout_weight="1.0" android:inputType="textPassword" />
+            </LinearLayout>
+            <View android:background="@color/gray_cccccc" android:layout_width="fill_parent" android:layout_height="0.5px" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="@dimen/sp_16" android:textColor="@color/white" android:id="@id/btnRegister" android:background="@color/green" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="提交" android:layout_alignParentBottom="true" />
+</RelativeLayout>

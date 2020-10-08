@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff2f0eb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_alert_kicked_off" android:background="@drawable/ease_alert_click_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_bar" android:layout_alignParentTop="true">
+        <View android:background="@drawable/laba" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginLeft="25.0px" />
+        <com.chat.hotgame.ui.custom.MarqueeText android:textSize="@dimen/y35" android:textColor="#ff7f7b7b" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tv_error_msg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_useradd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/layout_alert_kicked_off" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/llt_down" android:layout_below="@id/layout_alert_kicked_off" app:srlEnableLoadMore="false" app:srlEnablePreviewInEditMode="false">
+        <com.scwang.smartrefresh.header.MaterialHeader android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/llt_down">
+            <android.support.v7.widget.RecyclerView android:id="@id/rv_chatList" android:padding="5.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textColor="@color/colorAccent" android:layout_gravity="bottom|center" android:id="@id/tv_new_chat" android:background="@drawable/button_ts_bg_shape" android:padding="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="底部有新消息..." />
+        </FrameLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llt_down" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/custom_facerelativelayout" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/gg_layout" android:background="@drawable/ggbj" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="300.0dip" android:layout_centerInParent="true">
+        <ScrollView android:layout_width="wrap_content" android:layout_height="130.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="80.0dip" android:layout_marginRight="30.0dip">
+            <TextView android:textSize="@dimen/y35" android:textColor="@color/common_bottom_bar_selected_bg" android:id="@id/gg_Text" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ScrollView>
+        <TextView android:textSize="@dimen/y46" android:textColor="@color/btn_register_normal" android:id="@id/gg_qr" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="确认" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include layout="@layout/websocket_layout" />
+</RelativeLayout>

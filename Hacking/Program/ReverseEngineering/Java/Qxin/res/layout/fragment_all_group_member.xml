@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/tv_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="聊天成员" android:drawableLeft="@mipmap/icon_back_black" android:drawablePadding="@dimen/dp_10" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/clSearch" android:background="@color/white" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.base_lib.widget.ClearEditText android:textSize="14.0sp" android:id="@id/etx_search" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40" android:hint="搜索" android:drawableLeft="@drawable/svg_search" android:drawablePadding="@dimen/dp_5" android:layout_centerVertical="true" android:drawableStart="@drawable/svg_search" app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/users_recyclerView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.5dip" app:layout_moreProgress="@layout/view_more_progress" app:recyclerClipToPadding="true" app:scrollbarStyle="outsideOverlay" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

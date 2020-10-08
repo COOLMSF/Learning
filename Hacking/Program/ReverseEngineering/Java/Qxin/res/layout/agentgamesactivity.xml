@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_title" layout="@layout/titlebar_details" />
+    <RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.flyco.tablayout.SlidingTabLayout android:id="@id/tl" android:background="@color/white" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/y110" app:tl_divider_color="@color/transparent" app:tl_divider_width="1.0dip" app:tl_indicator_color="@color/box_red" app:tl_indicator_height="1.0dip" app:tl_indicator_width_equal_title="true" app:tl_textSelectColor="@color/box_red" app:tl_textUnselectColor="@color/colorblack" app:tl_textsize="@dimen/y39" app:tl_underline_color="@color/transparent" />
+        <View android:id="@id/line" android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/tl" />
+        <android.support.v4.view.ViewPager android:id="@id/vp_recommend" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/line" />
+    </RelativeLayout>
+</LinearLayout>

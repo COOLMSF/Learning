@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f2f2" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_bar" layout="@layout/titlebar_nor" />
+    <RelativeLayout android:orientation="horizontal" android:background="#fffee5e5" android:paddingLeft="@dimen/y30" android:paddingTop="@dimen/y25" android:paddingBottom="@dimen/y25" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/colorblack" android:id="@id/tv_cong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="从  " android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/y40" android:textColor="#ff240909" android:id="@id/tv_currissue" android:background="@drawable/shape_textview2" android:padding="@dimen/y15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:drawableRight="@mipmap/down_grey" android:layout_toRightOf="@id/tv_cong" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/colorblack" android:id="@id/tv_qi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/y25" android:text="期  " android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <EditText android:textSize="@dimen/y40" android:textColor="#ff240909" android:gravity="center" android:id="@id/edit_issuecount" android:background="@drawable/shape_textview2" android:padding="@dimen/y15" android:layout_width="@dimen/y150" android:layout_height="wrap_content" android:layout_marginRight="@dimen/y25" android:text="5" android:maxLength="3" android:layout_toLeftOf="@id/tv_qi" android:layout_centerVertical="true" android:inputType="number" />
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/colorblack" android:id="@id/tv_buy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/y25" android:text="购买" android:layout_toLeftOf="@id/edit_issuecount" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/listview" android:focusable="true" android:focusableInTouchMode="true" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="#ffeeeeee" android:dividerHeight="0.0px" android:layout_weight="1.0" android:fastScrollEnabled="false" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:smoothScrollbar="true" android:overScrollMode="never" />
+    <View android:background="#ffd2d2d2" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y21" android:layout_toRightOf="@id/tv_buyed">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/y15" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <CheckBox android:textColor="#ffdc0000" android:layout_gravity="center" android:id="@id/checkBox" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox_style" android:text="" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/y35" android:textColor="#ff929292" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y10" android:text="全选" android:layout_toLeftOf="@id/edit_qi" />
+            </LinearLayout>
+            <View android:background="@color/grey" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/y40" android:layout_marginTop="@dimen/y20" android:layout_marginBottom="@dimen/y20" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y40">
+                <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:id="@id/tv_buyed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y23" android:text="共 0 注、0元" />
+                <CheckBox android:textSize="@dimen/y35" android:textColor="#ff929292" android:layout_gravity="center" android:id="@id/checkBox2" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y10" android:checked="true" android:button="@null" android:text="中奖后停止追号" android:drawableLeft="@drawable/checkbox_style" android:drawablePadding="@dimen/y20" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="@dimen/y45" android:textColor="@color/white" android:id="@id/button_ok" android:background="@drawable/selector_buy_btn3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="马上下注" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

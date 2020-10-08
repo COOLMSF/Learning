@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_accountName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名:" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_issue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="极速快3(180503022555期): " android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ffd91414" android:id="@id/tv_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在处理" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_gamerule" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="玩法:和值(1.975)" />
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_orderno" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="单号:56144384852585655" />
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_touzhuma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="投注码:和值双" />
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_kaijma" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="开奖码:2 5 3" />
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_jine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="金额:25,注数1,中奖金49,中注数1" />
+</LinearLayout>

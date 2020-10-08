@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <RelativeLayout android:id="@id/common_toolbar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip" app:contentInsetStart="0.0dip">
+        <RelativeLayout android:id="@id/common_toolbar_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginRight="30.0px" android:src="@mipmap/ic_title_back" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/common_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="联系人" android:singleLine="true" android:maxLength="10" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

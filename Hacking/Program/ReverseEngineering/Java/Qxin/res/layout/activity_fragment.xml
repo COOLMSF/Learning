@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/main_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/line" />
+    <View android:id="@id/line" android:layout_above="@id/tlNavigation" style="@style/Line05" />
+    <com.chat.widgets.MyCommonTabLayout android:id="@id/tlNavigation" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:tl_iconHeight="@dimen/dp_27" app:tl_iconWidth="@dimen/dp_27" app:tl_indicator_color="@color/red" app:tl_indicator_height="@dimen/dp_0" app:tl_textSelectColor="@color/red" app:tl_textUnselectColor="@color/black" app:tl_textsize="@dimen/sp_12" />
+</RelativeLayout>

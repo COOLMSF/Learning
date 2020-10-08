@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffefeff4" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/top_bar" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <ImageView android:id="@id/back" android:background="@drawable/tv_title_selector" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/back" android:layout_centerVertical="true" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_title" android:background="@drawable/tv_title_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="我的等级" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/top_bars" android:background="@color/white" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dengji_avatar_img" android:background="@drawable/dengji_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:layout_centerInParent="true" />
+            <com.chat.hotgame.ui.custom.RoundedImageView android:id="@id/dj_user_img" android:background="@drawable/reoud_img" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="60.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_gray_555555" android:id="@id/czz_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="当前成长值0" android:layout_below="@id/dengji_avatar_img" android:layout_centerHorizontal="true" android:layout_marginEnd="10.0dip" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:id="@id/dj_djmc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="level1" android:layout_above="@id/czz_text" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/progressbar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_margin="10.0dip" android:max="100" android:progress="0" style="@android:style/Widget.ProgressBar.Horizontal" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_gray_555555" android:id="@id/dj" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="1" android:layout_below="@id/progressbar" android:layout_alignLeft="@id/progressbar" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_gray_555555" android:id="@id/new_dj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="2" android:layout_below="@id/progressbar" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textColor="@color/color_gray_555555" android:id="@id/dj_ms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="13.0dip" android:text="1/2距离下一级还要3000分" android:layout_marginStart="15.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:background="@color/gray_light_30" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textColor="@color/color_gray_555555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:text="等级机制" android:layout_marginStart="20.0dip" />
+        </LinearLayout>
+        <ListView android:id="@id/listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/line" android:dividerHeight="1.0px" />
+    </LinearLayout>
+</RelativeLayout>

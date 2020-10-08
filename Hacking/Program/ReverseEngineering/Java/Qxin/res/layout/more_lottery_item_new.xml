@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/fr_base" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/y35" android:textColor="@color/color_gray_555555" android:gravity="center" android:id="@id/tv_name" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="六合彩" android:maxLines="1" />
+    <com.chat.hotgame.ui.custom.CustomGridView android:id="@id/gridview" android:background="@color/grey_bg" android:padding="@dimen/y40" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

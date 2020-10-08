@@ -1,0 +1,5 @@
+#sort text in various ways
+
+-n //sort by number
+-r //reverse
+-k //specify the column which is to be sorted

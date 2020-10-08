@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/titleBar" layout="@layout/include_title_bar" />
+    <LinearLayout android:gravity="center" android:id="@id/llSearch" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40">
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="搜索用户账号" android:includeFontPadding="false" android:drawableLeft="@drawable/add_friend_search_icon" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_20">
+        <TextView android:textSize="@dimen/sp_14" android:id="@id/tvPhoneNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的账号：xxxxxxxxxxxxxx" />
+        <ImageView android:id="@id/ivQr" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:layout_marginLeft="@dimen/dp_10" android:src="@drawable/scan_qr_code_hl" />
+    </LinearLayout>
+    <include android:id="@id/tvScan" layout="@layout/include_list_item" />
+    <View style="@style/Line05" />
+    <View style="@style/Line05" />
+    <include android:id="@id/phonePeople" layout="@layout/include_list_item" />
+</LinearLayout>

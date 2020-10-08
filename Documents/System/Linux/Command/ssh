@@ -1,0 +1,25 @@
+#connect to a remote host
+#ssh
+#connect a host with username
+#ssh username@host
+ssh coolder@192.168.1.1
+
+#use ssh without keys
+#in client host
+ssh-keygen -t rsa //use -t to choose encryption type rsa
+ssh-copy-id -i ~/.ssh/id_rsa.pub server_host //copy public key to server
+#then you can use ssh without password
+
+#Three ways for ssh
+
+#map 192.168.1.1:21 to localhost:2121
+ssh -N -f -L 2121:localhost:21 192.168.1.1
+
+#map localhost:22 to 192.168.1.1:2222
+ssh -N -f -R 2222:localhost:22 192.168.1.1
+
+#map 192.168.1.1's all port to localhost:1080
+#This usually to make a pc outside of the network
+#If so, we should uncomment GateyatPorts which in /etc/sshd_config and do proxy
+ssh -N -f -D 0.0.0.0:1080 192.168.1.1
+

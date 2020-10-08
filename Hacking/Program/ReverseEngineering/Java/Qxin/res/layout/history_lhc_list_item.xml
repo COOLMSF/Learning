@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_history_quilk3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/y100" android:minHeight="@dimen/y100"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/y36" android:textColor="@color/colorblack" android:gravity="center" android:id="@id/tv_issue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/y70" android:text="\ 201804176996" />
+    <TextView android:textSize="@dimen/y36" android:textColor="@color/colorblack" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y30" android:layout_marginRight="@dimen/y30" android:text="09,03,05,04,02" />
+    <com.chat.hotgame.ui.custom.BollsTextView android:id="@id/tv_bolls" android:layout_width="fill_parent" android:layout_height="@dimen/y100" android:layout_marginLeft="@dimen/y30" android:layout_marginRight="@dimen/y30" zhy:bollsMarginLeft="@dimen/y20" zhy:bollsRadius="@dimen/y32" zhy:bollsTextSize="@dimen/y30" zhy:bolls_gravity="left" xmlns:zhy="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

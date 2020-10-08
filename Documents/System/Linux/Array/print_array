@@ -1,0 +1,8 @@
+#This file describs how to print a array
+#Here are some ways
+
+array=(1, 3, 5, 7, 9)
+echo $array[*]  or
+echo $array[@]
+
+echo $array[1]

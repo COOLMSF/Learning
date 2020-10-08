@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/gif" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <com.netease.neliveplayer.playerkit.sdk.view.AdvanceTextureView android:layout_gravity="center" android:id="@id/live_texture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_gift_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_marginBottom="250.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/buffering_prompt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:text="缓存中" />
+        <ProgressBar android:layout_width="50.0dip" android:layout_height="50.0dip" style="@android:style/Widget.ProgressBar.Large" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_useradd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/x30" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/x30" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/player_baerk" android:layout_width="@dimen/x100" android:layout_height="@dimen/x100" android:src="@drawable/guanbi" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/player_put" android:layout_width="@dimen/x100" android:layout_height="@dimen/x100" android:layout_marginLeft="@dimen/x100" android:src="@drawable/liwu" android:layout_toRightOf="@id/player_baerk" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/chat_tool_box" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ll_head" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left" android:id="@id/tv_back" android:paddingLeft="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="地区选择" android:drawableLeft="@mipmap/icon_back_black" android:drawablePadding="@dimen/dp_10" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/recycleView" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_head" />
+</RelativeLayout>

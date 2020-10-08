@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/y36" android:textColor="@color/radiobutton_select_textcolor" android:gravity="center" android:id="@id/tv_name" android:background="@drawable/select_radiobutton" android:paddingTop="@dimen/y13" android:paddingBottom="@dimen/y13" android:layout_width="@dimen/y150" android:layout_height="wrap_content" android:layout_margin="@dimen/y20"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

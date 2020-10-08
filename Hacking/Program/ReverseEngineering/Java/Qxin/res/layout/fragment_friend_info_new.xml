@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/titleBar" layout="@layout/include_title_bar" />
+    <ScrollView android:id="@id/contentView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.constraint.ConstraintLayout android:id="@id/ly_copy_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pt_12" android:layout_marginBottom="@dimen/pt_padding">
+                <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivHeadIcon" android:background="@drawable/shape_btn_radius" android:layout_width="@dimen/pt_65" android:layout_height="@dimen/pt_64" android:layout_marginLeft="@dimen/pt_padding" android:layout_marginTop="@dimen/pt_5" android:src="@drawable/default_head" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:riv_corner_radius="@dimen/dp_5" />
+                <TextView android:textSize="@dimen/sp_18" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/tvBeiZhu" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10" android:layout_marginStart="@dimen/dp_10" app:layout_constraintLeft_toRightOf="@id/ivHeadIcon" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="@dimen/sp_13" android:id="@id/tvNick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="昵称：" app:layout_constraintLeft_toLeftOf="@id/tvBeiZhu" app:layout_constraintTop_toBottomOf="@id/tvBeiZhu" />
+                <TextView android:textSize="@dimen/sp_13" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="账号：" android:textIsSelectable="true" app:layout_constraintLeft_toLeftOf="@id/tvBeiZhu" app:layout_constraintTop_toBottomOf="@id/tvNick" />
+                <TextView android:textSize="@dimen/sp_13" android:id="@id/tvPhoneNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textIsSelectable="true" app:layout_constraintLeft_toRightOf="@id/tv_text" app:layout_constraintTop_toBottomOf="@id/tvNick" />
+                <TextView android:textSize="@dimen/sp_13" android:id="@id/tvDiQu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="地区：" app:layout_constraintLeft_toLeftOf="@id/tvBeiZhu" app:layout_constraintTop_toBottomOf="@id/tvPhoneNum" />
+            </android.support.constraint.ConstraintLayout>
+            <View android:visibility="gone" android:layout_height="@dimen/dp_10" style="@style/Line05" />
+            <RelativeLayout android:id="@id/llPyq" android:paddingLeft="@dimen/pt_padding" android:paddingRight="@dimen/pt_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56">
+                <TextView android:textColor="@color/black" android:id="@id/tvPyqTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="朋友圈" android:layout_centerVertical="true" />
+                <com.coorchice.library.SuperTextView android:id="@id/stvPyq0" android:layout_width="@dimen/dp_35" android:layout_height="@dimen/dp_35" android:layout_marginLeft="@dimen/dp_20" android:layout_toRightOf="@id/tvPyqTitle" android:layout_centerVertical="true" app:stv_drawableAsBackground="true" />
+                <com.coorchice.library.SuperTextView android:id="@id/stvPyq1" android:layout_width="@dimen/dp_35" android:layout_height="@dimen/dp_35" android:layout_marginLeft="@dimen/dp_10" android:layout_toRightOf="@id/stvPyq0" android:layout_centerVertical="true" app:stv_drawableAsBackground="true" />
+                <com.coorchice.library.SuperTextView android:id="@id/stvPyq2" android:layout_width="@dimen/dp_35" android:layout_height="@dimen/dp_35" android:layout_marginLeft="@dimen/dp_10" android:layout_toRightOf="@id/stvPyq1" android:layout_centerVertical="true" app:stv_drawableAsBackground="true" />
+                <com.coorchice.library.SuperTextView android:id="@id/stvPyq3" android:layout_width="@dimen/dp_35" android:layout_height="@dimen/dp_35" android:layout_marginLeft="@dimen/dp_10" android:layout_toRightOf="@id/stvPyq2" android:layout_centerVertical="true" app:stv_drawableAsBackground="true" />
+                <com.coorchice.library.SuperTextView android:id="@id/stvPyq4" android:layout_width="@dimen/dp_35" android:layout_height="@dimen/dp_35" android:layout_marginLeft="@dimen/dp_10" android:layout_toRightOf="@id/stvPyq3" android:layout_centerVertical="true" app:stv_drawableAsBackground="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_ico" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View style="@style/Line05" />
+            <RelativeLayout android:id="@id/view0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56">
+                <TextView android:textColor="@color/black" android:id="@id/tvTitle0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_padding" android:text="设置备注" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/pt_padding" android:src="@drawable/arrow_ico" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textColor="@color/textGray" android:id="@id/tvValue0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10" android:layout_toLeftOf="@id/iv0" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:layout_height="@dimen/dp_10" style="@style/Line05" />
+            <RelativeLayout android:id="@id/view4" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56">
+                <TextView android:textColor="@color/black" android:id="@id/tvTitle4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_padding" android:text="消息免打扰" android:layout_centerVertical="true" />
+                <Switch android:id="@id/iv4" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_30" android:layout_marginRight="@dimen/pt_padding" android:checked="false" android:thumb="@drawable/switch_custom_thumb_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:switchTextAppearance="@style/SwitchTheme" android:track="@drawable/switch_custom_track_selector" />
+            </RelativeLayout>
+            <View android:visibility="gone" style="@style/Line05" />
+            <RelativeLayout android:id="@id/view5" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56">
+                <TextView android:textColor="@color/black" android:id="@id/tvTitle5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_padding" android:text="加入黑名单" android:layout_centerVertical="true" />
+                <Switch android:id="@id/iv5" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_30" android:layout_marginRight="@dimen/pt_padding" android:checked="false" android:thumb="@drawable/switch_custom_thumb_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:switchTextAppearance="@style/SwitchTheme" android:track="@drawable/switch_custom_track_selector" />
+            </RelativeLayout>
+            <View style="@style/Line05" />
+            <RelativeLayout android:id="@id/view6" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56">
+                <TextView android:textColor="@color/black" android:id="@id/tvTitle6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_padding" android:text="把他（她）推荐给好友" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/pt_padding" android:src="@drawable/arrow_ico" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View style="@style/Line05" />
+            <com.coorchice.library.SuperTextView android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/tvFindChatRecording" android:background="@color/white" android:paddingLeft="@dimen/pt_padding" android:paddingRight="@dimen/pt_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56" android:text="查找聊天记录" android:drawableRight="@mipmap/right" android:layout_centerVertical="true" />
+            <View android:id="@id/line5" android:visibility="gone" android:layout_height="@dimen/dp_10" style="@style/Line05" />
+            <LinearLayout android:gravity="center" android:id="@id/llSendMsg" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56">
+                <TextView android:textColor="@color/textLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发送消息" android:drawableLeft="@drawable/album_comment_single_ahl" android:drawablePadding="@dimen/pt_5" />
+            </LinearLayout>
+            <TextView android:textColor="@color/textLink" android:gravity="center" android:id="@id/tvAdd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56" android:text="添加到通讯录" />
+            <View android:id="@id/line4" android:layout_height="@dimen/dp_10" style="@style/Line05" />
+            <TextView android:textColor="@color/red" android:gravity="center" android:id="@id/view7" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/pt_56" android:text="删除并拉黑" />
+            <View android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/retryView" android:visibility="gone" layout="@layout/include_error_layout" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+#Note, raid must be formatted before us
+#This command is for RAID
+#Create raid
+mdadm -Cv /dev/md0 -n 4 -l 10 /dev/sdb /dev/sdc /dev/sdd /dev/sde
+mount /dev/md0 /mnt
+
+-C (create a virtual device)
+-v (verbose)
+/dev/md0 (virtual device name)
+-n 4 (number of devices /dev/sdb, /dev/sdc, /dev/sdd, /dev/sde)
+-l 10(raid level)
+
+#Delete raid
+mdadm -S /dev/md0
+-S (stop)
+mdadm --zero-superblock /dev/sdb //wipe the flag
+
+#Examine if a device has the flag
+mdadm -E /dev/sdb
+
+# Make sdc bad
+mdadm -f /dev/sdc

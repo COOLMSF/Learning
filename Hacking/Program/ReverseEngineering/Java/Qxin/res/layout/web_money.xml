@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/y120">
+        <TextView android:textSize="@dimen/y48" android:textStyle="bold" android:textColor="@color/color_black" android:gravity="center" android:id="@id/iv_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/setting_center" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_del" android:background="@drawable/close" android:layout_width="@dimen/y56" android:layout_height="@dimen/y56" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/y20" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/web_one" android:layout_width="fill_parent" android:layout_height="@dimen/y100">
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/color_black" android:gravity="center" android:id="@id/tv_my_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/mymoney" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <TextView android:textSize="@dimen/y40" android:textColor="@color/orange" android:gravity="center_vertical" android:id="@id/tv_my_money" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="我的钱包（）" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_Refresh" android:background="@drawable/ic_loading" android:layout_width="@dimen/y50" android:layout_height="@dimen/y50" android:layout_marginStart="@dimen/y50" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/web_two" android:layout_width="fill_parent" android:layout_height="@dimen/y100">
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/color_black" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/tomoney" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/orange" android:gravity="center_vertical" android:id="@id/tv_to_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/web_three" android:layout_width="fill_parent" android:layout_height="@dimen/y100">
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/color_black" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/tomoneynumber" android:layout_weight="1.0" />
+        <EditText android:textSize="@dimen/y40" android:gravity="center_vertical" android:id="@id/et_to_money" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/tomoneynumber" android:singleLine="true" android:layout_weight="2.0" android:inputType="number" android:imeOptions="flagNoExtractUi|flagNoFullscreen" />
+    </LinearLayout>
+    <include layout="@layout/money_layout" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/y44" android:id="@id/btn_back" android:background="@drawable/webview_btn_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="退出游戏" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/y44" android:id="@id/btn_okay" android:background="@drawable/webview_btn_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="确认转入" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

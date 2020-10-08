@@ -1,0 +1,6 @@
+#input passage from terminal
+cat <<EOF>text(enter)
+Hello, this is a test
+I'm coolder
+
+cat text

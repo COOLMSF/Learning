@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rlPhoto" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_image" android:background="@drawable/chat_input_photos" android:layout_width="@dimen/pt_64" android:layout_height="@dimen/pt_64" android:layout_marginTop="30.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0px" android:text="相册" android:layout_below="@id/iv_image" android:layout_centerHorizontal="true" />
+</LinearLayout>

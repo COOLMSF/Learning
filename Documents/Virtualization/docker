@@ -1,0 +1,36 @@
+#install docker
+apt-get install docker.io
+
+#set up source
+#choose Chinese source
+vi /etc/docker/deamon.json
+{
+      "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
+
+}
+
+
+#or
+docker login daocloud.io
+#this site is faster than offial site
+
+#search program
+docker search ubuntu
+
+#pull program
+docker pull ubuntu
+
+#list processes of docker
+docker ps
+
+#run ubuntu with bash
+docker run -i -t daocloud.io/ubuntu /bin/bash
+
+# run metasploitframework/metasploit-framework
+docker run -i -t metasploitframework/metasploit-framework
+
+#delete container
+docker container rm xxxxxx
+
+#delete
+docker image rm xxxxxx

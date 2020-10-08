@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/gray_F2F2F2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left" android:id="@id/tv_back" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="我的账单" android:drawableLeft="@mipmap/icon_back_black" android:drawablePadding="@dimen/dp_10" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bodyLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableAutoLoadMore="false" app:srlEnableLoadMore="true"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.scwang.smartrefresh.layout.header.ClassicsHeader android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:srlAccentColor="@android:color/white" app:srlPrimaryColor="@color/gray_cccccc" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/recyclerView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/gray_cccccc" android:dividerHeight="0.5dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <com.scwang.smartrefresh.layout.header.ClassicsHeader android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:srlAccentColor="@android:color/white" app:srlPrimaryColor="@color/gray_cccccc" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </RelativeLayout>
+</LinearLayout>

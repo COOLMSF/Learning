@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名:" />
+    <View android:background="#ff555555" android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginTop="8.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_youhui_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="扎金花" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_game_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="优惠金额:222" />
+    <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="时间:2018-05-22 08:52" />
+</LinearLayout>

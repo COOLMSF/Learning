@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_E7E7EF" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false" app:srlEnablePreviewInEditMode="false">
+        <RelativeLayout android:id="@id/rl_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.flyco.tablayout.SlidingTabLayout android:id="@id/tab" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/y110" app:tl_indicator_color="@color/box_red" app:tl_textAllCaps="true" app:tl_textSelectColor="@color/box_red" app:tl_textUnselectColor="@color/colorblack" app:tl_textsize="@dimen/y39" />
+            <View android:id="@id/line" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/y5" android:layout_below="@id/tab" />
+            <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/y30" android:layout_below="@id/line" />
+        </RelativeLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</RelativeLayout>

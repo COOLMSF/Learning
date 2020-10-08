@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="4.0dip" />
+    <solid android:color="@color/color_nebula_selected" />
+    <size android:height="48.0dip" android:width="128.0dip" />
+</shape>

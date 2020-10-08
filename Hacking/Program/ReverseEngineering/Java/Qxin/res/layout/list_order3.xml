@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/record_list_item_bg" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_type1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="充值:1000,提款:0" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_date1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018-05-03" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_type2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="投注:4165,返奖375.256.盈亏:-713.6525" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_date2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018-05-03" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff585858" android:id="@id/tv_type3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="返点:-280.00" />
+    </LinearLayout>
+</LinearLayout>

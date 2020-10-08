@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/share_dialog_red_bg" android:layout_width="fill_parent" android:layout_height="@dimen/y120">
+        <TextView android:textSize="@dimen/y45" android:textColor="@color/white" android:id="@id/tv_share_lotteryname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/img_share_close" android:padding="@dimen/y15" android:layout_width="@dimen/y80" android:layout_height="@dimen/y80" android:layout_marginRight="@dimen/y20" android:src="@drawable/share_order_close" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/share_dialog_pink_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y120">
+        <TextView android:textSize="@dimen/y40" android:textColor="#ff6a6a6a" android:id="@id/tv_share_username" android:background="@color/white" android:padding="@dimen/y35" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:paddingLeft="@dimen/y40" android:paddingTop="@dimen/y15" android:paddingRight="@dimen/y40" android:paddingBottom="@dimen/y15" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/y40" android:textColor="#ff6a6a6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="投注内容" />
+            <TextView android:textSize="@dimen/y40" android:textColor="@color/colorblack" android:id="@id/tv_share_issue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ScrollView android:background="@drawable/buy_grid_selector" android:layout_width="fill_parent" android:layout_height="@dimen/y220" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/dialog_content_llr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/y15" />
+        </ScrollView>
+        <TextView android:textSize="@dimen/y40" android:textColor="@color/red" android:layout_gravity="center_vertical" android:id="@id/tv_share_all_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y35" android:layout_marginTop="@dimen/y20" android:layout_marginRight="@dimen/y35" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y35" android:layout_marginTop="@dimen/y25" android:layout_marginRight="@dimen/y35" android:layout_marginBottom="@dimen/y50">
+            <TextView android:textSize="@dimen/y40" android:textColor="@color/colorblack" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="每注金额" />
+            <EditText android:textSize="@dimen/y45" android:textColor="@color/colorblack" android:layout_gravity="center_vertical" android:id="@id/edit_share_price" android:background="@drawable/shape_edit_bg7" android:paddingLeft="@dimen/y20" android:layout_width="0.0dip" android:layout_height="@dimen/y100" android:layout_marginLeft="@dimen/y12" android:hint="请输入金额" android:maxLength="6" android:layout_weight="1.0" android:inputType="number" />
+            <TextView android:textSize="@dimen/y40" android:textColor="@color/colorblack" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y10" android:text="元" />
+            <Button android:textSize="@dimen/y40" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/btn_share_ok" android:background="@drawable/selector_order_btn2" android:layout_width="0.0dip" android:layout_height="@dimen/y100" android:layout_marginLeft="@dimen/y100" android:text="确定" android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

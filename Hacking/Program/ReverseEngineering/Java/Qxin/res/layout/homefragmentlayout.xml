@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refresh" android:background="@color/gray_E7E7EF" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false" app:srlEnablePreviewInEditMode="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.youth.banner.Banner android:id="@id/item_live_banner" android:layout_width="fill_parent" android:layout_height="@dimen/y480" app:title_height="@dimen/x80" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_notice" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@drawable/laba" android:layout_width="@dimen/y40" android:layout_height="@dimen/y40" android:layout_marginLeft="@dimen/y25" />
+                <com.chat.hotgame.ui.custom.MarqueeText android:textSize="@dimen/y35" android:textColor="#ff333333" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/notice" android:paddingLeft="@dimen/y25" android:paddingTop="@dimen/y25" android:paddingRight="@dimen/y25" android:paddingBottom="@dimen/y25" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="会员充值--充值多样化入款回馈中会员充值--充值多样化入款回馈中会员充值--充值多样化入款回馈中" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                <View android:background="#ffe2e2e2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <com.chat.hotgame.ui.custom.flowlayout.TagFlowLayout android:id="@id/id_flowlayout2" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" zhy:max_select="1" zhy:tag_gravity="center" xmlns:zhy="http://schemas.android.com/apk/res-auto" />
+            <View android:background="#ffe2e2e2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.flyco.tablayout.CommonTabLayout android:id="@id/tab" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/y110" app:tl_iconVisible="false" app:tl_indicator_color="@color/box_red" app:tl_indicator_corner_radius="1.5dip" app:tl_indicator_height="3.0dip" app:tl_textSelectColor="@color/box_red" app:tl_textUnselectColor="@color/colorblack" app:tl_textsize="@dimen/y45" />
+            <View android:background="#ffe2e2e2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.chat.hotgame.ui.custom.AdaptiveViewPager android:id="@id/view_pager" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

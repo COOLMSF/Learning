@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_bg_layout" android:padding="20.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/y43" android:textColor="@color/colorblack" android:id="@id/tv_Name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aaaaa" />
+        <TextView android:textSize="@dimen/y35" android:textColor="@color/colorPrimaryDark" android:id="@id/tv_State" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="在线状态" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="#ff555555" android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginTop="8.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_czje" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="充值金额:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_tkje" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="提款金额:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_tzze" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="投注总额:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_tzyk" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="投注盈亏:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_cptz" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="彩票投注:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_qptz" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="棋牌投注:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_dztz" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="电子投注:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_zrtz" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="真人投注:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_tytz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="体育投注:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_hbtz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="红包投注:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_djtz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="电竞投注:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_yhje" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="优惠金额:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_jf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="积分:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_ye" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="余额:125" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_yj" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="佣金:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_cpfd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="彩票返点:125" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_fandian1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_qpfd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="棋牌返点:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_dzfd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="电子返点:125" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_fandian0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_zrfd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="真人返点:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_tyfd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="体育返点:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_fandian2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_hbfd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="红包返点:0" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_djfd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="电竞返点:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_zcsj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="注册时间:2018-02-25" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ff555555" android:id="@id/tv_zw" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="电竞返点:0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="@dimen/y35" android:textColor="#ffff844c" android:id="@id/tv_7" android:padding="@dimen/y20" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下级" />
+        <TextView android:textSize="@dimen/y35" android:textColor="#ffff844c" android:id="@id/tv_8" android:padding="@dimen/y20" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="上级" />
+    </LinearLayout>
+</LinearLayout>

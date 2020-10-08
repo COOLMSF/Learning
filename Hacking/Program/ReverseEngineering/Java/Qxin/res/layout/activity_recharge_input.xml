@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/titlebar_nor" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/selector_input_money" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="充值金额" />
+                <EditText android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:id="@id/edit_amount" android:background="#00000000" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:hint="输入充值金额" android:maxLength="8" android:inputType="numberDecimal" android:textCursorDrawable="@null" />
+                <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="元" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:id="@id/tv_rechargeRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginTop="8.0dip" android:text="充值范围10.0~1000000.0" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_bank" android:background="@drawable/buy_grid_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/y100" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+                <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/y20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="银行选择" />
+                <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:gravity="center_vertical" android:id="@id/tv_bank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y50" android:drawableRight="@mipmap/ic_arrow_right" />
+            </LinearLayout>
+            <com.chat.hotgame.ui.custom.flowlayout.TagFlowLayout android:id="@id/id_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" zhy:max_select="1" zhy:tag_gravity="center" xmlns:zhy="http://schemas.android.com/apk/res-auto" />
+            <Button android:textSize="@dimen/y35" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btn_ok" android:background="@drawable/selector_order_btn4" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="确认充值" />
+            <TextView android:textSize="@dimen/y32" android:textColor="#fff46e00" android:layout_gravity="center_horizontal" android:id="@id/tv_pay_notes" android:background="@drawable/shape_pay_notes" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="45.0dip" android:text="确认充值" android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

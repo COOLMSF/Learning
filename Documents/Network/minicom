@@ -1,0 +1,5 @@
+#connect to switcher and router
+
+minicom -sw #configure
+
+#screen also do that but something bugs happened

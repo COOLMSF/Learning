@@ -1,0 +1,11 @@
+#ssh
+#connect a host with username
+#ssh username@host
+ssh coolder@192.168.1.1
+
+#use ssh without keys
+#in client host
+ssh-keygen -t rsa //use -t to choose encryption type rsa
+ssh-copy-id -i ~/.ssh/id_rsa.pub server_host //copy public key to server
+#then you can use ssh without password
+

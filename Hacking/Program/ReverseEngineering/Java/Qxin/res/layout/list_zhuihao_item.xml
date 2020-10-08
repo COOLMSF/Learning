@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/y30" android:paddingTop="@dimen/y15" android:paddingRight="@dimen/y30" android:paddingBottom="@dimen/y15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view1" android:layout_width="fill_parent" android:layout_height="@dimen/y15" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/zhuihao_list_item_bg" android:padding="@dimen/y30" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:id="@id/view_check" android:background="@drawable/checked" android:layout_width="@dimen/y50" android:layout_height="@dimen/y50" />
+                <TextView android:textSize="@dimen/y40" android:textColor="#ffdc0000" android:id="@id/tv_issue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y20" android:text="12345678期" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y50" android:layout_weight="1.0">
+                <EditText android:textSize="@dimen/y40" android:textColor="#ff240909" android:gravity="center" android:id="@id/edit_qi" android:background="@drawable/shape_textview3" android:padding="@dimen/y15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/y25" android:text="\ 100000000000000000" android:maxLength="10" android:layout_toLeftOf="@id/tv_qi" android:layout_centerVertical="true" android:inputType="number" />
+                <TextView android:textSize="@dimen/y40" android:textColor="#ffdc0000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y15" android:text="倍" android:layout_toRightOf="@id/edit_qi" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y20">
+            <TextView android:textSize="@dimen/y40" android:textColor="#ff6a6a6a" android:id="@id/tv_value1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="当前投入：10元" android:layout_weight="1.0" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/y40" android:textColor="#ff6a6a6a" android:id="@id/tv_value2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y50" android:text="累计投入：10元" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y20">
+            <TextView android:textSize="@dimen/y40" android:textColor="#ff6a6a6a" android:id="@id/tv_value3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="当期奖金：19.81元" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/y40" android:textColor="#ff6a6a6a" android:id="@id/tv_value4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y50" android:text="合计利润：9.9元" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view2" android:layout_width="fill_parent" android:layout_height="@dimen/y15" />
+</LinearLayout>

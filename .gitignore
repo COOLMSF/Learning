@@ -1,0 +1,11 @@
+# ignore books, and large files
+*.mobi
+*.pdf
+*.doc
+*.docx
+
+# ignore directory
+Documents/Ebooks/*
+
+# ignore Linux source code
+System/Linux/Kernel/linux-2.6.11.1/*

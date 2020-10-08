@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_title" layout="@layout/titlebar_details" />
+    <TextView android:textSize="@dimen/y35" android:textColor="#fff33d3d" android:gravity="center_horizontal" android:id="@id/tv_report" android:background="@drawable/buy_grid_selector" android:padding="@dimen/y20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="佣金返点与下级赔率对照表" />
+    <android.support.design.widget.TabLayout android:id="@id/tab" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="@dimen/y5" app:tabBackground="@drawable/selector_tab_btn" app:tabIndicatorColor="#00000000" app:tabSelectedTextColor="@color/white" app:tabTextAppearance="@style/MyTabLayoutTextAppearance" app:tabTextColor="@color/colorblack" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="@dimen/y35" android:textColor="#fff33d3d" android:gravity="center_horizontal" android:id="@id/tv_reports" android:background="@drawable/buy_grid_selector" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="佣金返点与下级赔率对照表" />
+    <FrameLayout android:orientation="vertical" android:id="@id/layout_c" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

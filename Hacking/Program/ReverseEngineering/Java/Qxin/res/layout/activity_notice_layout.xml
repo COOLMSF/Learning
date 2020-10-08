@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/grey_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_include" layout="@layout/titlebar_nor" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/listview" android:paddingBottom="@dimen/y50" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_below="@id/layout_include" android:overScrollMode="never">
+        <ListView android:id="@id/lv_newlist" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <TextView android:id="@id/emtyview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消息列表是空的呢！" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rlDialogTitleView" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50">
+        <TextView android:textSize="@dimen/sp_30" android:textStyle="bold" android:id="@id/tvDialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="标题" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivDialogClose" android:layout_width="@dimen/dp_25" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_20" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_20" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/flDialogBodyView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

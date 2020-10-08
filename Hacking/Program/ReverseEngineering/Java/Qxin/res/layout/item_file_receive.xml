@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_text_receive" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0dip" android:textColor="#ff999999" android:layout_gravity="center_horizontal" android:id="@id/item_tv_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip">
+        <com.send_msg_lib.widget.CircleImageView android:id="@id/chat_item_header" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="5.0dip" android:src="@mipmap/ic_head_default_left" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/rc_message" android:background="@drawable/message_text_receive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/chat_item_header">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/rc_msg_iv_file_type_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="12.0dip" android:src="@mipmap/rc_file_icon_file" />
+                <RelativeLayout android:layout_width="100.0dip" android:layout_height="50.0dip">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff343434" android:ellipsize="middle" android:gravity="top" android:layout_gravity="top" android:id="@id/msg_tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ffa8a8a8" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/msg_tv_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="149kb" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffa8a8a8" android:id="@id/rc_msg_canceled" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="已取消" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

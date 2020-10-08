@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coolder/Learning/Programming/C_Cpp/Glibtest/main.c
+glib-2.0/glib.h
+-
+glib-2.0/glib/glist.h
+-
+stdio.h
+-
+

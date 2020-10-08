@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/pt_padding" android:layout_width="fill_parent" android:layout_height="@dimen/pt_item_height_one"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/stvIcon" android:background="@drawable/shape_btn_radius" android:layout_width="@dimen/pt_avatar_size" android:layout_height="@dimen/pt_avatar_size" android:scaleType="fitXY" android:layout_centerVertical="true" app:riv_corner_radius="@dimen/pt_5" />
+    <TextView android:textSize="@dimen/sp_item_title" android:textColor="@color/black" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_12" android:layout_toRightOf="@id/stvIcon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/pt_12" android:layout_marginEnd="@dimen/pt_18" />
+    <TextView android:textSize="@dimen/sp_item_content0" android:id="@id/tvAccount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/line" app:layout_constraintLeft_toLeftOf="@id/tvName" app:layout_constraintTop_toBottomOf="@id/tvName" />
+    <View android:id="@id/line" android:layout_width="fill_parent" android:layout_alignLeft="@id/tvName" android:layout_alignParentBottom="true" style="@style/Line05" />
+</RelativeLayout>

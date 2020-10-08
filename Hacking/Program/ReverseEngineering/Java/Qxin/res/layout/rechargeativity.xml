@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_E7E7EF" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.chat.hotgame.ui.custom.EmptyLayout android:id="@id/empty0" android:layout_width="fill_parent" android:layout_height="@dimen/y480" android:layout_marginTop="@dimen/y20">
+        <com.youth.banner.Banner android:id="@id/item_live_banner" android:paddingLeft="@dimen/y40" android:paddingRight="@dimen/y40" android:layout_width="fill_parent" android:layout_height="@dimen/y480" app:title_height="@dimen/x80" />
+    </com.chat.hotgame.ui.custom.EmptyLayout>
+    <com.chat.hotgame.ui.custom.EmptyLayout android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/vp_recommend" android:padding="@dimen/y40" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/transparent" android:dividerHeight="10.0dip" />
+    </com.chat.hotgame.ui.custom.EmptyLayout>
+</LinearLayout>

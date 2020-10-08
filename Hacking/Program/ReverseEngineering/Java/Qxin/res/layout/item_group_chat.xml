@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/pt_item_height_one"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivIcon" android:background="@drawable/shape_btn_radius" android:layout_width="@dimen/pt_avatar_size" android:layout_height="@dimen/pt_avatar_size" android:layout_marginLeft="@dimen/pt_padding" android:src="@drawable/default_head" app:layout_constraintBottom_toBottomOf="@id/line" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:riv_corner_radius="@dimen/dp_5" />
+    <ImageView android:id="@id/ivOwner" android:visibility="visible" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" app:layout_constraintCircle="@id/ivIcon" app:layout_constraintCircleAngle="50" app:layout_constraintCircleRadius="@dimen/pt_25" />
+    <TextView android:textSize="@dimen/sp_item_title" android:textColor="@color/black" android:id="@id/tvGroupName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pt_12" app:layout_constraintBottom_toBottomOf="@id/line" app:layout_constraintLeft_toRightOf="@id/ivIcon" app:layout_constraintTop_toTopOf="@id/ivIcon" />
+    <View android:id="@id/line" android:layout_width="@dimen/dp_0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tvGroupName" app:layout_constraintRight_toRightOf="parent" style="@style/Line05" />
+</android.support.constraint.ConstraintLayout>
