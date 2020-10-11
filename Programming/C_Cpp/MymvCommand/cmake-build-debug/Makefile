@@ -142,6 +142,87 @@ MymvCommand/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/build
 .PHONY : MymvCommand/fast
 
+call_mv.o: call_mv.c.o
+
+.PHONY : call_mv.o
+
+# target to build an object file
+call_mv.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/call_mv.c.o
+.PHONY : call_mv.c.o
+
+call_mv.i: call_mv.c.i
+
+.PHONY : call_mv.i
+
+# target to preprocess a source file
+call_mv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/call_mv.c.i
+.PHONY : call_mv.c.i
+
+call_mv.s: call_mv.c.s
+
+.PHONY : call_mv.s
+
+# target to generate assembly for a file
+call_mv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/call_mv.c.s
+.PHONY : call_mv.c.s
+
+call_progress.o: call_progress.c.o
+
+.PHONY : call_progress.o
+
+# target to build an object file
+call_progress.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/call_progress.c.o
+.PHONY : call_progress.c.o
+
+call_progress.i: call_progress.c.i
+
+.PHONY : call_progress.i
+
+# target to preprocess a source file
+call_progress.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/call_progress.c.i
+.PHONY : call_progress.c.i
+
+call_progress.s: call_progress.c.s
+
+.PHONY : call_progress.s
+
+# target to generate assembly for a file
+call_progress.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/call_progress.c.s
+.PHONY : call_progress.c.s
+
+countDiskUsage.o: countDiskUsage.c.o
+
+.PHONY : countDiskUsage.o
+
+# target to build an object file
+countDiskUsage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/countDiskUsage.c.o
+.PHONY : countDiskUsage.c.o
+
+countDiskUsage.i: countDiskUsage.c.i
+
+.PHONY : countDiskUsage.i
+
+# target to preprocess a source file
+countDiskUsage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/countDiskUsage.c.i
+.PHONY : countDiskUsage.c.i
+
+countDiskUsage.s: countDiskUsage.c.s
+
+.PHONY : countDiskUsage.s
+
+# target to generate assembly for a file
+countDiskUsage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MymvCommand.dir/build.make CMakeFiles/MymvCommand.dir/countDiskUsage.c.s
+.PHONY : countDiskUsage.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -178,6 +259,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MymvCommand"
+	@echo "... call_mv.o"
+	@echo "... call_mv.i"
+	@echo "... call_mv.s"
+	@echo "... call_progress.o"
+	@echo "... call_progress.i"
+	@echo "... call_progress.s"
+	@echo "... countDiskUsage.o"
+	@echo "... countDiskUsage.i"
+	@echo "... countDiskUsage.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

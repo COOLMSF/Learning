@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MymvCommand.dir/call_mv.c.o"
+  "CMakeFiles/MymvCommand.dir/call_progress.c.o"
+  "CMakeFiles/MymvCommand.dir/countDiskUsage.c.o"
   "CMakeFiles/MymvCommand.dir/main.c.o"
   "MymvCommand"
   "MymvCommand.pdb"

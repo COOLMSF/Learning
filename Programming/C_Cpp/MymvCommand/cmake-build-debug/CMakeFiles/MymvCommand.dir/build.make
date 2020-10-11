@@ -89,17 +89,62 @@ CMakeFiles/MymvCommand.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MymvCommand.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MymvCommand/main.c -o CMakeFiles/MymvCommand.dir/main.c.s
 
+CMakeFiles/MymvCommand.dir/countDiskUsage.c.o: CMakeFiles/MymvCommand.dir/flags.make
+CMakeFiles/MymvCommand.dir/countDiskUsage.c.o: ../countDiskUsage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MymvCommand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MymvCommand.dir/countDiskUsage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MymvCommand.dir/countDiskUsage.c.o -c /home/coolder/Learning/Programming/C_Cpp/MymvCommand/countDiskUsage.c
+
+CMakeFiles/MymvCommand.dir/countDiskUsage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MymvCommand.dir/countDiskUsage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MymvCommand/countDiskUsage.c > CMakeFiles/MymvCommand.dir/countDiskUsage.c.i
+
+CMakeFiles/MymvCommand.dir/countDiskUsage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MymvCommand.dir/countDiskUsage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MymvCommand/countDiskUsage.c -o CMakeFiles/MymvCommand.dir/countDiskUsage.c.s
+
+CMakeFiles/MymvCommand.dir/call_mv.c.o: CMakeFiles/MymvCommand.dir/flags.make
+CMakeFiles/MymvCommand.dir/call_mv.c.o: ../call_mv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MymvCommand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MymvCommand.dir/call_mv.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MymvCommand.dir/call_mv.c.o -c /home/coolder/Learning/Programming/C_Cpp/MymvCommand/call_mv.c
+
+CMakeFiles/MymvCommand.dir/call_mv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MymvCommand.dir/call_mv.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MymvCommand/call_mv.c > CMakeFiles/MymvCommand.dir/call_mv.c.i
+
+CMakeFiles/MymvCommand.dir/call_mv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MymvCommand.dir/call_mv.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MymvCommand/call_mv.c -o CMakeFiles/MymvCommand.dir/call_mv.c.s
+
+CMakeFiles/MymvCommand.dir/call_progress.c.o: CMakeFiles/MymvCommand.dir/flags.make
+CMakeFiles/MymvCommand.dir/call_progress.c.o: ../call_progress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MymvCommand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MymvCommand.dir/call_progress.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MymvCommand.dir/call_progress.c.o -c /home/coolder/Learning/Programming/C_Cpp/MymvCommand/call_progress.c
+
+CMakeFiles/MymvCommand.dir/call_progress.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MymvCommand.dir/call_progress.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MymvCommand/call_progress.c > CMakeFiles/MymvCommand.dir/call_progress.c.i
+
+CMakeFiles/MymvCommand.dir/call_progress.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MymvCommand.dir/call_progress.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MymvCommand/call_progress.c -o CMakeFiles/MymvCommand.dir/call_progress.c.s
+
 # Object files for target MymvCommand
 MymvCommand_OBJECTS = \
-"CMakeFiles/MymvCommand.dir/main.c.o"
+"CMakeFiles/MymvCommand.dir/main.c.o" \
+"CMakeFiles/MymvCommand.dir/countDiskUsage.c.o" \
+"CMakeFiles/MymvCommand.dir/call_mv.c.o" \
+"CMakeFiles/MymvCommand.dir/call_progress.c.o"
 
 # External object files for target MymvCommand
 MymvCommand_EXTERNAL_OBJECTS =
 
 MymvCommand: CMakeFiles/MymvCommand.dir/main.c.o
+MymvCommand: CMakeFiles/MymvCommand.dir/countDiskUsage.c.o
+MymvCommand: CMakeFiles/MymvCommand.dir/call_mv.c.o
+MymvCommand: CMakeFiles/MymvCommand.dir/call_progress.c.o
 MymvCommand: CMakeFiles/MymvCommand.dir/build.make
 MymvCommand: CMakeFiles/MymvCommand.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MymvCommand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable MymvCommand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MymvCommand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable MymvCommand"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MymvCommand.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
