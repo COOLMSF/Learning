@@ -50,7 +50,13 @@ time.h
 unistd.h
 -
 
-/home/coolder/Learning/Programming/C_Cpp/MymvCommand/call_mv.c
+/home/coolder/Learning/Programming/C_Cpp/MymvCommand/MymvCommand.h
 allheaders.h
 /home/coolder/Learning/Programming/C_Cpp/MymvCommand/allheaders.h
+
+/home/coolder/Learning/Programming/C_Cpp/MymvCommand/main.c
+allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/MymvCommand/allheaders.h
+MymvCommand.h
+/home/coolder/Learning/Programming/C_Cpp/MymvCommand/MymvCommand.h
 

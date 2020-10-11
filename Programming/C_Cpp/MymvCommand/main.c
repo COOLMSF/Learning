@@ -61,9 +61,10 @@ int main(int argc, char *argv[]) {
         printf("Source file size:%zu\n", size_of_dir);
 
         // Show process bar
-        call_progress();
+        // call_progress();
 
         // Just past arguments to "/bin/mv"
+        printf("File is large, you can use progress command to see process\n");
         call_mv(argc, argv);
 
     } else {
