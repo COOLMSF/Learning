@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/main.c
+allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/allheaders.h
+
+/home/coolder/Learning/Programming/C_Cpp/Header/MyError.h
+stdio.h
+-
+stdlib.h
+-
+
 /home/coolder/Learning/Programming/C_Cpp/Header/allheaders.h
 arpa/inet.h
 -
@@ -49,8 +59,6 @@ time.h
 -
 unistd.h
 -
-
-/home/coolder/Learning/Programming/C_Cpp/untitled1/main.c
-allheaders.h
-/home/coolder/Learning/Programming/C_Cpp/untitled1/allheaders.h
+MyError.h
+/home/coolder/Learning/Programming/C_Cpp/Header/MyError.h
 
