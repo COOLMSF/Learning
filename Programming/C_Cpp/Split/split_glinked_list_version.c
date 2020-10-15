@@ -6,7 +6,6 @@
  * Glib linked list version of split
  */
 
-
 #include "allheaders.h"
 #include "split.h"
 
@@ -22,12 +21,13 @@ GList *split(const char *string, const char *delim) {
     string_backup = strdup(string);
 
     char *txt;
-    GList *result_list = NULL;
+    GList * result_list = NULL;
 
     txt = strtok(string_backup, delim);
+    result_list = g_list_append(result_list, txt);
+
     while (txt) {
-        puts(txt);
-        //result_list = g_list_append(result_list, txt);
+        g_list_append(result_list, txt);
         txt = strtok(NULL, delim);
     }
 

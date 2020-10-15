@@ -8,7 +8,10 @@ int main(int argc, char **argv) {
  GList *list = NULL;
 
  list = g_list_append(list, "123");
- g_list_append(list, "Second");
+
+    for (int i = 0; i < 10; ++i) {
+        g_list_append(list, "AAA");
+    }
 
  g_list_foreach(list, print_data, list->data);
 
