@@ -11,6 +11,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/coolder/Learning/Programming/C_Cpp/Header"
+  "/usr/include/glib-2.0"
+  "/usr/lib/glib-2.0/include"
   )
 
 # Targets to which this target links.

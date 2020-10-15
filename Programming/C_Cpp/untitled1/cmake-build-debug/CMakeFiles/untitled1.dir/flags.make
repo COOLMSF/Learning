@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/coolder/Learning/Programming/C_Cpp/Header
+C_INCLUDES = -I/home/coolder/Learning/Programming/C_Cpp/Header -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
 
 C_FLAGS = -g -std=gnu99
 

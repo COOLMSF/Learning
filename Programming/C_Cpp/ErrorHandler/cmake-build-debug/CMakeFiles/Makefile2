@@ -93,12 +93,12 @@ clean: CMakeFiles/ErrorHandler.dir/clean
 CMakeFiles/ErrorHandler.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErrorHandler.dir/build.make CMakeFiles/ErrorHandler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErrorHandler.dir/build.make CMakeFiles/ErrorHandler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ErrorHandler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ErrorHandler"
 .PHONY : CMakeFiles/ErrorHandler.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ErrorHandler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coolder/Learning/Programming/C_Cpp/ErrorHandler/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/coolder/Learning/Programming/C_Cpp/ErrorHandler/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ErrorHandler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/coolder/Learning/Programming/C_Cpp/ErrorHandler/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ErrorHandler.dir/rule

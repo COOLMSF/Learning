@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/main.c" "/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/cmake-build-debug/CMakeFiles/ErrorHandler.dir/main.c.o"
+  "/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/test1.c" "/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/cmake-build-debug/CMakeFiles/ErrorHandler.dir/test1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

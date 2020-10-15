@@ -81,6 +81,9 @@
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/main.c">
 			<Option target="ErrorHandler"/>
 		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/test1.c">
+			<Option target="ErrorHandler"/>
+		</Unit>
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/ErrorHandler/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

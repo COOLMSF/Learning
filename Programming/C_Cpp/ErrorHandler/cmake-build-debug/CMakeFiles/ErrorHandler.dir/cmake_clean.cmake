@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ErrorHandler.dir/main.c.o"
+  "CMakeFiles/ErrorHandler.dir/test1.c.o"
   "ErrorHandler"
   "ErrorHandler.pdb"
 )

@@ -29,13 +29,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ErrorHandle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Glibtest" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="untitled1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="untitled1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled1" RUN_TARGET_NAME="untitled1">
@@ -59,50 +59,55 @@
       <updated>1601873939410</updated>
       <workItem from="1601873940509" duration="1829000" />
       <workItem from="1602563093276" duration="7513000" />
-      <workItem from="1602589833789" duration="2816000" />
+      <workItem from="1602589833789" duration="3421000" />
+      <workItem from="1602643686299" duration="10085000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1602598279923">
+    <state x="454" y="13" width="428" height="476" key="FileChooserDialogImpl" timestamp="1602663018223">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602598279923" />
-    <state width="1320" height="194" key="GridCell.Tab.0.bottom" timestamp="1602597822785">
+    <state x="454" y="13" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602663018223" />
+    <state width="1320" height="241" key="GridCell.Tab.0.bottom" timestamp="1602663019974">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602597822785" />
-    <state width="1320" height="194" key="GridCell.Tab.0.center" timestamp="1602597822784">
+    <state width="1320" height="241" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602663019974" />
+    <state width="1320" height="241" key="GridCell.Tab.0.center" timestamp="1602663019973">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602597822784" />
-    <state width="1320" height="194" key="GridCell.Tab.0.left" timestamp="1602597822784">
+    <state width="1320" height="241" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602663019973" />
+    <state width="1320" height="241" key="GridCell.Tab.0.left" timestamp="1602663019972">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602597822784" />
-    <state width="1320" height="194" key="GridCell.Tab.0.right" timestamp="1602597822785">
+    <state width="1320" height="241" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602663019972" />
+    <state width="1320" height="241" key="GridCell.Tab.0.right" timestamp="1602663019974">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602597822785" />
-    <state width="1320" height="241" key="GridCell.Tab.1.bottom" timestamp="1602588619414">
+    <state width="1320" height="241" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602663019974" />
+    <state width="1320" height="241" key="GridCell.Tab.1.bottom" timestamp="1602663019976">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602588619414" />
-    <state width="1320" height="241" key="GridCell.Tab.1.center" timestamp="1602588619413">
+    <state width="1320" height="241" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602663019976" />
+    <state width="1320" height="241" key="GridCell.Tab.1.center" timestamp="1602663019975">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1602588619413" />
-    <state width="1320" height="241" key="GridCell.Tab.1.left" timestamp="1602588619412">
+    <state width="1320" height="241" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1602663019975" />
+    <state width="1320" height="241" key="GridCell.Tab.1.left" timestamp="1602663019975">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1602588619412" />
-    <state width="1320" height="241" key="GridCell.Tab.1.right" timestamp="1602588619414">
+    <state width="1320" height="241" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1602663019975" />
+    <state width="1320" height="241" key="GridCell.Tab.1.right" timestamp="1602663019976">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1602588619414" />
-    <state x="156" y="-20" width="1043" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601878700933">
+    <state width="1320" height="241" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1602663019976" />
+    <state x="152" y="-60" width="1043" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602662169417">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="156" y="-20" width="1043" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1601878700933" />
+    <state x="152" y="-60" width="1043" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1602662169417" />
+    <state x="8" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602603338892">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="8" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1602603338892" />
   </component>
 </project>

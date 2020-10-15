@@ -5,3 +5,5 @@ CMakeFiles/ErrorHandler.dir/main.c.o: ../main.c
 CMakeFiles/ErrorHandler.dir/main.c.o: /home/coolder/Learning/Programming/C_Cpp/Header/MyError.h
 CMakeFiles/ErrorHandler.dir/main.c.o: /home/coolder/Learning/Programming/C_Cpp/Header/allheaders.h
 
+CMakeFiles/ErrorHandler.dir/test1.c.o: ../test1.c
+

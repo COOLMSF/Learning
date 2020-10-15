@@ -169,6 +169,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErrorHandler.dir/build.make CMakeFiles/ErrorHandler.dir/main.c.s
 .PHONY : main.c.s
 
+test1.o: test1.c.o
+
+.PHONY : test1.o
+
+# target to build an object file
+test1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErrorHandler.dir/build.make CMakeFiles/ErrorHandler.dir/test1.c.o
+.PHONY : test1.c.o
+
+test1.i: test1.c.i
+
+.PHONY : test1.i
+
+# target to preprocess a source file
+test1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErrorHandler.dir/build.make CMakeFiles/ErrorHandler.dir/test1.c.i
+.PHONY : test1.c.i
+
+test1.s: test1.c.s
+
+.PHONY : test1.s
+
+# target to generate assembly for a file
+test1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErrorHandler.dir/build.make CMakeFiles/ErrorHandler.dir/test1.c.s
+.PHONY : test1.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -181,6 +208,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test1.o"
+	@echo "... test1.i"
+	@echo "... test1.s"
 .PHONY : help
 
 
