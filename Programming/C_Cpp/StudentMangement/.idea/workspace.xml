@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TestProject" targetName="TestProject" />
+      <config projectName="StudentMangement" targetName="StudentMangement" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b356eb-a676-43aa-b81c-fab59c9f5530" name="Default Changelist" comment="" />
+    <list default="true" id="ed2cd05d-8041-4246-a176-24acb64fdd69" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,18 +21,20 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1iuUAmvr41A6UEWYWB2PganJFSn" />
+  <component name="ProjectId" id="1ixcvQYjzmrLq4zBuCe5YSkIuig" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Glibtest" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration name="TestProject" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TestProject" TARGET_NAME="TestProject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TestProject" RUN_TARGET_NAME="TestProject">
+    <configuration name="StudentMangement" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="StudentMangement" TARGET_NAME="StudentMangement" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="StudentMangement" RUN_TARGET_NAME="StudentMangement">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -46,48 +48,40 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3b356eb-a676-43aa-b81c-fab59c9f5530" name="Default Changelist" comment="" />
-      <created>1602756829961</created>
+      <changelist id="ed2cd05d-8041-4246-a176-24acb64fdd69" name="Default Changelist" comment="" />
+      <created>1602852914134</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602756829961</updated>
-      <workItem from="1602756831199" duration="1169000" />
-      <workItem from="1602852876063" duration="38000" />
+      <updated>1602852914134</updated>
+      <workItem from="1602852915788" duration="2488000" />
+      <workItem from="1602855425517" duration="2578000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="241" key="GridCell.Tab.0.bottom" timestamp="1602759672024">
+    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1602855331490">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602759672024" />
-    <state width="1320" height="241" key="GridCell.Tab.0.center" timestamp="1602759672022">
+    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602855331490" />
+    <state width="1320" height="201" key="GridCell.Tab.0.bottom" timestamp="1602857979650">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602759672022" />
-    <state width="1320" height="241" key="GridCell.Tab.0.left" timestamp="1602759672022">
+    <state width="1320" height="201" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602857979650" />
+    <state width="1320" height="201" key="GridCell.Tab.0.center" timestamp="1602857979650">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602759672022" />
-    <state width="1320" height="241" key="GridCell.Tab.0.right" timestamp="1602759672023">
+    <state width="1320" height="201" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602857979650" />
+    <state width="1320" height="201" key="GridCell.Tab.0.left" timestamp="1602857979649">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602759672023" />
-    <state width="1320" height="241" key="GridCell.Tab.1.bottom" timestamp="1602759672025">
+    <state width="1320" height="201" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602857979649" />
+    <state width="1320" height="201" key="GridCell.Tab.0.right" timestamp="1602857979650">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602759672025" />
-    <state width="1320" height="241" key="GridCell.Tab.1.center" timestamp="1602759672024">
+    <state width="1320" height="201" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602857979650" />
+    <state x="340" y="31" width="676" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602853881719">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1602759672024" />
-    <state width="1320" height="241" key="GridCell.Tab.1.left" timestamp="1602759672024">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1602759672024" />
-    <state width="1320" height="241" key="GridCell.Tab.1.right" timestamp="1602759672024">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1320" height="241" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1602759672024" />
+    <state x="340" y="31" width="676" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1602853881719" />
   </component>
 </project>

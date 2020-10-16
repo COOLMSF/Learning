@@ -18,4 +18,13 @@ print_data(stu student) {
 }
 
 int main() {
+    int count = 0;
+
+    for (int i = 1; i < 10; ++i) {
+        if (count % 2 == 0) {
+            printf("\n");
+        }
+        printf("%d ", i);
+        count++;
+    }
 }

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/StudentMangement.dir/main.c.o CMakeFiles/StudentMangement.dir/function_implement.c.o -o StudentMangement  -lglib-2.0 
