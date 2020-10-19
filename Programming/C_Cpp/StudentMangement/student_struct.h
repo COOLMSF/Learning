@@ -28,6 +28,9 @@ typedef struct Student_t {
 
 void init_stu_info(Student *student, char *name, char *gender, int age \
                 , char *id, Subject *stu_subject, int num_of_subject);
-void print_stu_info(Student *student, int size);
 
+void print_stu_info(Student *student, int num_of_stu);
 
+double get_average_of_subjects(Student student, int num_of_subject);
+
+void sort_stu_by_average_score(Student *student, int num_of_stu);

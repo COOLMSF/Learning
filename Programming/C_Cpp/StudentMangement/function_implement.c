@@ -33,3 +33,22 @@ void init_stu_info(Student *student, char *name, char *gender, int age \
 
                 memcpy(student->stu_subject, stu_subject, sizeof(struct Subject_t) * num_of_subject);
 }
+
+double get_average_of_subjects(Student student, int num_of_subject) {
+    double sum = 0;
+
+    for (int i = 0; i < num_of_subject; ++i) {
+        sum += student.stu_subject[i].score;
+    }
+
+    return sum / num_of_subject;
+}
+
+void sort_stu_by_average_score(Student *student, int num_of_stu) {
+    // char average_score[name][score], convert score to string then convert it back
+
+    double average_score[num_of_stu];
+    for (int i = 0; i < num_of_stu; ++i) {
+        average_score[i] = get_average_of_subjects(student[i], MAX_SUBJECT);
+    }
+}

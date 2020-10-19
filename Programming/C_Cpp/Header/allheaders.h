@@ -22,8 +22,11 @@
 #include<time.h>
 #include<unistd.h>
 
+#include<getopt.h>
+
 // Include my error hanlder header file
 #include "MyError.h"
+#include "MyMacro.h"
 
 //#include <glib-2.0/glib.h>
 //#include "glib-2.0/glib/glist.h"
