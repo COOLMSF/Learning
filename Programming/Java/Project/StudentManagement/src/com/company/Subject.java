@@ -15,25 +15,44 @@ public class Subject {
 //    public String getSubjectName() {
 //        return subjectName;
 //    }
+//
+//    public Chinese chinese = new Chinese();
+//    public English english = new English();
+//    public MAth math = new MAth();
+//
+//    void printSubjectScore() {
+//        System.out.println("Chinese:" + chinese.getScore());
+//        System.out.println("English:" + english.getScore());
+//        System.out.println("Math:" + math.getScore());
+//    }
+//
+//    public double getTotalScore() {
+//        return chinese.getScore() + english.getScore() + math.getScore();
+//    }
+//
+//    public double getAverageScore() {
+//        return ((chinese.getScore() + english.getScore() + math.getScore()) / 3);
+//    }
+//
+//    public void printSortedScore() {
+//    }
 
-    public Chinese chinese = new Chinese();
-    public English english = new English();
-    public MAth math = new MAth();
+    private String name;
+    private double score;
 
-    void printSubjectScore() {
-        System.out.println("Chinese:" + chinese.getScore());
-        System.out.println("English:" + english.getScore());
-        System.out.println("Math:" + math.getScore());
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public double getTotalScore() {
-        return chinese.getScore() + english.getScore() + math.getScore();
+    public String getName() {
+        return name;
     }
 
-    public double getAverageScore() {
-        return ((chinese.getScore() + english.getScore() + math.getScore()) / 3);
+    public void setScore(double score) {
+        this.score = score;
     }
 
-    public void printSortedScore() {
+    public double getScore() {
+        return score;
     }
 }

@@ -1,31 +1,16 @@
 package com.company;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class Main {
-    // function to sort hashmap by values
-    public static HashMap<String, Double> sortByValue(HashMap<String, Double> hm)
-    {
-        // Create a list from elements of HashMap
-        List<Map.Entry<String, Double> > list =
-                new LinkedList<Map.Entry<String, Double> >(hm.entrySet());
-
-        // Sort the list
-        Collections.sort(list, (o1, o2) -> (o1.getValue()).compareTo(o2.getValue()));
-
-        // put data from sorted list to hashmap
-        HashMap<String, Double> temp = new LinkedHashMap<>();
-        for (Map.Entry<String, Double> aa : list) {
-            temp.put(aa.getKey(), aa.getValue());
-        }
-        return temp;
-    }
 
     public static void main(String[] args) {
-        Student[] studentGroup = new Student[2];
-        
+        Student[] studentGroup = new Student[3];
+
         studentGroup[0] = new Student("coolder", "male", 22, "1831625232", "Network");
         studentGroup[1] = new Student("COLMSF", "female", 18, "1831615242", "Clould");
+        studentGroup[2] = new Student("coolme", "female", 17, "183161522", "Security");
 
         //for (Student stu :
         //        studentGroup) {
@@ -39,28 +24,49 @@ public class Main {
         //    stu.stuSubject.printSubjectScore();
         //}
 
-        var sortedScoreList = new HashMap<String, Double>();
+        // Random set score
+        //for (Student stu :
+        //        studentGroup) {
+        //    stu.setStuSubjects();
+        //}
+
+        //for (Student stu :
+        //        studentGroup) {
+        //    sortedScoreList.put(stu.getStuName(), stu.stuSubject.getAverageScore());
+        //}
+
+        //Map<String, Double> w = sortByValue(sortedScoreList);
+
+        //Set set = w.entrySet();
+        //Iterator iterator = set.iterator();
+        //while(iterator.hasNext()) {
+        //    Map.Entry mentry = (Map.Entry)iterator.next();
+        //    System.out.print("Name: "+ mentry.getKey() + "    Average Score:" + mentry.getValue());
+        //    System.out.println("\n");
+        //}
+
+        
+        // Set student subject
+        System.out.println("All subject Math, English, Chinese");
 
         for (Student stu :
                 studentGroup) {
-            stu.stuSubject.chinese.setScore(new Random().nextDouble() * 100);
-            stu.stuSubject.english.setScore(new Random().nextDouble() * 100);
-            stu.stuSubject.math.setScore(new Random().nextDouble() * 100);
+            System.out.println("Student Name:" + stu.getName());
+            stu.setStuSubjects();
+            System.out.println();
         }
+
+        Arrays.sort(studentGroup);
 
         for (Student stu :
                 studentGroup) {
-            sortedScoreList.put(stu.getStuName(), stu.stuSubject.getAverageScore());
+            stu.printStuInfo();
+            System.out.println();
         }
 
-        Map<String, Double> w = sortByValue(sortedScoreList);
-
-        Set set = w.entrySet();
-        Iterator iterator = set.iterator();
-        while(iterator.hasNext()) {
-            Map.Entry mentry = (Map.Entry)iterator.next();
-            System.out.print("Name: "+ mentry.getKey() + "    Average Score:" + mentry.getValue());
-            System.out.println("\n");
-        }
+        //for (Student stu :
+        //        studentGroup) {
+        //    System.out.println(stu.getName() + ' ' + stu.stuSubject.getAverageScore());
+        //}
     }
 }
