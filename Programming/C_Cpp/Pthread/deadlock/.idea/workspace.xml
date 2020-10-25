@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="deadlock" targetName="deadlock" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de0c2617-7b4c-4648-9062-60de55f30d07" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jKSn8Iu1IRdzWJabNrlqxP5CUH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="deadlock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deadlock" TARGET_NAME="deadlock" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deadlock" RUN_TARGET_NAME="deadlock">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de0c2617-7b4c-4648-9062-60de55f30d07" name="Default Changelist" comment="" />
+      <created>1603551453747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603551453747</updated>
+      <workItem from="1603551454936" duration="612000" />
+      <workItem from="1603556835103" duration="1342000" />
+      <workItem from="1603599889654" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="126" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1603556911249">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="126" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603556911249" />
+    <state x="-2" y="-10" key="SettingsEditor" timestamp="1603556949803">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-2" y="-10" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1603556949803" />
+    <state x="330" y="31" width="1028" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603551573775">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="330" y="31" width="1028" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1603551573775" />
+    <state x="8" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603556933034">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="8" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1603556933034" />
+  </component>
+</project>

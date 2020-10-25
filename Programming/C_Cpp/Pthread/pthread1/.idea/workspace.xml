@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="MyFind" targetName="MyFind" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e47d0cf-21d4-4048-a8a3-f907a3261143" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jDfJfsf0JZ0AsJDBgAUYo6XTsp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="language.cpp.clangd" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyFind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyFind" TARGET_NAME="MyFind" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyFind" RUN_TARGET_NAME="MyFind">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e47d0cf-21d4-4048-a8a3-f907a3261143" name="Default Changelist" comment="" />
+      <created>1603343512675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603343512675</updated>
+      <workItem from="1603343514175" duration="1149000" />
+      <workItem from="1603344817960" duration="599000" />
+      <workItem from="1603346715659" duration="599000" />
+      <workItem from="1603418574590" duration="1218000" />
+      <workItem from="1603522921299" duration="2000" />
+      <workItem from="1603544306088" duration="1308000" />
+      <workItem from="1603546722895" duration="85000" />
+      <workItem from="1603547512613" duration="928000" />
+      <workItem from="1603548456770" duration="1050000" />
+      <workItem from="1603550274900" duration="1315000" />
+      <workItem from="1603556835260" duration="1267000" />
+      <workItem from="1603599889516" duration="739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-2" y="13" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603548830660">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-2" y="13" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1603548830660" />
+    <state x="798" y="73" width="428" height="476" key="FileChooserDialogImpl" timestamp="1603599658605">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="798" y="73" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603599658605" />
+    <state width="1320" height="199" key="GridCell.Tab.0.bottom" timestamp="1603600002908">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603600002908" />
+    <state width="1320" height="199" key="GridCell.Tab.0.center" timestamp="1603600002907">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603600002907" />
+    <state width="1320" height="199" key="GridCell.Tab.0.left" timestamp="1603600002907">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603600002907" />
+    <state width="1320" height="199" key="GridCell.Tab.0.right" timestamp="1603600002908">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603600002908" />
+    <state x="327" y="-10" key="SettingsEditor" timestamp="1603548431588">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="327" y="-10" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1603548431588" />
+    <state x="684" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603556860208">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="684" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1603556860208" />
+  </component>
+</project>

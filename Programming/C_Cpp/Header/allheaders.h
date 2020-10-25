@@ -23,6 +23,8 @@
 #include<unistd.h>
 #include <ftw.h>
 #include<getopt.h>
+#include<pthread.h>
+#include<setjmp.h>
 
 // Include my error hanlder header file
 #include "MyError.h"

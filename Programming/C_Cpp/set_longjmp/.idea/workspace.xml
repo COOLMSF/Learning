@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="set_longjmp" targetName="set_longjmp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7b4efff-ccfd-4764-a448-ba794a37a459" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jJbyh9qIthdpreyOeQZIip8Bbj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pthread" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="set_longjmp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="set_longjmp" TARGET_NAME="set_longjmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="set_longjmp" RUN_TARGET_NAME="set_longjmp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7b4efff-ccfd-4764-a448-ba794a37a459" name="Default Changelist" comment="" />
+      <created>1603525398118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603525398118</updated>
+      <workItem from="1603525399644" duration="2836000" />
+      <workItem from="1603537805131" duration="688000" />
+      <workItem from="1603543974365" duration="330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="120" y="53" width="428" height="476" key="FileChooserDialogImpl" timestamp="1603544302231">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="120" y="53" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603544302231" />
+    <state width="1320" height="240" key="GridCell.Tab.0.bottom" timestamp="1603525723792">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603525723792" />
+    <state width="1320" height="240" key="GridCell.Tab.0.center" timestamp="1603525723792">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603525723792" />
+    <state width="1320" height="240" key="GridCell.Tab.0.left" timestamp="1603525723791">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603525723791" />
+    <state width="1320" height="240" key="GridCell.Tab.0.right" timestamp="1603525723792">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603525723792" />
+    <state width="1320" height="240" key="GridCell.Tab.1.bottom" timestamp="1603525700836">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603525700836" />
+    <state width="1320" height="240" key="GridCell.Tab.1.center" timestamp="1603525700835">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1603525700835" />
+    <state width="1320" height="240" key="GridCell.Tab.1.left" timestamp="1603525700835">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1603525700835" />
+    <state width="1320" height="240" key="GridCell.Tab.1.right" timestamp="1603525700835">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1603525700835" />
+    <state x="322" y="31" width="1036" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603525419486">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="322" y="31" width="1036" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1603525419486" />
+  </component>
+</project>

@@ -7,6 +7,16 @@
 #IncludeRegexTransform: 
 
 /home/coolder/Learning/Programming/C_Cpp/MyFind/main.c
+unistd.h
+-
+stdlib.h
+-
 stdio.h
+-
+signal.h
+-
+setjmp.h
+-
+pthread.h
 -
 
