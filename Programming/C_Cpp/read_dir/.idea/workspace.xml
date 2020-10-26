@@ -29,19 +29,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled1" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="read_dir" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="." REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="read_dir" TARGET_NAME="read_dir" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="read_dir" RUN_TARGET_NAME="read_dir">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -61,6 +52,8 @@
       <workItem from="1602339951474" duration="2704000" />
       <workItem from="1602380283128" duration="1845000" />
       <workItem from="1602388841287" duration="3424000" />
+      <workItem from="1603616672399" duration="1225000" />
+      <workItem from="1603619586488" duration="13000" />
     </task>
     <servers />
   </component>
@@ -77,6 +70,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="514" y="88" width="324" height="486" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1602330879600" />
+    <state x="462" y="93" width="428" height="476" key="FileChooserDialogImpl" timestamp="1603619597482">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="93" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603619597482" />
     <state width="1320" height="193" key="GridCell.Tab.0.bottom" timestamp="1602392317553">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

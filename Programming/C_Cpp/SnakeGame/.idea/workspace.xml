@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SnakeGame" targetName="SnakeGame" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec7e1495-8f6c-45c9-b495-01e32a33ffb8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jNKRClrPYulcK1VEYHBmVYSnyq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SnakeGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SnakeGame" TARGET_NAME="SnakeGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SnakeGame" RUN_TARGET_NAME="SnakeGame">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec7e1495-8f6c-45c9-b495-01e32a33ffb8" name="Default Changelist" comment="" />
+      <created>1603639098526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603639098526</updated>
+      <workItem from="1603639100026" duration="1501000" />
+      <workItem from="1603640860429" duration="1338000" />
+      <workItem from="1603671993003" duration="461000" />
+      <workItem from="1603672458357" duration="1333000" />
+      <workItem from="1603673816162" duration="1796000" />
+      <workItem from="1603675639344" duration="1792000" />
+      <workItem from="1603677450509" duration="1411000" />
+      <workItem from="1603679273644" duration="1798000" />
+      <workItem from="1603681089813" duration="1580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="492" height="526" key="DebuggerActiveHint" timestamp="1603679619279">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="492" height="526" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1603679619279" />
+    <state width="1320" height="249" key="GridCell.Tab.0.bottom" timestamp="1603681525450">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603681525450" />
+    <state width="1320" height="249" key="GridCell.Tab.0.center" timestamp="1603681525449">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603681525449" />
+    <state width="1320" height="249" key="GridCell.Tab.0.left" timestamp="1603681525449">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603681525449" />
+    <state width="1320" height="249" key="GridCell.Tab.0.right" timestamp="1603681525449">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603681525449" />
+    <state width="1320" height="249" key="GridCell.Tab.1.bottom" timestamp="1603681525450">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603681525450" />
+    <state width="1320" height="249" key="GridCell.Tab.1.center" timestamp="1603681525450">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1603681525450" />
+    <state width="1320" height="249" key="GridCell.Tab.1.left" timestamp="1603681525450">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1603681525450" />
+    <state width="1320" height="249" key="GridCell.Tab.1.right" timestamp="1603681525450">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="249" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1603681525450" />
+    <state x="217" y="-96" width="894" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603677057320">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="217" y="-96" width="894" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1603677057320" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603674563144">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1603674563144" />
+  </component>
+</project>

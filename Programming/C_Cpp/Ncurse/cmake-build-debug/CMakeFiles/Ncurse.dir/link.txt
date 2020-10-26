@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Ncurse.dir/main.c.o -o Ncurse  -lncurses 

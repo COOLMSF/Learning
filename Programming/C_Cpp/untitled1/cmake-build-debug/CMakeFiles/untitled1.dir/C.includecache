@@ -57,6 +57,14 @@ time.h
 -
 unistd.h
 -
+ftw.h
+-
+getopt.h
+-
+pthread.h
+-
+setjmp.h
+-
 MyError.h
 /home/coolder/Learning/Programming/C_Cpp/Header/MyError.h
 MyMacro.h
