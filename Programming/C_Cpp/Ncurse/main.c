@@ -2,7 +2,13 @@
 #include "ncurses.h"
 
 int main() {
-    int c = getchar();
-    printf("%c", c);
-    return 0;
+    initscr();
+    int c = getch();
+
+    switch (c) {
+        case KEY_UP: puts("up");
+        case KEY_DOWN: puts("down");
+        case KEY_LEFT: puts("left");
+        case KEY_RIGHT: puts("right");
+    }
 }

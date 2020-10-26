@@ -3,7 +3,7 @@ project(untitled1 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled1 main.c )
+add_executable(untitled1 main.c test.h)
 
 include_directories("/home/coolder/Learning/Programming/C_Cpp/Header")
 

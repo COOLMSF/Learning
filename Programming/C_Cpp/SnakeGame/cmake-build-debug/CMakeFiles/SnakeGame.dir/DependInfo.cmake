@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/init.c" "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles/SnakeGame.dir/init.c.o"
   "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/main.c" "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles/SnakeGame.dir/main.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/move_up.c" "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles/SnakeGame.dir/move_up.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_map.c" "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles/SnakeGame.dir/print_map.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_usage.c" "/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles/SnakeGame.dir/print_usage.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

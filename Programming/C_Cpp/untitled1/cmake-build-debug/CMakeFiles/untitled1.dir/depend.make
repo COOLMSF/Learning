@@ -5,4 +5,5 @@ CMakeFiles/untitled1.dir/main.c.o: /home/coolder/Learning/Programming/C_Cpp/Head
 CMakeFiles/untitled1.dir/main.c.o: /home/coolder/Learning/Programming/C_Cpp/Header/MyMacro.h
 CMakeFiles/untitled1.dir/main.c.o: /home/coolder/Learning/Programming/C_Cpp/Header/allheaders.h
 CMakeFiles/untitled1.dir/main.c.o: ../main.c
+CMakeFiles/untitled1.dir/main.c.o: ../test.h
 

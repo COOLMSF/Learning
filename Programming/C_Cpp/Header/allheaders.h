@@ -25,6 +25,7 @@
 #include<getopt.h>
 #include<pthread.h>
 #include<setjmp.h>
+#include<termio.h>
 
 // Include my error hanlder header file
 #include "MyError.h"

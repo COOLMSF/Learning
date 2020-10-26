@@ -89,77 +89,17 @@ CMakeFiles/SnakeGame.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/SnakeGame/main.c -o CMakeFiles/SnakeGame.dir/main.c.s
 
-CMakeFiles/SnakeGame.dir/print_usage.c.o: CMakeFiles/SnakeGame.dir/flags.make
-CMakeFiles/SnakeGame.dir/print_usage.c.o: ../print_usage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SnakeGame.dir/print_usage.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnakeGame.dir/print_usage.c.o -c /home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_usage.c
-
-CMakeFiles/SnakeGame.dir/print_usage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/print_usage.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_usage.c > CMakeFiles/SnakeGame.dir/print_usage.c.i
-
-CMakeFiles/SnakeGame.dir/print_usage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/print_usage.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_usage.c -o CMakeFiles/SnakeGame.dir/print_usage.c.s
-
-CMakeFiles/SnakeGame.dir/print_map.c.o: CMakeFiles/SnakeGame.dir/flags.make
-CMakeFiles/SnakeGame.dir/print_map.c.o: ../print_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SnakeGame.dir/print_map.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnakeGame.dir/print_map.c.o -c /home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_map.c
-
-CMakeFiles/SnakeGame.dir/print_map.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/print_map.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_map.c > CMakeFiles/SnakeGame.dir/print_map.c.i
-
-CMakeFiles/SnakeGame.dir/print_map.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/print_map.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_map.c -o CMakeFiles/SnakeGame.dir/print_map.c.s
-
-CMakeFiles/SnakeGame.dir/move_up.c.o: CMakeFiles/SnakeGame.dir/flags.make
-CMakeFiles/SnakeGame.dir/move_up.c.o: ../move_up.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SnakeGame.dir/move_up.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnakeGame.dir/move_up.c.o -c /home/coolder/Learning/Programming/C_Cpp/SnakeGame/move_up.c
-
-CMakeFiles/SnakeGame.dir/move_up.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/move_up.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/SnakeGame/move_up.c > CMakeFiles/SnakeGame.dir/move_up.c.i
-
-CMakeFiles/SnakeGame.dir/move_up.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/move_up.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/SnakeGame/move_up.c -o CMakeFiles/SnakeGame.dir/move_up.c.s
-
-CMakeFiles/SnakeGame.dir/init.c.o: CMakeFiles/SnakeGame.dir/flags.make
-CMakeFiles/SnakeGame.dir/init.c.o: ../init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SnakeGame.dir/init.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SnakeGame.dir/init.c.o -c /home/coolder/Learning/Programming/C_Cpp/SnakeGame/init.c
-
-CMakeFiles/SnakeGame.dir/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SnakeGame.dir/init.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/SnakeGame/init.c > CMakeFiles/SnakeGame.dir/init.c.i
-
-CMakeFiles/SnakeGame.dir/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnakeGame.dir/init.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/SnakeGame/init.c -o CMakeFiles/SnakeGame.dir/init.c.s
-
 # Object files for target SnakeGame
 SnakeGame_OBJECTS = \
-"CMakeFiles/SnakeGame.dir/main.c.o" \
-"CMakeFiles/SnakeGame.dir/print_usage.c.o" \
-"CMakeFiles/SnakeGame.dir/print_map.c.o" \
-"CMakeFiles/SnakeGame.dir/move_up.c.o" \
-"CMakeFiles/SnakeGame.dir/init.c.o"
+"CMakeFiles/SnakeGame.dir/main.c.o"
 
 # External object files for target SnakeGame
 SnakeGame_EXTERNAL_OBJECTS =
 
 SnakeGame: CMakeFiles/SnakeGame.dir/main.c.o
-SnakeGame: CMakeFiles/SnakeGame.dir/print_usage.c.o
-SnakeGame: CMakeFiles/SnakeGame.dir/print_map.c.o
-SnakeGame: CMakeFiles/SnakeGame.dir/move_up.c.o
-SnakeGame: CMakeFiles/SnakeGame.dir/init.c.o
 SnakeGame: CMakeFiles/SnakeGame.dir/build.make
 SnakeGame: CMakeFiles/SnakeGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable SnakeGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/SnakeGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable SnakeGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SnakeGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

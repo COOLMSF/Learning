@@ -85,6 +85,9 @@
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/untitled1/main.c">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/untitled1/test.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/untitled1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

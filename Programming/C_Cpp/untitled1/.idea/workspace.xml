@@ -33,11 +33,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="untitled1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="untitled1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled1" RUN_TARGET_NAME="untitled1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -62,6 +57,9 @@
       <workItem from="1603107558053" duration="1586000" />
       <workItem from="1603619600555" duration="1053000" />
       <workItem from="1603639052486" duration="46000" />
+      <workItem from="1603691551277" duration="738000" />
+      <workItem from="1603692303622" duration="657000" />
+      <workItem from="1603694120399" duration="747000" />
     </task>
     <servers />
   </component>

@@ -142,33 +142,6 @@ SnakeGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/build
 .PHONY : SnakeGame/fast
 
-init.o: init.c.o
-
-.PHONY : init.o
-
-# target to build an object file
-init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/init.c.o
-.PHONY : init.c.o
-
-init.i: init.c.i
-
-.PHONY : init.i
-
-# target to preprocess a source file
-init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/init.c.i
-.PHONY : init.c.i
-
-init.s: init.c.s
-
-.PHONY : init.s
-
-# target to generate assembly for a file
-init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/init.c.s
-.PHONY : init.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -196,87 +169,6 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/main.c.s
 .PHONY : main.c.s
 
-move_up.o: move_up.c.o
-
-.PHONY : move_up.o
-
-# target to build an object file
-move_up.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/move_up.c.o
-.PHONY : move_up.c.o
-
-move_up.i: move_up.c.i
-
-.PHONY : move_up.i
-
-# target to preprocess a source file
-move_up.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/move_up.c.i
-.PHONY : move_up.c.i
-
-move_up.s: move_up.c.s
-
-.PHONY : move_up.s
-
-# target to generate assembly for a file
-move_up.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/move_up.c.s
-.PHONY : move_up.c.s
-
-print_map.o: print_map.c.o
-
-.PHONY : print_map.o
-
-# target to build an object file
-print_map.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/print_map.c.o
-.PHONY : print_map.c.o
-
-print_map.i: print_map.c.i
-
-.PHONY : print_map.i
-
-# target to preprocess a source file
-print_map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/print_map.c.i
-.PHONY : print_map.c.i
-
-print_map.s: print_map.c.s
-
-.PHONY : print_map.s
-
-# target to generate assembly for a file
-print_map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/print_map.c.s
-.PHONY : print_map.c.s
-
-print_usage.o: print_usage.c.o
-
-.PHONY : print_usage.o
-
-# target to build an object file
-print_usage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/print_usage.c.o
-.PHONY : print_usage.c.o
-
-print_usage.i: print_usage.c.i
-
-.PHONY : print_usage.i
-
-# target to preprocess a source file
-print_usage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/print_usage.c.i
-.PHONY : print_usage.c.i
-
-print_usage.s: print_usage.c.s
-
-.PHONY : print_usage.s
-
-# target to generate assembly for a file
-print_usage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SnakeGame.dir/build.make CMakeFiles/SnakeGame.dir/print_usage.c.s
-.PHONY : print_usage.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,21 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SnakeGame"
-	@echo "... init.o"
-	@echo "... init.i"
-	@echo "... init.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... move_up.o"
-	@echo "... move_up.i"
-	@echo "... move_up.s"
-	@echo "... print_map.o"
-	@echo "... print_map.i"
-	@echo "... print_map.s"
-	@echo "... print_usage.o"
-	@echo "... print_usage.i"
-	@echo "... print_usage.s"
 .PHONY : help
 
 

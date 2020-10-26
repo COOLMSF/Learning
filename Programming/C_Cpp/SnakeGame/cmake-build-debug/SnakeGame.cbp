@@ -78,19 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/SnakeGame/init.c">
-			<Option target="SnakeGame"/>
-		</Unit>
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/SnakeGame/main.c">
-			<Option target="SnakeGame"/>
-		</Unit>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/SnakeGame/move_up.c">
-			<Option target="SnakeGame"/>
-		</Unit>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_map.c">
-			<Option target="SnakeGame"/>
-		</Unit>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/SnakeGame/print_usage.c">
 			<Option target="SnakeGame"/>
 		</Unit>
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/SnakeGame/snake.h">

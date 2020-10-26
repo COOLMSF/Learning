@@ -65,6 +65,8 @@ pthread.h
 -
 setjmp.h
 -
+termio.h
+-
 MyError.h
 /home/coolder/Learning/Programming/C_Cpp/Header/MyError.h
 MyMacro.h
@@ -73,8 +75,8 @@ MyMacro.h
 /home/coolder/Learning/Programming/C_Cpp/untitled1/main.c
 allheaders.h
 /home/coolder/Learning/Programming/C_Cpp/untitled1/allheaders.h
-math.h
--
-MyMacro.h
-/home/coolder/Learning/Programming/C_Cpp/untitled1/MyMacro.h
+test.h
+/home/coolder/Learning/Programming/C_Cpp/untitled1/test.h
+
+/home/coolder/Learning/Programming/C_Cpp/untitled1/test.h
 
