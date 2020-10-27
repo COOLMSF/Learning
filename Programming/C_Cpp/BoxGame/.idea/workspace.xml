@@ -29,22 +29,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="BoxGame" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BoxGame" TARGET_NAME="BoxGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BoxGame" RUN_TARGET_NAME="BoxGame">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -58,7 +49,16 @@
       <updated>1603698148826</updated>
       <workItem from="1603698150360" duration="120000" />
       <workItem from="1603698286087" duration="78000" />
+      <workItem from="1603759999125" duration="447000" />
+      <workItem from="1603760464974" duration="728000" />
+      <workItem from="1603762278365" duration="35000" />
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1603762307135">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603762307135" />
   </component>
 </project>

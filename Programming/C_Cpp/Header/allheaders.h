@@ -26,9 +26,9 @@
 #include<pthread.h>
 #include<setjmp.h>
 #include<termio.h>
+#include<error.h>
 
 // Include my error hanlder header file
-#include "MyError.h"
 #include "MyMacro.h"
 
 //#include <glib-2.0/glib.h>

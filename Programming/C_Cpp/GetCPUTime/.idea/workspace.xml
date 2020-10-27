@@ -29,15 +29,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="GetCPUTime" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GetCPUTime" TARGET_NAME="GetCPUTime" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GetCPUTime" RUN_TARGET_NAME="GetCPUTime">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -57,30 +53,33 @@
       <option name="presentableId" value="Default" />
       <updated>1602994616783</updated>
       <workItem from="1602994617939" duration="1109000" />
+      <workItem from="1603770495736" duration="178000" />
+      <workItem from="1603770689681" duration="243000" />
+      <workItem from="1603771873464" duration="548000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="802" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1602995113752">
+    <state x="800" y="93" width="428" height="476" key="FileChooserDialogImpl" timestamp="1603770558977">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="802" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602995113752" />
-    <state width="622" height="193" key="GridCell.Tab.0.bottom" timestamp="1602996290963">
+    <state x="800" y="93" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603770558977" />
+    <state width="622" height="200" key="GridCell.Tab.0.bottom" timestamp="1603772421376">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="622" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602996290963" />
-    <state width="622" height="193" key="GridCell.Tab.0.center" timestamp="1602996290962">
+    <state width="622" height="200" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603772421376" />
+    <state width="622" height="200" key="GridCell.Tab.0.center" timestamp="1603772421376">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="622" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602996290962" />
-    <state width="622" height="193" key="GridCell.Tab.0.left" timestamp="1602996290962">
+    <state width="622" height="200" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603772421376" />
+    <state width="622" height="200" key="GridCell.Tab.0.left" timestamp="1603772421376">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="622" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602996290962" />
-    <state width="622" height="193" key="GridCell.Tab.0.right" timestamp="1602996290962">
+    <state width="622" height="200" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603772421376" />
+    <state width="622" height="200" key="GridCell.Tab.0.right" timestamp="1603772421376">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="622" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602996290962" />
+    <state width="622" height="200" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603772421376" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602994737003">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

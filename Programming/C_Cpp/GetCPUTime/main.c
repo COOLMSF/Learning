@@ -2,12 +2,8 @@
 
 int main() {
     clock_t clock_start, clock_end;
-
-    clock_start = clock();
-
-    sleep(3);
-
-    clock_end = clock();
-
-    printf("CPU time:%f seconds", (double)(clock_end - clock_start) / 10);
+    for (int i = 0; i < 10; ++i) {
+        clock_start = clock();
+        printf("CPU time:%ld seconds", clock_start);
+    }
 }
