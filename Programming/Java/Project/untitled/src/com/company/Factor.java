@@ -5,11 +5,19 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * I think Factor should be an interface named Factorale rather than a class.
+ * I think Factor should be an interface named Factorale interface rather than a class.
  */
 
-public class Factor {
-    ArrayList<Integer> getFactor(int number) {
+public class Factor implements Factorable {
+
+    private int number;
+
+    Factor(int number) {
+        this.number = number;
+    }
+
+    @Override
+    public ArrayList<Integer> getFactor() {
 
         var arrayList = new ArrayList<Integer>();
 
@@ -24,6 +32,7 @@ public class Factor {
             else i++;
         }
 
-        return arrayList.isEmpty() ? null : arrayList;
+        return arrayList;
     }
+
 }

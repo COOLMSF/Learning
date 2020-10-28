@@ -7,8 +7,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int intBits = Float.floatToIntBits((float)1.0);
-        String binaryStr = Integer.toBinaryString(intBits);
-        System.out.println(binaryStr);
+        var a = new Factor(100);
+
+        a.getFactor().forEach(System.out::println);
     }
 }

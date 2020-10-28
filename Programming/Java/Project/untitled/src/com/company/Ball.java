@@ -5,26 +5,22 @@ package com.company;
  */
 
 public class Ball {
-    private int c = 0;
+
     private double hight = 100.0;
     private double boundDistance = 0.0;
     private double totalDistance = 0.0;
 
-    Object calculate(int times) {
-        this.c = times;
+    void getResult(int times) {
+
         for (int i = 0; i < times; i++) {
+
             totalDistance += hight;
             boundDistance = hight * 0.5;
             totalDistance += boundDistance;
             hight = boundDistance;
+
         }
 
-        return this;
-    }
-
-    @Override
-    public String toString() {
-        calculate(c);
-        return "totalDistance:" + totalDistance + " boundDistance:" + boundDistance;
+        System.out.println("totalDistance:" + totalDistance + " boundDistance:" + boundDistance);
     }
 }
