@@ -6,17 +6,19 @@ import java.util.*;
 
 public class GCD implements Factorable {
     private int gcd = 1;
-    private int number;
+    private Factor number1;
+    private Factor number2;
 
-    GCD(int number) {
-        this.number = number;
+    GCD(Factor number1, Factor number2) {
+        this.number1 = number1;
+        this.number2 = number2;
     }
 
-    int getGCD(int a, int b) {
+    int getGCD() {
 
         // Get factors
-        List<Integer> factorsOfA = getFactor();
-        List<Integer> factorsOfB = getFactor();
+        List<Integer> factorsOfA = number1.getFactor();
+        List<Integer> factorsOfB = number2.getFactor();
 
         // Get bingji, sorry for my english, _^_^_
         List<Integer> bingji;

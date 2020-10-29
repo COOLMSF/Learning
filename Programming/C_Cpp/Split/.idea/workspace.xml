@@ -30,18 +30,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="Split" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Split" TARGET_NAME="Split" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Split" RUN_TARGET_NAME="Split">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -57,6 +52,9 @@
       <workItem from="1602722710191" duration="5631000" />
       <workItem from="1602732561449" duration="1514000" />
       <workItem from="1602756656462" duration="49000" />
+      <workItem from="1603877366599" duration="483000" />
+      <workItem from="1603877869415" duration="739000" />
+      <workItem from="1603879686646" duration="3000" />
     </task>
     <servers />
   </component>

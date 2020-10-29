@@ -27,6 +27,9 @@
 #include<setjmp.h>
 #include<termio.h>
 #include<error.h>
+#include<err.h>
+#include<readline/readline.h>
+#include<readline/history.h>
 
 // Include my error hanlder header file
 #include "MyMacro.h"

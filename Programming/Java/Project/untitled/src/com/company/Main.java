@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        var a = new Factor(100);
+        var a = new GCD(new Factor(100), new Factor(200));
 
         a.getFactor().forEach(System.out::println);
     }

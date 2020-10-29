@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="MyShell" targetName="MyShell" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3a4a18b-5c34-4ea3-b28d-90ea8ef7b18c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1jV1mITcjHskdmY6oc4EPVUNrzV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Split" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyShell" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyShell" TARGET_NAME="MyShell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyShell" RUN_TARGET_NAME="MyShell">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3a4a18b-5c34-4ea3-b28d-90ea8ef7b18c" name="Default Changelist" comment="" />
+      <created>1603874602893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603874602893</updated>
+      <workItem from="1603874604148" duration="875000" />
+      <workItem from="1603875492691" duration="349000" />
+      <workItem from="1603876051980" duration="1797000" />
+      <workItem from="1603877869905" duration="1798000" />
+      <workItem from="1603879685867" duration="1790000" />
+      <workItem from="1603883002816" duration="640000" />
+      <workItem from="1603932834264" duration="1791000" />
+      <workItem from="1603934640590" duration="1799000" />
+      <workItem from="1603936450806" duration="1796000" />
+      <workItem from="1603938257863" duration="1917000" />
+      <workItem from="1603940238327" duration="1796000" />
+      <workItem from="1603942231644" duration="1798000" />
+      <workItem from="1603944075707" duration="1799000" />
+      <workItem from="1603945891213" duration="1791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="464" y="100" width="428" height="476" key="FileChooserDialogImpl" timestamp="1603877363966">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="464" y="100" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603877363966" />
+    <state width="1320" height="193" key="GridCell.Tab.0.bottom" timestamp="1603878748339">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603878748339" />
+    <state width="1320" height="193" key="GridCell.Tab.0.center" timestamp="1603878748338">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603878748338" />
+    <state width="1320" height="193" key="GridCell.Tab.0.left" timestamp="1603878748338">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603878748338" />
+    <state width="1320" height="193" key="GridCell.Tab.0.right" timestamp="1603878748339">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603878748339" />
+    <state width="1320" height="193" key="GridCell.Tab.1.bottom" timestamp="1603878748340">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603878748340" />
+    <state width="1320" height="193" key="GridCell.Tab.1.center" timestamp="1603878748339">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1603878748339" />
+    <state width="1320" height="193" key="GridCell.Tab.1.left" timestamp="1603878748339">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1603878748339" />
+    <state width="1320" height="193" key="GridCell.Tab.1.right" timestamp="1603878748339">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1603878748339" />
+    <state x="362" y="24" width="628" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603875022018">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="362" y="24" width="628" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1603875022018" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1603944881133">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1603944881133" />
+  </component>
+</project>

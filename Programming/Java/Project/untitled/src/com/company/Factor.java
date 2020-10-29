@@ -16,6 +16,10 @@ public class Factor implements Factorable {
         this.number = number;
     }
 
+    int getNumber() {
+        return number;
+    }
+
     @Override
     public ArrayList<Integer> getFactor() {
 
