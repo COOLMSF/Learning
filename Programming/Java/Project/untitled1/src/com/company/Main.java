@@ -2,10 +2,22 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        Test a = new Test();
-        Test b = (Test)new TestA();
+        var ouou = new Dog("ouou", 100, 0, "xueruina");
+        var nannan = new Penguin("nannan", 100, 0, "Qmei");
 
-        a.print();
-        b.print();
+        System.out.println("Befor play with them");
+
+        ouou.print();
+        nannan.print();
+
+        System.out.println("After play with them");
+
+        var master = new Master();
+
+        master.playDisk(ouou);
+        ouou.print();
+
+        master.swim(nannan);
+        nannan.print();
     }
 }
