@@ -30,18 +30,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pthread/pthread1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="sigprocmask" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sigprocmask" TARGET_NAME="sigprocmask" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sigprocmask" RUN_TARGET_NAME="sigprocmask">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -59,6 +54,8 @@
       <workItem from="1603543972512" duration="932000" />
       <workItem from="1603546808587" duration="46000" />
       <workItem from="1603547465410" duration="46000" />
+      <workItem from="1604202435864" duration="946000" />
+      <workItem from="1604203403600" duration="466000" />
     </task>
     <servers />
   </component>
@@ -67,22 +64,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1603547510129" />
-    <state width="1320" height="193" key="GridCell.Tab.0.bottom" timestamp="1603538048947">
+    <state width="1320" height="200" key="GridCell.Tab.0.bottom" timestamp="1604203335292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603538048947" />
-    <state width="1320" height="193" key="GridCell.Tab.0.center" timestamp="1603538048947">
+    <state width="1320" height="200" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604203335292" />
+    <state width="1320" height="200" key="GridCell.Tab.0.center" timestamp="1604203335292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603538048947" />
-    <state width="1320" height="193" key="GridCell.Tab.0.left" timestamp="1603538048946">
+    <state width="1320" height="200" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604203335292" />
+    <state width="1320" height="200" key="GridCell.Tab.0.left" timestamp="1604203335291">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603538048946" />
-    <state width="1320" height="193" key="GridCell.Tab.0.right" timestamp="1603538048947">
+    <state width="1320" height="200" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604203335291" />
+    <state width="1320" height="200" key="GridCell.Tab.0.right" timestamp="1604203335292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603538048947" />
+    <state width="1320" height="200" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604203335292" />
     <state x="364" y="44" width="628" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603522976995">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

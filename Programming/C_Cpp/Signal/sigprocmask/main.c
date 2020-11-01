@@ -8,21 +8,18 @@ int main() {
     sigset_t sigset_new, sigset_old, sigset_pend;
 
     if (SIG_ERR == signal(SIGINT, (__sighandler_t) sig_handler))
-        MyError("signal");
+        err(EXIT_FAILURE, "signal");
 
-    sigemptyset(&sigset_new);
-    sigaddset(&sigset_new, SIGINT);
+    sigfillset(&sigset_new);
 
     // Create signal mask, and backup current signal to sigset_old
     if (sigprocmask(SIG_BLOCK, &sigset_new, &sigset_old) < 0)
-        MyError("sigprocmask");
+        err(EXIT_FAILURE, "sigprocmask");
 
-    puts("Signal SIGINT blocked");
-
-    sleep(3);
+    puts("All signal blocked");
 
     if (sigpending(&sigset_pend) < 0)
-        MyError("sigsuspend");
+        err(EXIT_FAILURE, "sigsuspend");
 
     if (sigismember(&sigset_pend, SIGINT))
         puts("SIGINT Suspend");
@@ -33,5 +30,4 @@ int main() {
     //puts("Signal SIGINT unblocked");
 
     sigsuspend(&sigset_old);
-
 }

@@ -15,17 +15,26 @@
 #include "allheaders.h"
 #include "MyShell.h"
 
+char home_path[1024];
+char *child_working_path;
+char *parent_working_path;
+
+// Default PATH value, it should be written my PATH="Value"
+char default_path_env[MAX_PAHT_LEN] = "/bin/";
+
+// New PATH value
+char new_path_env[MAX_PAHT_LEN] = { 0 };
+
+// Full path for executable file
+char full_exec_path[MAX_PAHT_LEN] = { 0 };
+
+int pid;
+int status;
+int builtin_flag = 0;
+
 int main(int argc, char *argv[]) {
 
-    int pid;
-    int status;
-    int builtin_flag = 0;
-
-
-    char home_path[1024];
-    char *child_working_path;
-    char *parent_working_path;
-
+    // signal(SIGINT, sig_int_handler);
     // Communicate with child, and tell parent child process' current
     // working directory, so parent process can change dir to it.
     // int pipe_fd[2];
@@ -33,15 +42,8 @@ int main(int argc, char *argv[]) {
     // if (pipe(pipe_fd) < 0)
     //     err(EXIT_FAILURE, "pipe");
 
-    // // Signal
-    // sigset_t sigset_old, sigset_new;
-
-    // // Parent process should ignore SIGINT
-    // sigemptyset(&sigset_old);
-    // sigaddset(&sigset_old, SIGINT);
-
-    // if (sigprocmask(SIG_BLOCK, &sigset_new, &sigset_old) < 0)
-    //     err(EXIT_FAILURE, "sigpromask");
+    if (signal(SIGINT, kill_child) == SIG_ERR)
+        err(EXIT_FAILURE, "signal");
 
     char *cmd = malloc(MAX_CMD_LEN * sizeof(char));
 
@@ -72,6 +74,20 @@ int main(int argc, char *argv[]) {
         parent_working_path = home_path;
     }
 
+    // Try to read configure file
+    FILE *fp;
+    fp = fopen(CONF_FILE, "r");
+
+    if (fp) {
+        set_env(fp);
+    } else {
+        // Configure file not found or something else wrong
+        // Set default path
+        char *tmp = "/bin/";
+
+        strncpy(new_path_env, tmp, strlen(tmp));
+    }
+
     for (;;) {
 
         // Reset flag
@@ -97,6 +113,12 @@ int main(int argc, char *argv[]) {
             builtin_flag = 1;
 
             builtin_cd(cmd);
+
+            // Update parent working directory
+            parent_working_path = get_current_dir_name();
+
+            // This is a command, so continue it
+            continue;
         }
 
         if ((pid = fork()) < 0) {
@@ -113,6 +135,14 @@ int main(int argc, char *argv[]) {
             char *arg;
 
             char *arg_list[MAX_ARGS];
+
+            /*
+             * Synchronous parent working directory with child working directory
+             * This is import, or you cannot cat file when cd, because shell doesn't
+             * know where it is
+            */
+            if (chdir(parent_working_path))
+                perror("chdir");
 
             // Malloc memory for each argument
             for (int i = 0; i < MAX_ARGS; ++i) {
@@ -139,20 +169,30 @@ int main(int argc, char *argv[]) {
             // The last argument must be NULL, or Bad address error
             arg_list[nargs -1] = NULL;
 
+            // Get full_exec_path
+            strcat(full_exec_path, strcat(new_path_env, arg_list[0]));
+
             // Only execute non builtin cmd
             if (!builtin_flag) {
-                if (execv(arg_list[0], arg_list) == -1)
+                if (execv(full_exec_path, arg_list) == -1)
                     err(EXIT_FAILURE, "execv");
             }
 
-        } else {    // parent
+        } else { // parent
+
+            // Wait for child
             if (wait(&status) != pid)
                 err(EXIT_FAILURE, "wait");
         }
     }
 }
 
+void kill_child(int i) {
+    kill(pid, SIGKILL);
+}
+
 void sig_int_handler(int a) {
+    puts("User interrupted");
     exit(EXIT_FAILURE);
 }
 
@@ -161,15 +201,37 @@ void builtin_exit(char *cmd) {
     exit(EXIT_SUCCESS);
 }
 
-void builtin_cd(char *cmd) {
+int builtin_cd(char *cmd) {
 
-    char *dir = strstr(cmd, "cd") + 1;
+    int err;
+
+    // If just input cd
+    if (strcmp(cmd, "cd") == 0) {
+        if ((err = chdir(home_path)) < 0)
+            perror("chdir");
+
+        return err;
+    }
+    char *dir = strstr(cmd, "cd") + 3;
     // stacat(parent_dir, dir);
-    if (chdir(parent_dir) < 0)
-        err(EXIT_FAILURE, "chdir");
+
+    if ((err = chdir(dir)) < 0)
+
+        // If error occurred, no need to exit, just promot
+        //err(EXIT_FAILURE, "chdir");
+        perror("chdir");
+
+    return err;
 }
 
-// CLT^L should supported
-void builtin_clear(char *cmd) {
-    execl("/usr/bin/clear", "clear", NULL);
+int set_env(FILE *config_file) {
+    char buf[1024];
+
+    fread(buf, 1024, 1, config_file);
+
+    // Find key word PAHT
+    char *tmp;
+    tmp = strstr(strstr(buf, "PATH"), "=");
+
+    strcpy(new_path_env, tmp);
 }

@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/coolder/Learning/Programming/C_Cpp/Header/MyError.h
-stdio.h
--
-stdlib.h
--
-
 /home/coolder/Learning/Programming/C_Cpp/Header/MyMacro.h
 
 /home/coolder/Learning/Programming/C_Cpp/Header/allheaders.h
@@ -65,8 +59,16 @@ pthread.h
 -
 setjmp.h
 -
-MyError.h
-/home/coolder/Learning/Programming/C_Cpp/Header/MyError.h
+termio.h
+-
+error.h
+-
+err.h
+-
+readline/readline.h
+-
+readline/history.h
+-
 MyMacro.h
 /home/coolder/Learning/Programming/C_Cpp/Header/MyMacro.h
 
