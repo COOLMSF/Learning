@@ -2,5 +2,13 @@
 #include "test.h"
 
 int main(int argc, char *argv[]) {
-    printf("%d", a);
+    char *env = getenv("PATH");
+    char *buf;
+
+    buf = strtok(env, ":");
+    while (buf) {
+        puts(buf);
+        buf = strtok(NULL, ":");
+    }
+
 }

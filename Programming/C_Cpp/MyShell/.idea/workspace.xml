@@ -29,16 +29,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Signal/sigprocmask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled1" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="MyShell" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyShell" TARGET_NAME="MyShell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyShell" RUN_TARGET_NAME="MyShell">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -73,7 +68,9 @@
       <workItem from="1604197785190" duration="1795000" />
       <workItem from="1604199593361" duration="1796000" />
       <workItem from="1604201585574" duration="1586000" />
-      <workItem from="1604203403611" duration="462000" />
+      <workItem from="1604203403611" duration="1356000" />
+      <workItem from="1604209999281" duration="1902000" />
+      <workItem from="1604245848520" duration="623000" />
     </task>
     <servers />
   </component>
@@ -82,10 +79,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="139" y="13" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604198283393" />
-    <state x="462" y="80" width="428" height="476" key="FileChooserDialogImpl" timestamp="1604202433423">
+    <state x="460" y="60" width="428" height="476" key="FileChooserDialogImpl" timestamp="1604245869880">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="462" y="80" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604202433423" />
+    <state x="460" y="60" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604245869880" />
     <state width="1320" height="220" key="GridCell.Tab.0.bottom" timestamp="1604199253633">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

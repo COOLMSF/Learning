@@ -117,9 +117,18 @@ int main(int argc, char *argv[]) {
             // Update parent working directory
             parent_working_path = get_current_dir_name();
 
-            // This is a command, so continue it
+            // This is a command, so continue this loop
             continue;
         }
+
+        /*
+         * If pipe symbol found, do something.
+         * this if little me me, we should analyze every arguments in every
+         * pipe command.
+         * do it later.
+        if (strstr(cmd, "|")) {
+        }
+         *
 
         if ((pid = fork()) < 0) {
             err(EXIT_FAILURE, "fork");

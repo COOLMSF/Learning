@@ -18,6 +18,7 @@ int main() {
 
     puts("All signal blocked");
 
+    sleep(3);
     if (sigpending(&sigset_pend) < 0)
         err(EXIT_FAILURE, "sigsuspend");
 

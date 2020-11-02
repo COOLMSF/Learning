@@ -21,14 +21,14 @@ int main() {
         dup2(pfd[1], 1);
 
         // Close pfd
-        close(pfd[0]);
+       // close(pfd[0]);
         //write(pfd[1], "hello from child", 100);
         puts("Hello from child");
 
     } else {    // Parent
         char message_from_child[100];
 
-        close(pfd[1]);
+        // close(pfd[1]);
 
         if (-1 == read(pfd[0], message_from_child, 100)) {
             perror("read");
@@ -37,5 +37,4 @@ int main() {
 
         puts(message_from_child);
     }
-
 }
