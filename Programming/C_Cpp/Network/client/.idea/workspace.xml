@@ -29,17 +29,23 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration name="bind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bind" TARGET_NAME="bind" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bind" RUN_TARGET_NAME="bind">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="bind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bind" TARGET_NAME="bind" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bind" RUN_TARGET_NAME="bind">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -57,10 +63,15 @@
       <workItem from="1604331965986" duration="1120000" />
       <workItem from="1604367255759" duration="745000" />
       <workItem from="1604369063778" duration="449000" />
+      <workItem from="1604485080904" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="802" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1604485093349">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="802" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604485093349" />
     <state width="1320" height="193" key="GridCell.Tab.0.bottom" timestamp="1604369511936">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

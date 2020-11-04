@@ -29,17 +29,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="bin_sh" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bin_sh" TARGET_NAME="bin_sh" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bin_sh" RUN_TARGET_NAME="bin_sh">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -53,26 +49,29 @@
       <updated>1604413598974</updated>
       <workItem from="1604413600168" duration="1177000" />
       <workItem from="1604414791260" duration="76000" />
+      <workItem from="1604455625288" duration="606000" />
+      <workItem from="1604484442446" duration="1928000" />
+      <workItem from="1604492880492" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1320" height="194" key="GridCell.Tab.0.bottom" timestamp="1604414523234">
+    <state width="622" height="186" key="GridCell.Tab.0.bottom" timestamp="1604485848060">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604414523234" />
-    <state width="1320" height="194" key="GridCell.Tab.0.center" timestamp="1604414523233">
+    <state width="622" height="186" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604485848060" />
+    <state width="622" height="186" key="GridCell.Tab.0.center" timestamp="1604485848060">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604414523233" />
-    <state width="1320" height="194" key="GridCell.Tab.0.left" timestamp="1604414523233">
+    <state width="622" height="186" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604485848060" />
+    <state width="622" height="186" key="GridCell.Tab.0.left" timestamp="1604485848059">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604414523233" />
-    <state width="1320" height="194" key="GridCell.Tab.0.right" timestamp="1604414523234">
+    <state width="622" height="186" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604485848059" />
+    <state width="622" height="186" key="GridCell.Tab.0.right" timestamp="1604485848060">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604414523234" />
+    <state width="622" height="186" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604485848060" />
     <state x="364" y="31" width="628" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604413614797">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
