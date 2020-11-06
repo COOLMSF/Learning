@@ -11,6 +11,7 @@ int main() {
 
     // Zero sockaddr_in6
     bzero(&sockaddr_in6, sizeof(sockaddr_in6));
+    sockaddr_in6.sin6_addr = in6addr_any;
 
     printf("%lu", sizeof(struct sockaddr_in6));
 

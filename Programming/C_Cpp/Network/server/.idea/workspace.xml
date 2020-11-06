@@ -57,30 +57,43 @@
       <workItem from="1604377314514" duration="375000" />
       <workItem from="1604485096400" duration="1274000" />
       <workItem from="1604492880414" duration="77000" />
+      <workItem from="1604561252685" duration="1499000" />
+      <workItem from="1604562764017" duration="1038000" />
+      <workItem from="1604564573728" duration="1182000" />
+      <workItem from="1604569940757" duration="679000" />
+      <workItem from="1604570630644" duration="585000" />
+      <workItem from="1604581484866" duration="287000" />
+      <workItem from="1604581787585" duration="1795000" />
+      <workItem from="1604583599415" duration="1040000" />
+      <workItem from="1604593112211" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="93" width="428" height="476" key="FileChooserDialogImpl" timestamp="1604492949246">
+    <state x="41" y="155" width="597" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604571183482">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="462" y="93" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604492949246" />
-    <state width="394" height="199" key="GridCell.Tab.0.bottom" timestamp="1604377689419">
+    <state x="41" y="155" width="597" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1604571183482" />
+    <state x="456" y="33" width="428" height="476" key="FileChooserDialogImpl" timestamp="1604571171095">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="394" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604377689419" />
-    <state width="394" height="199" key="GridCell.Tab.0.center" timestamp="1604377689418">
+    <state x="456" y="33" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604571171095" />
+    <state width="622" height="211" key="GridCell.Tab.0.bottom" timestamp="1604583915198">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="394" height="199" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604377689418" />
-    <state width="394" height="199" key="GridCell.Tab.0.left" timestamp="1604377689417">
+    <state width="622" height="211" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604583915198" />
+    <state width="622" height="211" key="GridCell.Tab.0.center" timestamp="1604583915197">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="394" height="199" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604377689417" />
-    <state width="394" height="199" key="GridCell.Tab.0.right" timestamp="1604377689418">
+    <state width="622" height="211" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604583915197" />
+    <state width="622" height="211" key="GridCell.Tab.0.left" timestamp="1604583915197">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="394" height="199" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604377689418" />
+    <state width="622" height="211" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604583915197" />
+    <state width="622" height="211" key="GridCell.Tab.0.right" timestamp="1604583915197">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="622" height="211" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604583915197" />
     <state width="1320" height="193" key="GridCell.Tab.1.bottom" timestamp="1604377689398">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -97,5 +110,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="193" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1604377689398" />
+    <state x="358" y="44" width="639" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604581914897">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="358" y="44" width="639" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1604581914897" />
   </component>
 </project>

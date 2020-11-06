@@ -27,22 +27,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bind" TARGET_NAME="bind" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bind" RUN_TARGET_NAME="bind">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -64,30 +55,38 @@
       <workItem from="1604367255759" duration="745000" />
       <workItem from="1604369063778" duration="449000" />
       <workItem from="1604485080904" duration="14000" />
+      <workItem from="1604558620284" duration="84000" />
+      <workItem from="1604561383879" duration="986000" />
+      <workItem from="1604569583235" duration="1035000" />
+      <workItem from="1604570630847" duration="3761000" />
+      <workItem from="1604579976468" duration="1435000" />
+      <workItem from="1604581788110" duration="1795000" />
+      <workItem from="1604583599407" duration="1048000" />
+      <workItem from="1604593112750" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="802" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1604485093349">
+    <state x="800" y="93" width="428" height="476" key="FileChooserDialogImpl" timestamp="1604569938424">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="802" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604485093349" />
-    <state width="1320" height="193" key="GridCell.Tab.0.bottom" timestamp="1604369511936">
+    <state x="800" y="93" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604569938424" />
+    <state width="622" height="199" key="GridCell.Tab.0.bottom" timestamp="1604583951918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604369511936" />
-    <state width="1320" height="193" key="GridCell.Tab.0.center" timestamp="1604369511933">
+    <state width="622" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604583951918" />
+    <state width="622" height="199" key="GridCell.Tab.0.center" timestamp="1604583951918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604369511933" />
-    <state width="1320" height="193" key="GridCell.Tab.0.left" timestamp="1604369511932">
+    <state width="622" height="199" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604583951918" />
+    <state width="622" height="199" key="GridCell.Tab.0.left" timestamp="1604583951917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604369511932" />
-    <state width="1320" height="193" key="GridCell.Tab.0.right" timestamp="1604369511934">
+    <state width="622" height="199" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604583951917" />
+    <state width="622" height="199" key="GridCell.Tab.0.right" timestamp="1604583951918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604369511934" />
+    <state width="622" height="199" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604583951918" />
     <state width="1320" height="194" key="GridCell.Tab.1.bottom" timestamp="1604330229741">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -104,10 +103,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="194" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1604330229741" />
-    <state x="165" y="18" width="1026" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604327720834">
+    <state x="163" y="-2" width="1026" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604569857631">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="165" y="18" width="1026" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1604327720834" />
+    <state x="163" y="-2" width="1026" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1604569857631" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604329404146">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

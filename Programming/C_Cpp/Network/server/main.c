@@ -25,19 +25,29 @@ int main() {
     if (listen(socket_fd, 1) == -1)
         err(EXIT_FAILURE, "listen");
 
-    int n;
-    char buf[1024];
-
     for (;;) {
+        int connfd;
+        pid_t pid;
         struct sockaddr_in structsockaddr_in;
         socklen_t socklen = sizeof(structsockaddr_in);
 
-        while ((n = read(accept(socket_fd, &structsockaddr_in, &socklen), buf, sizeof(buf))) > 0) {
-            printf("Received from %s\n", inet_ntoa(structsockaddr_in.sin_addr));
-            write(STDOUT_FILENO, buf, n);
-        }
+        connfd = Accept(socket_fd, (struct sockaddr *) &structsockaddr_in, &socklen);
 
-        if (n < 0)
-            err(EXIT_FAILURE, "read");
+        pid = fork();
+
+        if (pid == 0) {
+            int n;
+            char buf[MAXLINE] = {0};
+
+            while ( (Readline(connfd, buf, MAXLINE) ) > 0 ) {
+                fputs(buf, stdout);
+            }
+
+            if (n == 0)
+                err_quit("EOF");
+
+            if (n < 0)
+                err(EXIT_FAILURE, "read");
+        }
     }
 }
