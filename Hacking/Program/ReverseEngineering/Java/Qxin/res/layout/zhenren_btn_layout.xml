@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_live_video" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_width="@dimen/y90" android:layout_height="@dimen/x90" android:src="@mipmap/zrsx" />
-    <TextView android:textSize="@dimen/y35" android:textColor="@color/color_table_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="真人" />
-</LinearLayout>

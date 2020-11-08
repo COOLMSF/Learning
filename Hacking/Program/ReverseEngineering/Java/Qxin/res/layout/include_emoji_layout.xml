@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/home_emoji" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.send_msg_lib.widget.WrapContentHeightViewPager android:id="@id/vp_emoji" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
-    <com.send_msg_lib.widget.IndicatorView android:layout_gravity="bottom" android:id="@id/ind_emoji" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="16.0dip" app:gravity="0" app:indicatorColor="#668b8989" app:indicatorColorSelected="#ffffffff" app:indicatorWidth="6" />
-</LinearLayout>

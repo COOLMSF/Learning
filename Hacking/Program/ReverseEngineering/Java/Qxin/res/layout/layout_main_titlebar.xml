@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.chat.widgets.TitleBar android:id="@id/main_title_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="55.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

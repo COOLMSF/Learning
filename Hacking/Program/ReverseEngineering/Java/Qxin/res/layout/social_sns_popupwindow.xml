@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_praise_or_comment" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:gravity="center" android:id="@id/digBtn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="赞" android:layout_weight="1.0" />
-    <View android:background="#ff707070" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" />
-    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:gravity="center" android:id="@id/commentBtn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="评论" android:layout_weight="1.0" />
-</LinearLayout>

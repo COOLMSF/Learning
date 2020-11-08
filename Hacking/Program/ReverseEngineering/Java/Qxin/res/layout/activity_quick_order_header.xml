@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.chat.hotgame.ui.custom.HHLinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/y40" android:paddingRight="@dimen/y40" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y40"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/y40" android:textColor="#ff555555" android:id="@id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="有效投注: " />
-    <TextView android:textSize="@dimen/y40" android:textColor="#ffd91414" android:id="@id/tv_touzhu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y15" android:text="0.00" />
-    <TextView android:textSize="@dimen/y40" android:textColor="#ff555555" android:id="@id/tv2" android:paddingLeft="@dimen/y40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y25" android:text="奖金收入: " />
-    <TextView android:textSize="@dimen/y40" android:textColor="#ffd91414" android:id="@id/tv_income" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y15" android:text="0.00" />
-    <TextView android:textSize="@dimen/y40" android:textColor="#ff555555" android:id="@id/tv3" android:paddingLeft="@dimen/y40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y25" android:text="盈亏: " android:layout_toRightOf="@id/tv_income" />
-</com.chat.hotgame.ui.custom.HHLinearLayout>

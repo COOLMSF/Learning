@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/buy_grid_selector1" android:paddingLeft="@dimen/y30" android:paddingTop="@dimen/y35" android:paddingRight="@dimen/y30" android:paddingBottom="@dimen/y35" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/y150"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/img_pay" android:layout_width="@dimen/y100" android:layout_height="@dimen/y100" android:scaleType="fitXY" />
-    <TextView android:textSize="@dimen/y40" android:textColor="@color/colorblack" android:id="@id/tv_payName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/y40" android:text="银行卡转账" android:layout_weight="1.0" />
-    <View android:background="@mipmap/ic_arrow_right" android:visibility="gone" android:layout_width="@dimen/y70" android:layout_height="@dimen/y70" android:layout_weight="0.0" />
-</LinearLayout>

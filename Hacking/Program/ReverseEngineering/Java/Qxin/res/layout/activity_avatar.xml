@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ffefeff4" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/titlebar_nor" />
-    <GridView android:id="@id/grid_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/y20" android:verticalSpacing="@dimen/y20" android:numColumns="4" />
-</LinearLayout>

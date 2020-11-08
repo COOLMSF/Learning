@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/sp_10" android:textColor="@color/textLink" android:gravity="center" android:id="@id/tvIndex" android:paddingTop="@dimen/pt_5" android:paddingBottom="@dimen/pt_5" android:layout_width="@dimen/pt_30" android:layout_height="wrap_content" android:lines="1" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

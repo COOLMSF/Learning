@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_bg_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="80.0dip">
-        <TextView android:textSize="@dimen/y35" android:textStyle="bold" android:textColor="@color/orange_500" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0人" />
-        <TextView android:textSize="@dimen/y35" android:textColor="#ffaaaaaa" android:id="@id/tv_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="团队人数:" />
-    </LinearLayout>
-</FrameLayout>

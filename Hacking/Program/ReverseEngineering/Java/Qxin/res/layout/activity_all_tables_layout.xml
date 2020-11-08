@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ffefeff4" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/titlebar_nor" />
-    <TextView android:textSize="@dimen/y35" android:textColor="@color/color_black" android:gravity="center_vertical" android:id="@id/tv_person" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:text="个人报表" />
-    <View android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="0.100000024dip" android:layout_margin="5.0dip" />
-    <TextView android:textSize="@dimen/y35" android:textColor="@color/color_black" android:gravity="center_vertical" android:id="@id/tv_agent" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="代理报表" />
-    <View android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="0.100000024dip" android:layout_margin="5.0dip" />
-</LinearLayout>

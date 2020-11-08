@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/y1000"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/y35" android:textColor="@color/colorblack" android:gravity="center" android:id="@id/tv_title" android:background="#ffefeff4" android:layout_width="fill_parent" android:layout_height="@dimen/y120" android:text="支持开户银行" />
-    <com.chat.hotgame.ui.custom.MaxListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:cacheColorHint="@null" android:divider="#ffc8c7cc" android:dividerHeight="0.0px" />
-</LinearLayout>

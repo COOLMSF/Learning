@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvSaoYiSao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:text="扫一扫" android:drawableLeft="@drawable/add_friend_icon_scanqr" android:drawablePadding="@dimen/dp_10" />
-    <View android:background="@color/transparentq_white" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10" style="@style/Line05" />
-    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvAddFriend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:text="添加朋友" android:drawableLeft="@drawable/barbuttonicon_add_cube" android:drawablePadding="@dimen/dp_10" />
-    <View android:background="@color/transparentq_white" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10" style="@style/Line05" />
-    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvFaQiQunLiao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:text="发起群聊" android:drawableLeft="@drawable/contacts_add_newmessage" android:drawablePadding="@dimen/dp_10" />
-</LinearLayout>

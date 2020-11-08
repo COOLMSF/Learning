@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0sp" android:textColor="@color/color_232323" android:gravity="center_vertical" android:id="@id/copyTv" android:background="@drawable/selector_adapter_item_bg" android:paddingLeft="10.0dip" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="复制" />
-    <ImageView android:background="@drawable/basic_skin_icon_dot_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:scaleType="fitXY" />
-    <TextView android:textSize="16.0sp" android:textColor="@color/color_232323" android:gravity="center_vertical" android:id="@id/deleteTv" android:background="@drawable/selector_adapter_item_bg" android:paddingLeft="10.0dip" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="删除" />
-</LinearLayout>

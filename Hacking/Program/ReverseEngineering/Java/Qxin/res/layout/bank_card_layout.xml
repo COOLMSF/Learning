@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/ll_root" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_bag" android:layout_width="fill_parent" android:layout_height="170.0dip" android:src="@mipmap/bank_bg01" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
-    <ImageView android:background="@mipmap/icon_unionpay" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:layout_alignRight="@id/iv_bag" android:layout_alignBottom="@id/iv_bag" />
-    <TextView android:textSize="@dimen/y39" android:textColor="@color/orange_500" android:id="@id/bankCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="63.0dip" android:text="\ 6200000000" android:layout_alignParentTop="true" android:layout_alignStart="@id/bankName" />
-    <TextView android:textSize="@dimen/y39" android:textColor="@color/white" android:id="@id/bankName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="工商银行" android:layout_alignParentTop="true" android:layout_marginStart="42.0dip" android:layout_alignParentStart="true" />
-    <TextView android:textSize="@dimen/y39" android:textColor="@color/orange_500" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小明" android:layout_alignTop="@id/bankName" android:layout_marginEnd="49.0dip" android:layout_alignParentEnd="true" />
-</RelativeLayout>

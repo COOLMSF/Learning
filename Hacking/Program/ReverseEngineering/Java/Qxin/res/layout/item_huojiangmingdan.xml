@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/y35" android:textColor="@color/white" android:id="@id/tvUser" android:layout_width="@dimen/x300" android:layout_height="@dimen/y80" android:layout_marginStart="@dimen/x30" />
-    <TextView android:textSize="@dimen/y35" android:textColor="@color/white" android:id="@id/tvMoney" android:layout_width="wrap_content" android:layout_height="@dimen/y80" android:layout_marginStart="@dimen/x30" />
-    <TextView android:textSize="@dimen/y35" android:textColor="@color/white" android:id="@id/tvDate" android:layout_width="wrap_content" android:layout_height="@dimen/y80" />
-</LinearLayout>

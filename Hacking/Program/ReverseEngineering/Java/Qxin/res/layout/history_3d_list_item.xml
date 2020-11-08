@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_history_quilk3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/y100"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/y36" android:textColor="@color/colorblack" android:gravity="center" android:id="@id/tv_issue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="20180417" android:layout_weight="0.8" />
-    <com.chat.hotgame.ui.custom.BollsTextView android:id="@id/tv_bolls" android:layout_width="0.0dip" android:layout_height="@dimen/y100" android:layout_weight="1.0" zhy:bollsMarginLeft="@dimen/y15" zhy:bollsRadius="@dimen/y28" zhy:bollsTextSize="@dimen/y30" zhy:bolls_gravity="center" xmlns:zhy="http://schemas.android.com/apk/res-auto" />
-    <com.chat.hotgame.ui.custom.BollsTextView android:id="@id/tv_dxstatus" android:layout_width="0.0dip" android:layout_height="@dimen/y100" android:layout_weight="1.0" zhy:bollsMarginLeft="@dimen/y15" zhy:bollsRadius="@dimen/y28" zhy:bollsTextSize="@dimen/y30" zhy:bolls_gravity="center" xmlns:zhy="http://schemas.android.com/apk/res-auto" />
-    <com.chat.hotgame.ui.custom.BollsTextView android:id="@id/tv_dsstatus" android:layout_width="0.0dip" android:layout_height="@dimen/y100" android:layout_weight="1.0" zhy:bollsMarginLeft="@dimen/y15" zhy:bollsRadius="@dimen/y28" zhy:bollsTextSize="@dimen/y30" zhy:bolls_gravity="center" xmlns:zhy="http://schemas.android.com/apk/res-auto" />
-    <TextView android:textSize="@dimen/y36" android:textColor="@color/colorblack" android:gravity="center" android:id="@id/tv_add" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="17" android:layout_weight="0.5" />
-</LinearLayout>

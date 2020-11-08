@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/gray_F2F2F2" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
-        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left" android:id="@id/tv_back" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="群公告" android:drawableLeft="@mipmap/icon_back_black" android:drawablePadding="@dimen/dp_10" />
-    </RelativeLayout>
-    <TextView android:textSize="@dimen/sp_15" android:textColor="@color/gray_333333" android:gravity="center_vertical" android:id="@id/txt_group_name" android:background="@drawable/setting_item_selector" android:paddingLeft="20.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" style="@style/TxtTitle" />
-    <TextView android:textSize="@dimen/sp_15" android:textColor="@color/gray_333333" android:gravity="center_vertical" android:id="@id/txt_content" android:background="@drawable/setting_item_selector" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" style="@style/TxtTitle" />
-</LinearLayout>

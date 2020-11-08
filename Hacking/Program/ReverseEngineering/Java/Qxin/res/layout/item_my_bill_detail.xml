@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/ll_text_receive" android:background="@color/white" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0sp" android:textColor="@color/gray_333333" android:layout_gravity="center_horizontal" android:id="@id/item_tv_name" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="转账" />
-    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_orange" android:layout_gravity="center_horizontal" android:id="@id/item_tv_amount" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+405.32" android:layout_alignBaseline="@id/item_tv_name" android:layout_alignParentRight="true" />
-    <TextView android:textSize="13.0sp" android:textColor="@color/aluminum" android:layout_gravity="center_horizontal" android:id="@id/item_tv_time" android:paddingLeft="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="08-25 08:25:15" android:layout_below="@id/item_tv_name" android:layout_alignLeft="@id/item_tv_name" android:layout_alignParentRight="true" />
-</RelativeLayout>

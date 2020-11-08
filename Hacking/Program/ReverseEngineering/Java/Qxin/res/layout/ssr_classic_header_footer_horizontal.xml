@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/ssr_classics_progress" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="20.0dip" android:src="@android:drawable/stat_notify_sync" android:tint="#ff666666" android:layout_above="@id/ssr_classics_title" android:layout_centerHorizontal="true" android:contentDescription="@android:string/untitled" />
-    <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:id="@id/ssr_classics_title" android:layout_width="16.0dip" android:layout_height="wrap_content" android:text="@string/ssr_header_pulling" android:layout_centerInParent="true" />
-</merge>

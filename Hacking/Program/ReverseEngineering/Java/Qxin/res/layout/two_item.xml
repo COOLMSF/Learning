@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/y125"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.chat.hotgame.ui.custom.CustomCheckBox android:id="@id/cb_1" style="@style/custom_checkbox" />
-    <com.chat.hotgame.ui.custom.CustomCheckBox android:id="@id/cb_2" style="@style/custom_checkbox" />
-</LinearLayout>

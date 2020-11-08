@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:text="设置备注和标签" android:layout_centerVertical="true" />
-    <com.coorchice.library.SuperTextView android:id="@id/iv" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_30" android:layout_marginRight="@dimen/dp_10" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:stv_corner="@dimen/dp_20" app:stv_drawableAsBackground="true" app:stv_state_drawable="@color/green" />
-</RelativeLayout>

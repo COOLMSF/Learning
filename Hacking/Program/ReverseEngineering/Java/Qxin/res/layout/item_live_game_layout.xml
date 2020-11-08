@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="40.0dip">
-        <TextView android:textSize="@dimen/y35" android:textColor="@color/color_black" android:gravity="center" android:id="@id/tv_game_name" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="游戏" android:layout_weight="1.0" />
-        <TextView android:textSize="@dimen/y35" android:textColor="@color/color_black" android:gravity="center" android:id="@id/tv_touzhu_amount" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="183.25" android:layout_weight="1.0" />
-        <TextView android:textSize="@dimen/y35" android:textColor="@color/color_black" android:gravity="center" android:id="@id/tv_shuying_amount" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="12.25" android:layout_weight="1.0" />
-    </LinearLayout>
-</LinearLayout>

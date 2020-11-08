@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/titleBar" layout="@layout/include_title_bar" />
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titleBar" app:srlEnableLoadMore="false">
-        <com.yanzhenjie.recyclerview.SwipeRecyclerView android:id="@id/rvAddress" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
-    <android.support.v7.widget.RecyclerView android:id="@id/userIndex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-</RelativeLayout>

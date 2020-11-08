@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/smartlistview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlEnableLoadMore="false" app:srlEnablePreviewInEditMode="false">
-        <ListView android:id="@id/lv_balance" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/transparent" android:dividerHeight="0.0dip" />
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
-</LinearLayout>
