@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="glib_split" targetName="glib_split" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="417139e2-4624-4cee-809c-00a7c4f8b201" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1k3dSNRpU5q6hzwDk452o3DTekC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glib_split" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="glib_split" TARGET_NAME="glib_split" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="glib_split" RUN_TARGET_NAME="glib_split">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="417139e2-4624-4cee-809c-00a7c4f8b201" name="Default Changelist" comment="" />
+      <created>1604933208105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604933208105</updated>
+      <workItem from="1604933209460" duration="1105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1320" height="193" key="GridCell.Tab.0.bottom" timestamp="1604933712626">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604933712626" />
+    <state width="1320" height="193" key="GridCell.Tab.0.center" timestamp="1604933712626">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604933712626" />
+    <state width="1320" height="193" key="GridCell.Tab.0.left" timestamp="1604933712626">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604933712626" />
+    <state width="1320" height="193" key="GridCell.Tab.0.right" timestamp="1604933712626">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604933712626" />
+    <state x="161" y="24" width="1030" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604933298405">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="161" y="24" width="1030" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1604933298405" />
+  </component>
+</project>

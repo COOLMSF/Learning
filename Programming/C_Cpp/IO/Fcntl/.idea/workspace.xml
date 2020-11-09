@@ -37,11 +37,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -58,10 +53,15 @@
       <updated>1604821634342</updated>
       <workItem from="1604821635562" duration="1575000" />
       <workItem from="1604825874896" duration="608000" />
+      <workItem from="1604852292157" duration="91000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="459" y="74" width="428" height="506" key="FileChooserDialogImpl" timestamp="1604852333909">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="459" y="74" width="428" height="506" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604852333909" />
     <state x="398" y="4" width="551" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604822023826">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

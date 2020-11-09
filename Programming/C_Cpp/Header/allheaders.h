@@ -30,15 +30,17 @@
 #include<error.h>
 #include<err.h>
 
+#include <curses.h>
+
 // Include book header
 #include "../APUE/apue.3e/include/apue.h"
 #include "../Network/unpv13e/lib/unp.h"
 // Conflict with unp.h
 // #include<readline/readline.h>
-// #include<readline/history.h>
+#include<readline/history.h>
 
 // Include my error hanlder header file
 #include "MyMacro.h"
 
-//#include <glib-2.0/glib.h>
-//#include "glib-2.0/glib/glist.h"
+#include <glib-2.0/glib.h>
+#include "glib-2.0/glib/glist.h"
