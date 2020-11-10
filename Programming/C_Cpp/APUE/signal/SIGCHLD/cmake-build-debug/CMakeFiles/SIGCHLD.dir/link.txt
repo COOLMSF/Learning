@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/SIGCHLD.dir/main.c.o -o SIGCHLD  -lglib-2.0 

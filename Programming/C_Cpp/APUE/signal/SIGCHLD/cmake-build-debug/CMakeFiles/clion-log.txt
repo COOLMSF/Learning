@@ -1,0 +1,7 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" /home/coolder/Learning/Programming/C_Cpp/APUE/SIGCHLD
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.7.3") 
+-- Checking for module 'glib-2.0'
+--   Found glib-2.0, version 2.66.2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/coolder/Learning/Programming/C_Cpp/APUE/SIGCHLD/cmake-build-debug

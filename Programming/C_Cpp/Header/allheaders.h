@@ -42,5 +42,5 @@
 // Include my error hanlder header file
 #include "MyMacro.h"
 
-#include <glib-2.0/glib.h>
-#include "glib-2.0/glib/glist.h"
+// #include <glib-2.0/glib.h>
+// #include "glib-2.0/glib/glist.h"
