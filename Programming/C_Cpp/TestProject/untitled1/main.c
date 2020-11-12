@@ -1,3 +1,4 @@
+#include <net/if_arp.h>
 #include "allheaders.h"
 #include "test.h"
 
@@ -10,5 +11,4 @@ int main(int argc, char *argv[]) {
         puts(buf);
         buf = strtok(NULL, ":");
     }
-
 }

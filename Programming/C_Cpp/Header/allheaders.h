@@ -29,6 +29,7 @@
 #include<termio.h>
 #include<error.h>
 #include<err.h>
+#include<sys/ioctl.h>
 
 #include <curses.h>
 

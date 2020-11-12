@@ -30,7 +30,8 @@ int main(int argc, char *argv[]) {
         recv_len = Recvfrom(sockfd, recv_buf, sizeof(recv_buf), 0, (struct sockaddr *) &sa_in, &clilen);
         printf("Receive buf:%s\n", recv_buf);
 
-        fwrite(recv_buf, sizeof(recv_buf), 1, fp);
+        if (fwrite(recv_buf, sizeof(recv_buf), 1, fp) < 0)
+            err_sys("fwrite");
 
         if (recv_len == 0) {
             puts("EOF");
