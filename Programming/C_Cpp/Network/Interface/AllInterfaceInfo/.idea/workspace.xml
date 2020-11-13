@@ -29,16 +29,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UDP/Another" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="AllInterfaceInfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AllInterfaceInfo" TARGET_NAME="AllInterfaceInfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AllInterfaceInfo" RUN_TARGET_NAME="AllInterfaceInfo">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllInterfaceInfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AllInterfaceInfo" TARGET_NAME="AllInterfaceInfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AllInterfaceInfo" RUN_TARGET_NAME="AllInterfaceInfo">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -58,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605184198166</updated>
       <workItem from="1605184199362" duration="5347000" />
+      <workItem from="1605190833371" duration="702000" />
     </task>
     <servers />
   </component>

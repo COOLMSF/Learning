@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/coolder/Learning/Programming/C_Cpp/Network/AllInterfaceInfo/main.c" "/home/coolder/Learning/Programming/C_Cpp/Network/AllInterfaceInfo/cmake-build-debug/CMakeFiles/AllInterfaceInfo.dir/main.c.o"
+  "/home/coolder/Learning/Programming/C_Cpp/Network/Interface/AllInterfaceInfo/main.c" "/home/coolder/Learning/Programming/C_Cpp/Network/Interface/AllInterfaceInfo/cmake-build-debug/CMakeFiles/AllInterfaceInfo.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

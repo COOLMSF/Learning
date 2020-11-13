@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/coolder/Learning/Programming/C_Cpp/APUE/apue.3e/include/apue.h
+/home/coolder/CLionProjects/C_Cpp/APUE/apue.3e/include/apue.h
 sys/types.h
 -
 sys/stat.h
@@ -28,9 +28,9 @@ unistd.h
 signal.h
 -
 
-/home/coolder/Learning/Programming/C_Cpp/Header/MyMacro.h
+/home/coolder/CLionProjects/C_Cpp/Header/MyMacro.h
 
-/home/coolder/Learning/Programming/C_Cpp/Header/allheaders.h
+/home/coolder/CLionProjects/C_Cpp/Header/allheaders.h
 arpa/inet.h
 -
 assert.h
@@ -89,24 +89,26 @@ error.h
 -
 err.h
 -
+sys/ioctl.h
+-
+curses.h
+-
 ../APUE/apue.3e/include/apue.h
-/home/coolder/Learning/Programming/C_Cpp/APUE/apue.3e/include/apue.h
+/home/coolder/CLionProjects/C_Cpp/APUE/apue.3e/include/apue.h
 ../Network/unpv13e/lib/unp.h
-/home/coolder/Learning/Programming/C_Cpp/Network/unpv13e/lib/unp.h
+/home/coolder/CLionProjects/C_Cpp/Network/unpv13e/lib/unp.h
+readline/history.h
+-
 MyMacro.h
-/home/coolder/Learning/Programming/C_Cpp/Header/MyMacro.h
+/home/coolder/CLionProjects/C_Cpp/Header/MyMacro.h
 
-/home/coolder/Learning/Programming/C_Cpp/Network/client/main.c
-allheaders.h
-/home/coolder/Learning/Programming/C_Cpp/Network/client/allheaders.h
+/home/coolder/CLionProjects/C_Cpp/Network/unpv13e/config.h
 
-/home/coolder/Learning/Programming/C_Cpp/Network/unpv13e/config.h
+/home/coolder/CLionProjects/C_Cpp/Network/unpv13e/lib/addrinfo.h
 
-/home/coolder/Learning/Programming/C_Cpp/Network/unpv13e/lib/addrinfo.h
-
-/home/coolder/Learning/Programming/C_Cpp/Network/unpv13e/lib/unp.h
+/home/coolder/CLionProjects/C_Cpp/Network/unpv13e/lib/unp.h
 ../config.h
-/home/coolder/Learning/Programming/C_Cpp/Network/unpv13e/config.h
+/home/coolder/CLionProjects/C_Cpp/Network/unpv13e/config.h
 sys/types.h
 -
 sys/socket.h
@@ -172,5 +174,9 @@ net/if_dl.h
 netinet/sctp.h
 -
 ../lib/addrinfo.h
-/home/coolder/Learning/Programming/C_Cpp/Network/unpv13e/lib/addrinfo.h
+/home/coolder/CLionProjects/C_Cpp/Network/unpv13e/lib/addrinfo.h
+
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/main.c
+allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/allheaders.h
 
