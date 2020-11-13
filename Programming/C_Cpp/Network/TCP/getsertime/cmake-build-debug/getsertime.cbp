@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="getsertime">
-				<Option output="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/libgetsertime.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug"/>
+				<Option output="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/libgetsertime.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 getsertime"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 getsertime"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="getsertime/fast">
-				<Option output="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/libgetsertime.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug"/>
+				<Option output="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/libgetsertime.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -69,20 +69,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 getsertime/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 getsertime/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/library.c">
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/library.c">
 			<Option target="getsertime"/>
 		</Unit>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/library.h">
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/library.h">
 			<Option target="getsertime"/>
 		</Unit>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/CMakeLists.txt">
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

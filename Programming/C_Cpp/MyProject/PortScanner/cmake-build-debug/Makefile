@@ -142,6 +142,33 @@ PortScanner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/build
 .PHONY : PortScanner/fast
 
+has_network_addr.o: has_network_addr.c.o
+
+.PHONY : has_network_addr.o
+
+# target to build an object file
+has_network_addr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/has_network_addr.c.o
+.PHONY : has_network_addr.c.o
+
+has_network_addr.i: has_network_addr.c.i
+
+.PHONY : has_network_addr.i
+
+# target to preprocess a source file
+has_network_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/has_network_addr.c.i
+.PHONY : has_network_addr.c.i
+
+has_network_addr.s: has_network_addr.c.s
+
+.PHONY : has_network_addr.s
+
+# target to generate assembly for a file
+has_network_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/has_network_addr.c.s
+.PHONY : has_network_addr.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -169,6 +196,87 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/main.c.s
 .PHONY : main.c.s
 
+resolve_domain_name.o: resolve_domain_name.c.o
+
+.PHONY : resolve_domain_name.o
+
+# target to build an object file
+resolve_domain_name.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/resolve_domain_name.c.o
+.PHONY : resolve_domain_name.c.o
+
+resolve_domain_name.i: resolve_domain_name.c.i
+
+.PHONY : resolve_domain_name.i
+
+# target to preprocess a source file
+resolve_domain_name.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/resolve_domain_name.c.i
+.PHONY : resolve_domain_name.c.i
+
+resolve_domain_name.s: resolve_domain_name.c.s
+
+.PHONY : resolve_domain_name.s
+
+# target to generate assembly for a file
+resolve_domain_name.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/resolve_domain_name.c.s
+.PHONY : resolve_domain_name.c.s
+
+scan.o: scan.c.o
+
+.PHONY : scan.o
+
+# target to build an object file
+scan.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/scan.c.o
+.PHONY : scan.c.o
+
+scan.i: scan.c.i
+
+.PHONY : scan.i
+
+# target to preprocess a source file
+scan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/scan.c.i
+.PHONY : scan.c.i
+
+scan.s: scan.c.s
+
+.PHONY : scan.s
+
+# target to generate assembly for a file
+scan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/scan.c.s
+.PHONY : scan.c.s
+
+sig_handler.o: sig_handler.c.o
+
+.PHONY : sig_handler.o
+
+# target to build an object file
+sig_handler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/sig_handler.c.o
+.PHONY : sig_handler.c.o
+
+sig_handler.i: sig_handler.c.i
+
+.PHONY : sig_handler.i
+
+# target to preprocess a source file
+sig_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/sig_handler.c.i
+.PHONY : sig_handler.c.i
+
+sig_handler.s: sig_handler.c.s
+
+.PHONY : sig_handler.s
+
+# target to generate assembly for a file
+sig_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PortScanner.dir/build.make CMakeFiles/PortScanner.dir/sig_handler.c.s
+.PHONY : sig_handler.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,9 +286,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PortScanner"
+	@echo "... has_network_addr.o"
+	@echo "... has_network_addr.i"
+	@echo "... has_network_addr.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... resolve_domain_name.o"
+	@echo "... resolve_domain_name.i"
+	@echo "... resolve_domain_name.s"
+	@echo "... scan.o"
+	@echo "... scan.i"
+	@echo "... scan.s"
+	@echo "... sig_handler.o"
+	@echo "... sig_handler.i"
+	@echo "... sig_handler.s"
 .PHONY : help
 
 

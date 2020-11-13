@@ -29,6 +29,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Network/TCP/client" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
@@ -56,15 +57,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605191665574</updated>
-      <workItem from="1605191666668" duration="9779000" />
+      <workItem from="1605191666668" duration="28702000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="74" width="428" height="506" key="FileChooserDialogImpl" timestamp="1605229700391">
+    <state x="455" y="34" width="428" height="506" key="FileChooserDialogImpl" timestamp="1605253723765">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="459" y="74" width="428" height="506" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605229700391" />
+    <state x="455" y="34" width="428" height="506" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605253723765" />
     <state width="1320" height="194" key="GridCell.Tab.0.bottom" timestamp="1605198198788">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -81,9 +82,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="194" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605198198788" />
-    <state x="155" y="-40" width="1041" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605191767409">
+    <state x="153" y="-60" width="1041" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605250522339">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="155" y="-40" width="1041" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1605191767409" />
+    <state x="153" y="-60" width="1041" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1605250522339" />
+    <state x="0" y="0" width="641" height="768" key="find.popup" timestamp="1605239328165">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" width="641" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1605239328165" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605239331348">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1605239331348" />
   </component>
 </project>

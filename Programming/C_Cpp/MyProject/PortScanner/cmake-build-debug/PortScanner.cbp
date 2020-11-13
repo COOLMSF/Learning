@@ -78,7 +78,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/has_network_addr.c">
+			<Option target="PortScanner"/>
+		</Unit>
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/main.c">
+			<Option target="PortScanner"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/port_scanner.h">
+			<Option target="PortScanner"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/resolve_domain_name.c">
+			<Option target="PortScanner"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/scan.c">
+			<Option target="PortScanner"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/sig_handler.c">
 			<Option target="PortScanner"/>
 		</Unit>
 		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/CMakeLists.txt">

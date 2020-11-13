@@ -176,7 +176,33 @@ netinet/sctp.h
 ../lib/addrinfo.h
 /home/coolder/CLionProjects/C_Cpp/Network/unpv13e/lib/addrinfo.h
 
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/has_network_addr.c
+allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/allheaders.h
+port_scanner.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/port_scanner.h
+
 /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/main.c
+allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/allheaders.h
+port_scanner.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/port_scanner.h
+
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/port_scanner.h
+
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/resolve_domain_name.c
+allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/allheaders.h
+port_scanner.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/port_scanner.h
+
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/scan.c
+allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/allheaders.h
+port_scanner.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/port_scanner.h
+
+/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/sig_handler.c
 allheaders.h
 /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/allheaders.h
 

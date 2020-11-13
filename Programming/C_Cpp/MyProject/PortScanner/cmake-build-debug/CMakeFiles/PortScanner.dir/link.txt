@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/PortScanner.dir/main.c.o -o PortScanner  /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a 
+/usr/bin/cc -g CMakeFiles/PortScanner.dir/main.c.o CMakeFiles/PortScanner.dir/scan.c.o CMakeFiles/PortScanner.dir/has_network_addr.c.o CMakeFiles/PortScanner.dir/resolve_domain_name.c.o CMakeFiles/PortScanner.dir/sig_handler.c.o -o PortScanner  /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a 

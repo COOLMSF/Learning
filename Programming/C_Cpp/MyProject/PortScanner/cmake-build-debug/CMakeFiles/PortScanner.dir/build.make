@@ -89,18 +89,78 @@ CMakeFiles/PortScanner.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PortScanner.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/main.c -o CMakeFiles/PortScanner.dir/main.c.s
 
+CMakeFiles/PortScanner.dir/scan.c.o: CMakeFiles/PortScanner.dir/flags.make
+CMakeFiles/PortScanner.dir/scan.c.o: ../scan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PortScanner.dir/scan.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PortScanner.dir/scan.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/scan.c
+
+CMakeFiles/PortScanner.dir/scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PortScanner.dir/scan.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/scan.c > CMakeFiles/PortScanner.dir/scan.c.i
+
+CMakeFiles/PortScanner.dir/scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PortScanner.dir/scan.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/scan.c -o CMakeFiles/PortScanner.dir/scan.c.s
+
+CMakeFiles/PortScanner.dir/has_network_addr.c.o: CMakeFiles/PortScanner.dir/flags.make
+CMakeFiles/PortScanner.dir/has_network_addr.c.o: ../has_network_addr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PortScanner.dir/has_network_addr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PortScanner.dir/has_network_addr.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/has_network_addr.c
+
+CMakeFiles/PortScanner.dir/has_network_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PortScanner.dir/has_network_addr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/has_network_addr.c > CMakeFiles/PortScanner.dir/has_network_addr.c.i
+
+CMakeFiles/PortScanner.dir/has_network_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PortScanner.dir/has_network_addr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/has_network_addr.c -o CMakeFiles/PortScanner.dir/has_network_addr.c.s
+
+CMakeFiles/PortScanner.dir/resolve_domain_name.c.o: CMakeFiles/PortScanner.dir/flags.make
+CMakeFiles/PortScanner.dir/resolve_domain_name.c.o: ../resolve_domain_name.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PortScanner.dir/resolve_domain_name.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PortScanner.dir/resolve_domain_name.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/resolve_domain_name.c
+
+CMakeFiles/PortScanner.dir/resolve_domain_name.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PortScanner.dir/resolve_domain_name.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/resolve_domain_name.c > CMakeFiles/PortScanner.dir/resolve_domain_name.c.i
+
+CMakeFiles/PortScanner.dir/resolve_domain_name.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PortScanner.dir/resolve_domain_name.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/resolve_domain_name.c -o CMakeFiles/PortScanner.dir/resolve_domain_name.c.s
+
+CMakeFiles/PortScanner.dir/sig_handler.c.o: CMakeFiles/PortScanner.dir/flags.make
+CMakeFiles/PortScanner.dir/sig_handler.c.o: ../sig_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PortScanner.dir/sig_handler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/PortScanner.dir/sig_handler.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/sig_handler.c
+
+CMakeFiles/PortScanner.dir/sig_handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PortScanner.dir/sig_handler.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/sig_handler.c > CMakeFiles/PortScanner.dir/sig_handler.c.i
+
+CMakeFiles/PortScanner.dir/sig_handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PortScanner.dir/sig_handler.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/sig_handler.c -o CMakeFiles/PortScanner.dir/sig_handler.c.s
+
 # Object files for target PortScanner
 PortScanner_OBJECTS = \
-"CMakeFiles/PortScanner.dir/main.c.o"
+"CMakeFiles/PortScanner.dir/main.c.o" \
+"CMakeFiles/PortScanner.dir/scan.c.o" \
+"CMakeFiles/PortScanner.dir/has_network_addr.c.o" \
+"CMakeFiles/PortScanner.dir/resolve_domain_name.c.o" \
+"CMakeFiles/PortScanner.dir/sig_handler.c.o"
 
 # External object files for target PortScanner
 PortScanner_EXTERNAL_OBJECTS =
 
 PortScanner: CMakeFiles/PortScanner.dir/main.c.o
+PortScanner: CMakeFiles/PortScanner.dir/scan.c.o
+PortScanner: CMakeFiles/PortScanner.dir/has_network_addr.c.o
+PortScanner: CMakeFiles/PortScanner.dir/resolve_domain_name.c.o
+PortScanner: CMakeFiles/PortScanner.dir/sig_handler.c.o
 PortScanner: CMakeFiles/PortScanner.dir/build.make
 PortScanner: /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a
 PortScanner: CMakeFiles/PortScanner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable PortScanner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/PortScanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable PortScanner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PortScanner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coolder/Learning/Programming/C_Cpp/Network/getsertime
+CMAKE_SOURCE_DIR = /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug
+CMAKE_BINARY_DIR = /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/getsertime.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/getsertime.dir/flags.make
 
 CMakeFiles/getsertime.dir/library.c.o: CMakeFiles/getsertime.dir/flags.make
 CMakeFiles/getsertime.dir/library.c.o: ../library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/getsertime.dir/library.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/getsertime.dir/library.c.o -c /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/library.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/getsertime.dir/library.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/getsertime.dir/library.c.o -c /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/library.c
 
 CMakeFiles/getsertime.dir/library.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/getsertime.dir/library.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/library.c > CMakeFiles/getsertime.dir/library.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/library.c > CMakeFiles/getsertime.dir/library.c.i
 
 CMakeFiles/getsertime.dir/library.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/getsertime.dir/library.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/library.c -o CMakeFiles/getsertime.dir/library.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/library.c -o CMakeFiles/getsertime.dir/library.c.s
 
 # Object files for target getsertime
 getsertime_OBJECTS = \
@@ -99,7 +99,7 @@ getsertime_EXTERNAL_OBJECTS =
 libgetsertime.a: CMakeFiles/getsertime.dir/library.c.o
 libgetsertime.a: CMakeFiles/getsertime.dir/build.make
 libgetsertime.a: CMakeFiles/getsertime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libgetsertime.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libgetsertime.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/getsertime.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/getsertime.dir/link.txt --verbose=$(VERBOSE)
 
@@ -113,6 +113,6 @@ CMakeFiles/getsertime.dir/clean:
 .PHONY : CMakeFiles/getsertime.dir/clean
 
 CMakeFiles/getsertime.dir/depend:
-	cd /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coolder/Learning/Programming/C_Cpp/Network/getsertime /home/coolder/Learning/Programming/C_Cpp/Network/getsertime /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/Network/getsertime/cmake-build-debug/CMakeFiles/getsertime.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/Network/TCP/getsertime/cmake-build-debug/CMakeFiles/getsertime.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/getsertime.dir/depend
 
