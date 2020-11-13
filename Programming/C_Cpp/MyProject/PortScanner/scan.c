@@ -12,6 +12,7 @@ scan(struct info_t *target_info_ptr) {
 
         int sockfd;
         struct sockaddr_in sin;
+        struct timeval timeout;
 
         bzero(&sin, sizeof(sin));
 
@@ -25,9 +26,14 @@ scan(struct info_t *target_info_ptr) {
 
             sockfd = Socket(AF_INET, SOCK_STREAM, 0);
 
+            timeout.tv_sec = 1;
+            timeout.tv_usec = 0;
+
+            // Set timeout
+            setsockopt(sockfd, SOL_SOCKET, SO_SNDTIMEO, &timeout, sizeof(timeout));
+
             sin.sin_port = htons(port);
 
-            alarm(2);
             // Check port
             if (connect(sockfd, (const struct sockaddr *) &sin, sizeof(struct sockaddr_in)) >= 0) {
                 printf("port %d open\n", port);

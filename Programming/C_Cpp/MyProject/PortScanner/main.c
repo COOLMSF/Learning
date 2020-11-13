@@ -1,6 +1,9 @@
 #include "allheaders.h"
 #include "port_scanner.h"
 
+/*
+ * It should use pthread, I will rewrite later. 2020.11.13
+ */
 
 int
 main(int argc, char *argv[]) {
