@@ -10,6 +10,9 @@ scan(struct info_t *target_info_ptr) {
     // Scan all ip address
     for (int i = 0; i < target_info_ptr->n_ip && target_info_ptr->ip_addr_network != NULL; ++i) {
 
+        // Print address
+        printf("IP:%s\n", target_info_ptr->ip_addr_present[i]);
+
         int sockfd;
         struct sockaddr_in sin;
         struct timeval timeout;

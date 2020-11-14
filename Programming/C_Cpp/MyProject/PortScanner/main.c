@@ -27,6 +27,10 @@ main(int argc, char *argv[]) {
     // If domain name specify, find it ip address
     if (isalpha(argv[1][1]))
         resolve_domain_name(&target_info);
+    else {
+        Inet_pton(AF_INET, argv[1], target_info.ip_addr_network);
+        target_info.n_ip = 1;
+    }
 
     scan(&target_info);
 }
