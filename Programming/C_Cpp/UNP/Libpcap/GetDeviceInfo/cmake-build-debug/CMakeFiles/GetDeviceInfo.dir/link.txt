@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/GetDeviceInfo.dir/main.c.o -o GetDeviceInfo 
+/usr/bin/cc -g CMakeFiles/GetDeviceInfo.dir/main.c.o -o GetDeviceInfo  -lpcap 

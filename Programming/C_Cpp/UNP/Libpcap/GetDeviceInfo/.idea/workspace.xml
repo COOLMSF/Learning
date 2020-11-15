@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="GetDeviceInfo" targetName="GetDeviceInfo" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbabbc29-261e-4523-b042-77534927f2c7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1kJcaMHhiAqKMVNgKvG3lTqgmqs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GetDeviceInfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GetDeviceInfo" TARGET_NAME="GetDeviceInfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GetDeviceInfo" RUN_TARGET_NAME="GetDeviceInfo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -24,5 +44,68 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbabbc29-261e-4523-b042-77534927f2c7" name="Default Changelist" comment="" />
+      <created>1605422196073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605422196073</updated>
+      <workItem from="1605422197177" duration="4083000" />
+      <workItem from="1605432876260" duration="713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="369" height="526" key="DebuggerActiveHint" timestamp="1605425572021">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="369" height="526" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1605425572021" />
+    <state x="462" y="93" width="428" height="476" key="FileChooserDialogImpl" timestamp="1605424081205">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="93" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605424081205" />
+    <state width="1366" height="323" key="GridCell.Tab.0.bottom" timestamp="1605426280510">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605426280510" />
+    <state width="1366" height="323" key="GridCell.Tab.0.center" timestamp="1605426280507">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605426280507" />
+    <state width="1366" height="323" key="GridCell.Tab.0.left" timestamp="1605426280506">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605426280506" />
+    <state width="1366" height="323" key="GridCell.Tab.0.right" timestamp="1605426280509">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605426280509" />
+    <state width="1366" height="323" key="GridCell.Tab.1.bottom" timestamp="1605426280515">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605426280515" />
+    <state width="1366" height="323" key="GridCell.Tab.1.center" timestamp="1605426280513">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1605426280513" />
+    <state width="1366" height="323" key="GridCell.Tab.1.left" timestamp="1605426280512">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1605426280512" />
+    <state width="1366" height="323" key="GridCell.Tab.1.right" timestamp="1605426280514">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="323" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1605426280514" />
+    <state width="685" height="395" key="XDebugger.FullValuePopup" timestamp="1605425571078">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="685" height="395" key="XDebugger.FullValuePopup/0.0.1366.768@0.0.1366.768" timestamp="1605425571078" />
+    <state x="163" y="18" width="1030" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605422331900">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="18" width="1030" height="665" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1605422331900" />
   </component>
 </project>

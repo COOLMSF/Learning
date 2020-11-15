@@ -200,11 +200,20 @@ GetDeviceInfo_BINARY_DIR:STATIC=/home/coolder/Learning/Programming/C_Cpp/UNP/Lib
 //Value Computed by CMake
 GetDeviceInfo_SOURCE_DIR:STATIC=/home/coolder/Learning/Programming/C_Cpp/UNP/Libpcap/GetDeviceInfo
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //Path to a program.
 ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/bin/sysctl
+
+//The directory containing a CMake configuration file for pcap.
+pcap_DIR:PATH=pcap_DIR-NOTFOUND
+
+//Path to a library.
+pkgcfg_lib_PCAP_pcap:FILEPATH=/usr/lib/libpcap.so
 
 
 ########################
@@ -340,8 +349,52 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v1.7.3()]
+PCAP_CFLAGS:INTERNAL=
+PCAP_CFLAGS_I:INTERNAL=
+PCAP_CFLAGS_OTHER:INTERNAL=
+PCAP_FOUND:INTERNAL=1
+PCAP_INCLUDEDIR:INTERNAL=/usr/include
+PCAP_INCLUDE_DIRS:INTERNAL=
+PCAP_LDFLAGS:INTERNAL=-lpcap
+PCAP_LDFLAGS_OTHER:INTERNAL=
+PCAP_LIBDIR:INTERNAL=/usr/lib
+PCAP_LIBRARIES:INTERNAL=pcap
+PCAP_LIBRARY_DIRS:INTERNAL=
+PCAP_LIBS:INTERNAL=
+PCAP_LIBS_L:INTERNAL=
+PCAP_LIBS_OTHER:INTERNAL=
+PCAP_LIBS_PATHS:INTERNAL=
+PCAP_MODULE_NAME:INTERNAL=libpcap
+PCAP_PREFIX:INTERNAL=/usr
+PCAP_STATIC_CFLAGS:INTERNAL=
+PCAP_STATIC_CFLAGS_I:INTERNAL=
+PCAP_STATIC_CFLAGS_OTHER:INTERNAL=
+PCAP_STATIC_INCLUDE_DIRS:INTERNAL=
+PCAP_STATIC_LDFLAGS:INTERNAL=-lpcap;-lnl-genl-3;-lnl-3;-ldbus-1
+PCAP_STATIC_LDFLAGS_OTHER:INTERNAL=
+PCAP_STATIC_LIBDIR:INTERNAL=
+PCAP_STATIC_LIBRARIES:INTERNAL=pcap;nl-genl-3;nl-3;dbus-1
+PCAP_STATIC_LIBRARY_DIRS:INTERNAL=
+PCAP_STATIC_LIBS:INTERNAL=
+PCAP_STATIC_LIBS_L:INTERNAL=
+PCAP_STATIC_LIBS_OTHER:INTERNAL=
+PCAP_STATIC_LIBS_PATHS:INTERNAL=
+PCAP_VERSION:INTERNAL=1.9.1
+PCAP_libpcap_INCLUDEDIR:INTERNAL=
+PCAP_libpcap_LIBDIR:INTERNAL=
+PCAP_libpcap_PREFIX:INTERNAL=
+PCAP_libpcap_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_nproc
 ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+__pkg_config_arguments_PCAP:INTERNAL=libpcap;REQUIRED
+__pkg_config_checked_PCAP:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PCAP_pcap
+pkgcfg_lib_PCAP_pcap-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib
 
