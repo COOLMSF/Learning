@@ -9,6 +9,7 @@
 #include<memory.h>
 #include<netdb.h>
 #include<netinet/in.h>
+#include<pcap.h>
 #include<pwd.h>
 #include<stdint.h>
 #include<stdio.h>

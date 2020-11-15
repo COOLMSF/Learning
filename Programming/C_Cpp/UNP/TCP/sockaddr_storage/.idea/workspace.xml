@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
@@ -51,6 +51,7 @@
       <workItem from="1604994127721" duration="1713000" />
       <workItem from="1604995858376" duration="1287000" />
       <workItem from="1604998253116" duration="785000" />
+      <workItem from="1605412595414" duration="116000" />
     </task>
     <servers />
   </component>

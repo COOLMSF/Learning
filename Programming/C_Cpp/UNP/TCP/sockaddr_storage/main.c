@@ -5,9 +5,6 @@ int main() {
     struct sockaddr_in *sockaddrInPointer;
     struct sockaddr_storage sockaddrStorage;
 
-    struct sockaddr_in sa;
-    sa.sin_addr.s_addr
-
     sockfd = Socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
     // Prepare for struct
