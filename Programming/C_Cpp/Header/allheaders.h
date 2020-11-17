@@ -1,6 +1,5 @@
 #define _GNU_SOURCE
 
-#include<arpa/inet.h>
 #include<assert.h>
 #include<dirent.h>
 #include<errno.h>
@@ -10,6 +9,12 @@
 #include<netdb.h>
 #include<netinet/in.h>
 #include<netinet/if_ether.h>
+#include<arpa/inet.h>
+#include<net/ethernet.h>
+#include<netinet/ip_icmp.h>
+#include<netinet/udp.h>
+#include<netinet/tcp.h>
+#include<netinet/ip.h>
 #include<pcap.h>
 #include<pwd.h>
 #include<stdint.h>

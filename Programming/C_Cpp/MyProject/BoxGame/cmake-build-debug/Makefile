@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coolder/Learning/Programming/C_Cpp/BoxGame
+CMAKE_SOURCE_DIR = /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug
+CMAKE_BINARY_DIR = /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,60 @@ BoxGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/build
 .PHONY : BoxGame/fast
 
+getch.o: getch.c.o
+
+.PHONY : getch.o
+
+# target to build an object file
+getch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/getch.c.o
+.PHONY : getch.c.o
+
+getch.i: getch.c.i
+
+.PHONY : getch.i
+
+# target to preprocess a source file
+getch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/getch.c.i
+.PHONY : getch.c.i
+
+getch.s: getch.c.s
+
+.PHONY : getch.s
+
+# target to generate assembly for a file
+getch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/getch.c.s
+.PHONY : getch.c.s
+
+init.o: init.c.o
+
+.PHONY : init.o
+
+# target to build an object file
+init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/init.c.o
+.PHONY : init.c.o
+
+init.i: init.c.i
+
+.PHONY : init.i
+
+# target to preprocess a source file
+init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/init.c.i
+.PHONY : init.c.i
+
+init.s: init.c.s
+
+.PHONY : init.s
+
+# target to generate assembly for a file
+init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/init.c.s
+.PHONY : init.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -169,6 +223,114 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/main.c.s
 .PHONY : main.c.s
 
+move.o: move.c.o
+
+.PHONY : move.o
+
+# target to build an object file
+move.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/move.c.o
+.PHONY : move.c.o
+
+move.i: move.c.i
+
+.PHONY : move.i
+
+# target to preprocess a source file
+move.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/move.c.i
+.PHONY : move.c.i
+
+move.s: move.c.s
+
+.PHONY : move.s
+
+# target to generate assembly for a file
+move.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/move.c.s
+.PHONY : move.c.s
+
+print_map.o: print_map.c.o
+
+.PHONY : print_map.o
+
+# target to build an object file
+print_map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/print_map.c.o
+.PHONY : print_map.c.o
+
+print_map.i: print_map.c.i
+
+.PHONY : print_map.i
+
+# target to preprocess a source file
+print_map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/print_map.c.i
+.PHONY : print_map.c.i
+
+print_map.s: print_map.c.s
+
+.PHONY : print_map.s
+
+# target to generate assembly for a file
+print_map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/print_map.c.s
+.PHONY : print_map.c.s
+
+print_usage.o: print_usage.c.o
+
+.PHONY : print_usage.o
+
+# target to build an object file
+print_usage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/print_usage.c.o
+.PHONY : print_usage.c.o
+
+print_usage.i: print_usage.c.i
+
+.PHONY : print_usage.i
+
+# target to preprocess a source file
+print_usage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/print_usage.c.i
+.PHONY : print_usage.c.i
+
+print_usage.s: print_usage.c.s
+
+.PHONY : print_usage.s
+
+# target to generate assembly for a file
+print_usage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/print_usage.c.s
+.PHONY : print_usage.c.s
+
+sig_handler.o: sig_handler.c.o
+
+.PHONY : sig_handler.o
+
+# target to build an object file
+sig_handler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/sig_handler.c.o
+.PHONY : sig_handler.c.o
+
+sig_handler.i: sig_handler.c.i
+
+.PHONY : sig_handler.i
+
+# target to preprocess a source file
+sig_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/sig_handler.c.i
+.PHONY : sig_handler.c.i
+
+sig_handler.s: sig_handler.c.s
+
+.PHONY : sig_handler.s
+
+# target to generate assembly for a file
+sig_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoxGame.dir/build.make CMakeFiles/BoxGame.dir/sig_handler.c.s
+.PHONY : sig_handler.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,9 +340,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BoxGame"
+	@echo "... getch.o"
+	@echo "... getch.i"
+	@echo "... getch.s"
+	@echo "... init.o"
+	@echo "... init.i"
+	@echo "... init.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... move.o"
+	@echo "... move.i"
+	@echo "... move.s"
+	@echo "... print_map.o"
+	@echo "... print_map.i"
+	@echo "... print_map.s"
+	@echo "... print_usage.o"
+	@echo "... print_usage.i"
+	@echo "... print_usage.s"
+	@echo "... sig_handler.o"
+	@echo "... sig_handler.i"
+	@echo "... sig_handler.s"
 .PHONY : help
 
 

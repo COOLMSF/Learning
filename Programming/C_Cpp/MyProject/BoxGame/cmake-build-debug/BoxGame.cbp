@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BoxGame">
-				<Option output="/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/BoxGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug"/>
+				<Option output="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/BoxGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 BoxGame"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 BoxGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BoxGame/fast">
-				<Option output="/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/BoxGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug"/>
+				<Option output="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/BoxGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,20 +71,38 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 BoxGame/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 BoxGame/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/BoxGame/box.h">
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/box.h">
 			<Option target="BoxGame"/>
 		</Unit>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/BoxGame/main.c">
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/getch.c">
 			<Option target="BoxGame"/>
 		</Unit>
-		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/BoxGame/CMakeLists.txt">
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/init.c">
+			<Option target="BoxGame"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/main.c">
+			<Option target="BoxGame"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/move.c">
+			<Option target="BoxGame"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_map.c">
+			<Option target="BoxGame"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_usage.c">
+			<Option target="BoxGame"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/sig_handler.c">
+			<Option target="BoxGame"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

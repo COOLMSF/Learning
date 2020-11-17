@@ -2,14 +2,13 @@
 // Created by coolder on 10/25/20.
 //
 
+#include <termios.h>
+
 #ifndef SNAKEGAME_SNAKE_H
 
 #define SNAKEGAME_SNAKE_H
 #define MAX_WIDTH 8
 #define MAX_HIGHT 8
-#include <termios.h>
-
-
 
 /*
  * Map for Snake Game,
@@ -20,10 +19,12 @@
  * in vim, ^_^.
  */
 
-
+extern int nbox;
+extern char map[MAX_WIDTH][MAX_HIGHT];
+extern struct termios old, current;
+extern int my_x, my_y;
 
 void sig_handler(void);
-
 // Init some information about the game
 void init(void);
 

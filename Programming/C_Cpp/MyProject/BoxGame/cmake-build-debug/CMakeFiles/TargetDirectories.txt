@@ -1,3 +1,3 @@
-/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir
+/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir

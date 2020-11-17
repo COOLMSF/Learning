@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/SYNAttackDetector.dir/main.c.o CMakeFiles/SYNAttackDetector.dir/process_packet.c.o CMakeFiles/SYNAttackDetector.dir/check_syn_attack.c.o CMakeFiles/SYNAttackDetector.dir/collect_attack_info.c.o -o SYNAttackDetector  -lpcap /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a 

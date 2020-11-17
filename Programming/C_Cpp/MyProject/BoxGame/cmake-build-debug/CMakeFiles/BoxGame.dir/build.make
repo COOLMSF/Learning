@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coolder/Learning/Programming/C_Cpp/BoxGame
+CMAKE_SOURCE_DIR = /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug
+CMAKE_BINARY_DIR = /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BoxGame.dir/depend.make
@@ -78,28 +78,118 @@ include CMakeFiles/BoxGame.dir/flags.make
 
 CMakeFiles/BoxGame.dir/main.c.o: CMakeFiles/BoxGame.dir/flags.make
 CMakeFiles/BoxGame.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BoxGame.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/main.c.o -c /home/coolder/Learning/Programming/C_Cpp/BoxGame/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/BoxGame.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/main.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/main.c
 
 CMakeFiles/BoxGame.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BoxGame.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/BoxGame/main.c > CMakeFiles/BoxGame.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/main.c > CMakeFiles/BoxGame.dir/main.c.i
 
 CMakeFiles/BoxGame.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BoxGame.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/BoxGame/main.c -o CMakeFiles/BoxGame.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/main.c -o CMakeFiles/BoxGame.dir/main.c.s
+
+CMakeFiles/BoxGame.dir/init.c.o: CMakeFiles/BoxGame.dir/flags.make
+CMakeFiles/BoxGame.dir/init.c.o: ../init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BoxGame.dir/init.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/init.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/init.c
+
+CMakeFiles/BoxGame.dir/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BoxGame.dir/init.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/init.c > CMakeFiles/BoxGame.dir/init.c.i
+
+CMakeFiles/BoxGame.dir/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BoxGame.dir/init.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/init.c -o CMakeFiles/BoxGame.dir/init.c.s
+
+CMakeFiles/BoxGame.dir/sig_handler.c.o: CMakeFiles/BoxGame.dir/flags.make
+CMakeFiles/BoxGame.dir/sig_handler.c.o: ../sig_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BoxGame.dir/sig_handler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/sig_handler.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/sig_handler.c
+
+CMakeFiles/BoxGame.dir/sig_handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BoxGame.dir/sig_handler.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/sig_handler.c > CMakeFiles/BoxGame.dir/sig_handler.c.i
+
+CMakeFiles/BoxGame.dir/sig_handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BoxGame.dir/sig_handler.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/sig_handler.c -o CMakeFiles/BoxGame.dir/sig_handler.c.s
+
+CMakeFiles/BoxGame.dir/getch.c.o: CMakeFiles/BoxGame.dir/flags.make
+CMakeFiles/BoxGame.dir/getch.c.o: ../getch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BoxGame.dir/getch.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/getch.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/getch.c
+
+CMakeFiles/BoxGame.dir/getch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BoxGame.dir/getch.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/getch.c > CMakeFiles/BoxGame.dir/getch.c.i
+
+CMakeFiles/BoxGame.dir/getch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BoxGame.dir/getch.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/getch.c -o CMakeFiles/BoxGame.dir/getch.c.s
+
+CMakeFiles/BoxGame.dir/print_usage.c.o: CMakeFiles/BoxGame.dir/flags.make
+CMakeFiles/BoxGame.dir/print_usage.c.o: ../print_usage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BoxGame.dir/print_usage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/print_usage.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_usage.c
+
+CMakeFiles/BoxGame.dir/print_usage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BoxGame.dir/print_usage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_usage.c > CMakeFiles/BoxGame.dir/print_usage.c.i
+
+CMakeFiles/BoxGame.dir/print_usage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BoxGame.dir/print_usage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_usage.c -o CMakeFiles/BoxGame.dir/print_usage.c.s
+
+CMakeFiles/BoxGame.dir/print_map.c.o: CMakeFiles/BoxGame.dir/flags.make
+CMakeFiles/BoxGame.dir/print_map.c.o: ../print_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BoxGame.dir/print_map.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/print_map.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_map.c
+
+CMakeFiles/BoxGame.dir/print_map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BoxGame.dir/print_map.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_map.c > CMakeFiles/BoxGame.dir/print_map.c.i
+
+CMakeFiles/BoxGame.dir/print_map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BoxGame.dir/print_map.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_map.c -o CMakeFiles/BoxGame.dir/print_map.c.s
+
+CMakeFiles/BoxGame.dir/move.c.o: CMakeFiles/BoxGame.dir/flags.make
+CMakeFiles/BoxGame.dir/move.c.o: ../move.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BoxGame.dir/move.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/BoxGame.dir/move.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/move.c
+
+CMakeFiles/BoxGame.dir/move.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BoxGame.dir/move.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/move.c > CMakeFiles/BoxGame.dir/move.c.i
+
+CMakeFiles/BoxGame.dir/move.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BoxGame.dir/move.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/move.c -o CMakeFiles/BoxGame.dir/move.c.s
 
 # Object files for target BoxGame
 BoxGame_OBJECTS = \
-"CMakeFiles/BoxGame.dir/main.c.o"
+"CMakeFiles/BoxGame.dir/main.c.o" \
+"CMakeFiles/BoxGame.dir/init.c.o" \
+"CMakeFiles/BoxGame.dir/sig_handler.c.o" \
+"CMakeFiles/BoxGame.dir/getch.c.o" \
+"CMakeFiles/BoxGame.dir/print_usage.c.o" \
+"CMakeFiles/BoxGame.dir/print_map.c.o" \
+"CMakeFiles/BoxGame.dir/move.c.o"
 
 # External object files for target BoxGame
 BoxGame_EXTERNAL_OBJECTS =
 
 BoxGame: CMakeFiles/BoxGame.dir/main.c.o
+BoxGame: CMakeFiles/BoxGame.dir/init.c.o
+BoxGame: CMakeFiles/BoxGame.dir/sig_handler.c.o
+BoxGame: CMakeFiles/BoxGame.dir/getch.c.o
+BoxGame: CMakeFiles/BoxGame.dir/print_usage.c.o
+BoxGame: CMakeFiles/BoxGame.dir/print_map.c.o
+BoxGame: CMakeFiles/BoxGame.dir/move.c.o
 BoxGame: CMakeFiles/BoxGame.dir/build.make
 BoxGame: CMakeFiles/BoxGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable BoxGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable BoxGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BoxGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -112,6 +202,6 @@ CMakeFiles/BoxGame.dir/clean:
 .PHONY : CMakeFiles/BoxGame.dir/clean
 
 CMakeFiles/BoxGame.dir/depend:
-	cd /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coolder/Learning/Programming/C_Cpp/BoxGame /home/coolder/Learning/Programming/C_Cpp/BoxGame /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BoxGame.dir/depend
 

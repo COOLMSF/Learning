@@ -30,23 +30,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GetDeviceInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Interface/AllInterfaceInfo" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sniffer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sniffer" TARGET_NAME="sniffer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sniffer" RUN_TARGET_NAME="sniffer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -59,14 +49,17 @@
       <option name="presentableId" value="Default" />
       <updated>1605432791787</updated>
       <workItem from="1605432792876" duration="804000" />
+      <workItem from="1605441532406" duration="1180000" />
+      <workItem from="1605444819319" duration="1620000" />
+      <workItem from="1605495032170" duration="7472000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1605432873415">
+    <state x="454" y="13" width="428" height="476" key="FileChooserDialogImpl" timestamp="1605515237454">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605432873415" />
+    <state x="454" y="13" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605515237454" />
     <state x="8" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605432911274">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -209,7 +209,7 @@ int tcpsend (unsigned int saddr, unsigned int daddr, unsigned short sport,
 	close(sockfd);
 #endif // WINDOWS
 
-	free(packet);
+	// free(packet);
 	return (retval);
 }
 
