@@ -42,9 +42,9 @@
 
 // Include book header
 #include "../APUE/apue.3e/include/apue.h"
-#include "../UNP/unpv13e/lib/unp.h"
+// #include "../UNP/unpv13e/lib/unp.h"
 // Conflict with unp.h
-// #include<readline/readline.h>
+#include<readline/readline.h>
 #include<readline/history.h>
 
 // Include my error hanlder header file

@@ -120,10 +120,6 @@ MyMacro.h
 termios.h
 -
 
-/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/getch.c
-allheaders.h
-/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/allheaders.h
-
 /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/init.c
 box.h
 /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/box.h
@@ -141,10 +137,6 @@ box.h
 /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_map.c
 box.h
 /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/box.h
-allheaders.h
-/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/allheaders.h
-
-/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_usage.c
 allheaders.h
 /home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/allheaders.h
 
