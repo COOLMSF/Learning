@@ -19,42 +19,34 @@ int execute_command (int input, int first, int last, char *cmd_exec) {
     pid = fork();
 
     if (pid == 0) {
-
+        // coolder: input should be input_fd;
         if (first == 1 && last == 0 && input == 0) {
-
             dup2 (mypipefd[1], 1);
         }
         else if (first == 0 && last == 0 && input != 0) {
-
             dup2 (input, 0);
             dup2 (mypipefd[1], 1);
         }
         else {
-
             dup2 (input, 0);
         }
 
         if (strchr(cmd_exec, '<') && strchr(cmd_exec, '>')) {
-
             input_redirection = 1;
             output_redirection = 1;
             tokenize_redirect_input_output (cmd_exec);
         }
         else if (strchr(cmd_exec, '<')) {
-
             input_redirection = 1;
             tokenize_redirect_input (cmd_exec);
         }
         else if (strchr(cmd_exec, '>')) {
-
             output_redirection = 1;
             tokenize_redirect_output (cmd_exec);
         }
 
         if (output_redirection) {
-
             if ((output_fd = creat(output_redirection_file, 0644)) < 0) {
-
                 fprintf(stderr, "Failed to open %s for writing\n", output_redirection_file);
                 return (EXIT_FAILURE);
             }

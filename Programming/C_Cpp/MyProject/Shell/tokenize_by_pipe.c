@@ -23,5 +23,5 @@ void tokenize_by_pipe() {
     }
 
     input = execute_inbuild_commands(cmd_exec[i], input, first, 1);
-    return;
+
 }

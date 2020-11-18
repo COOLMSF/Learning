@@ -22,20 +22,25 @@ int execute_inbuild_commands (char *cmd_exec, int input, int isfirst, int islast
         if (!(strcmp(args[0], "exit") && strcmp(args[0], "quit")))
             exit(0);
 
-        if (strcmp(args[0], "echo")) {
-
+        /*
+         * Add by coolder, echo built in command seems not working
+         */
+        if (!strcmp(args[0], "echo")) {
             cmd_exec = skip_double_quote(new_cmd_exec);
             tokenize_by_space(cmd_exec);
+
+            char **args_ptr = &args[1];
+            // Add by coolder
+            while(*args_ptr)
+                puts(*args_ptr++);
         }
 
         if (!strcmp("cd", args[0])) {
-
             change_directory();
             return 1;
         }
 
         if (!strcmp(args[0], "history")) {
-
             print_history_list();
             return 1;
         }

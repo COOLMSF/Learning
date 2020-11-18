@@ -1,9 +1,12 @@
 /* Main function begins here */
 
 /*
- * This program is modified by coolder
  * The original project is here:
  * https://github.com/souravaich/shell.git
+ *
+ * This program is modified by coolder, I was just read the source code,
+ * and add some features.
+ *
  */
 
 #include "allheaders.h"
@@ -22,7 +25,6 @@ int main() {
         clear_variables();
         shell_prompt();
         input_buffer = readline (prompt);
-
 
         if(strcmp(input_buffer,"\n"))
             add_history (input_buffer);
