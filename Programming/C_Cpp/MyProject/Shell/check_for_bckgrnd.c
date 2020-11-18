@@ -9,6 +9,7 @@
    foreground or background */
 
 void check_for_bckgrnd () {
+	int i = 10;
 
     int i = 0;
     bckgrnd_flag = 0;

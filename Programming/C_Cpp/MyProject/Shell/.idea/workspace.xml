@@ -31,7 +31,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Git/shell/OurShell.c" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -39,12 +39,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Shell" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shell" TARGET_NAME="Shell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Shell" RUN_TARGET_NAME="Shell">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shell" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shell" TARGET_NAME="Shell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Shell" RUN_TARGET_NAME="Shell">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -64,10 +64,15 @@
       <option name="presentableId" value="Default" />
       <updated>1605625527413</updated>
       <workItem from="1605625529661" duration="13739000" />
+      <workItem from="1605697310730" duration="4482000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-4" y="-40" width="1366" height="768" key="#Plugins" timestamp="1605700092197">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-4" y="-40" width="1366" height="768" key="#Plugins/0.0.1366.768@0.0.1366.768" timestamp="1605700092197" />
     <state width="472" height="526" key="DebuggerActiveHint" timestamp="1605672161991">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -108,13 +113,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="318" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1605674163696" />
+    <state x="-6" y="-60" width="1366" height="768" key="SettingsEditor" timestamp="1605703949868">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-6" y="-60" width="1366" height="768" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1605703949868" />
     <state x="161" y="11" width="1030" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605626060810">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="161" y="11" width="1030" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1605626060810" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605672266070">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605703640859">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1605672266070" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1605703640859" />
   </component>
 </project>
