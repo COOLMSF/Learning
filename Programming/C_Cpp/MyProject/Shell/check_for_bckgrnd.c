@@ -8,8 +8,8 @@
 /* This is function is used to check whether the process should be run
    foreground or background */
 
-void check_for_bckgrnd () {
-	int i = 10;
+void check_for_bckgrnd()
+{
 
     int i = 0;
     bckgrnd_flag = 0;

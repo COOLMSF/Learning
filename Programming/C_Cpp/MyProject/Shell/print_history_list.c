@@ -6,8 +6,9 @@
 
 /* This function prints the comand history when "history" command is given */
 
-void print_history_list () {
-
+void
+print_history_list()
+{
     register HIST_ENTRY **the_list;
     register int i;
 

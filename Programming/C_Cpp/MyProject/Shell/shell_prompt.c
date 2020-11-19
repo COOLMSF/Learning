@@ -7,8 +7,9 @@
 
 /* This function is used to create the Shell Prompt */
 
-void shell_prompt() {
-
+void
+shell_prompt()
+{
     if (getcwd(cwd, sizeof(cwd)) != NULL) {
 
         strcpy(prompt, "Our_Shell: ");
@@ -19,5 +20,4 @@ void shell_prompt() {
 
         perror("Error in getting curent working directory: ");
     }
-    return;
 }

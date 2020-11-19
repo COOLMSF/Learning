@@ -7,8 +7,9 @@
 /* This function is used to create pipe and execute the non-inbuild
    commands using execvp */
 
-int execute_command (int input, int first, int last, char *cmd_exec) {
-
+int
+execute_command(int input, int first, int last, char *cmd_exec)
+{
     int mypipefd[2], ret, input_fd, output_fd;
 
     if (-1 == (ret = pipe(mypipefd))) {

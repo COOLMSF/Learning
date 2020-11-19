@@ -9,8 +9,9 @@
    the "execute_command" function when the command to be executed doesn't
    fall under inbuild commands */
 
-int execute_inbuild_commands (char *cmd_exec, int input, int isfirst, int islast) {
-
+int
+execute_inbuild_commands(char *cmd_exec, int input, int isfirst, int islast)
+{
     char *new_cmd_exec;
 
     new_cmd_exec = strdup(cmd_exec);

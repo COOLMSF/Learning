@@ -8,7 +8,8 @@
 /* This function is used to change directory when "cd" command is
    executed */
 
-void change_directory() {
+void change_directory()
+{
 
     char *home_dir = "/home";
 

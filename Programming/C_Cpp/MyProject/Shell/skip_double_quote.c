@@ -7,8 +7,9 @@
 /* This function is used to skip the double quote characters (") in the
    input string */
 
-char *skip_double_quote (char *str) {
-
+char *
+skip_double_quote(char *str)
+{
     int i = 0, j = 0;
     char *temp;
     if (NULL == (temp = (char *) malloc(sizeof(str)*sizeof(char)))) {

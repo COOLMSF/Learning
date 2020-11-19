@@ -7,8 +7,9 @@
 
 /* This function tokenizes the input string based on pipe ["|"] */
 
-void tokenize_by_pipe() {
-
+void
+tokenize_by_pipe()
+{
     int i, n = 1, input = 0, first = 1;
 
     cmd_exec[0] = strtok(input_buffer, "|");

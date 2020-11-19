@@ -5,8 +5,9 @@
 #include "allheaders.h"
 #include "shell.h"
 
-void tokenize_redirect_output (char *cmd_exec) {
-
+void
+tokenize_redirect_output(char *cmd_exec)
+{
     char *val[128];
     char *new_cmd_exec, *s1;
     new_cmd_exec = strdup(cmd_exec);

@@ -12,8 +12,9 @@
 #include "allheaders.h"
 #include "shell.h"
 
-int main() {
-
+int
+main()
+{
     int status;
     system ("clear");
     signal(SIGINT, sigintHandler);

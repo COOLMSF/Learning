@@ -5,8 +5,9 @@
 
 /* This function handles the interrupt signals */
 
-void sigintHandler(int sig_num) {
-
+void
+sigintHandler(int sig_num)
+{
     signal(SIGINT, sigintHandler);
     fflush(stdout);
 }

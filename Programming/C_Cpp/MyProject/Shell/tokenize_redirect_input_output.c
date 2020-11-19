@@ -8,8 +8,9 @@
 /* This function is used to parse the input when both input redirection
    ["<"] and output redirection [">"] are present */
 
-void tokenize_redirect_input_output (char *cmd_exec) {
-
+void
+tokenize_redirect_input_output(char *cmd_exec)
+{
     char *val[128];
     char *new_cmd_exec, *s1, *s2;
     new_cmd_exec = strdup(cmd_exec);

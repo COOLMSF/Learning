@@ -7,8 +7,9 @@
 
 /* This function is used to skip the white spaces in the input string */
 
-char *skipwhite (char* str) {
-
+char *
+skipwhite(char* str)
+{
     int i = 0, j = 0;
     char *temp;
     if (NULL == (temp = (char *) malloc(sizeof(str)*sizeof(char)))) {

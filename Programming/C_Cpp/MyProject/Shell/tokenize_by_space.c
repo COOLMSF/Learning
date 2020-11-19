@@ -7,8 +7,9 @@
 
 /* This function tokenizes the input string based on white-space [" "] */
 
-void tokenize_by_space (char *str) {
-
+void
+tokenize_by_space(char *str)
+{
     int m = 1;
 
     args[0] = strtok(str, " ");

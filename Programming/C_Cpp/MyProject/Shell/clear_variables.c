@@ -22,8 +22,8 @@ char *output_redirection_file;
 
 /* This function initializes the global variables */
 
-void clear_variables() {
-
+void clear_variables()
+{
     fd = 0;
     flag = 0;
     len = 0;
