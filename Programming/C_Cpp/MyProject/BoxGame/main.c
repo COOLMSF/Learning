@@ -14,8 +14,8 @@ char map[MAX_WIDTH][MAX_HIGHT] = {
         {' ', ' ', ' ', '#', '#', '#', ' ', ' '}
 };
 
-int main() {
-
+int main()
+{
     int c;
 
     // Press CTL^C to exit.
@@ -23,11 +23,9 @@ int main() {
 
     // Init game data
     init();
-
     print_usage();
 
     while (1) {
-
         system("clear");
         print_map();
 
@@ -38,7 +36,7 @@ int main() {
 
         c = mygetch();
 
-        // vim mode
+        // Move in vim mode
         switch (c) {
             case 'k': move_up();
                 break;
@@ -52,5 +50,4 @@ int main() {
                 break;
         }
     }
-
 }

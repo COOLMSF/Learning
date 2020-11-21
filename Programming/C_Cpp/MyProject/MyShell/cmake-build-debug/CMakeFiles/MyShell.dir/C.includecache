@@ -6,11 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/home/coolder/Learning/Programming/C_Cpp/APUE/apue.3e/include/apue.h
+sys/types.h
+-
+sys/stat.h
+-
+sys/termios.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+
 /home/coolder/Learning/Programming/C_Cpp/Header/MyMacro.h
 
 /home/coolder/Learning/Programming/C_Cpp/Header/allheaders.h
-arpa/inet.h
--
 assert.h
 -
 dirent.h
@@ -26,6 +46,22 @@ memory.h
 netdb.h
 -
 netinet/in.h
+-
+netinet/if_ether.h
+-
+arpa/inet.h
+-
+net/ethernet.h
+-
+netinet/ip_icmp.h
+-
+netinet/udp.h
+-
+netinet/tcp.h
+-
+netinet/ip.h
+-
+pcap.h
 -
 pwd.h
 -
@@ -47,6 +83,8 @@ sys/types.h
 -
 sys/wait.h
 -
+sys/msg.h
+-
 time.h
 -
 unistd.h
@@ -65,6 +103,12 @@ error.h
 -
 err.h
 -
+sys/ioctl.h
+-
+curses.h
+-
+../APUE/apue.3e/include/apue.h
+/home/coolder/Learning/Programming/C_Cpp/APUE/apue.3e/include/apue.h
 readline/readline.h
 -
 readline/history.h
@@ -72,11 +116,11 @@ readline/history.h
 MyMacro.h
 /home/coolder/Learning/Programming/C_Cpp/Header/MyMacro.h
 
-/home/coolder/Learning/Programming/C_Cpp/MyShell/MyShell.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/MyShell/MyShell.h
 
-/home/coolder/Learning/Programming/C_Cpp/MyShell/main.c
+/home/coolder/Learning/Programming/C_Cpp/MyProject/MyShell/main.c
 allheaders.h
-/home/coolder/Learning/Programming/C_Cpp/MyShell/allheaders.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/MyShell/allheaders.h
 MyShell.h
-/home/coolder/Learning/Programming/C_Cpp/MyShell/MyShell.h
+/home/coolder/Learning/Programming/C_Cpp/MyProject/MyShell/MyShell.h
 

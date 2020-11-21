@@ -129,22 +129,16 @@ int main(int argc, char *argv[]) {
         if (strstr(cmd, "|")) {
         }
          *
-
         if ((pid = fork()) < 0) {
             err(EXIT_FAILURE, "fork");
         } else if (pid == 0) { // Child to execute command
-
             // Init signal
             // signal(SIGINT, sig_int_handler);
-
             // Number of args that provided
             int nargs = 1;
-
             // Point to each argument
             char *arg;
-
             char *arg_list[MAX_ARGS];
-
             /*
              * Synchronous parent working directory with child working directory
              * This is import, or you cannot cat file when cd, because shell doesn't

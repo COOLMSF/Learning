@@ -30,12 +30,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyShell" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="MyFind" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyFind" TARGET_NAME="MyFind" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyFind" RUN_TARGET_NAME="MyFind">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -60,10 +71,15 @@
       <workItem from="1603418574833" duration="1570000" />
       <workItem from="1603522921257" duration="631000" />
       <workItem from="1603525379853" duration="18000" />
+      <workItem from="1605801321579" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl" timestamp="1605801349980">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="464" y="113" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605801349980" />
     <state width="1320" height="192" key="GridCell.Tab.0.bottom" timestamp="1603420053103">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

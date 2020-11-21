@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/coolder/Learning/Programming/C_Cpp/MyFind/main.c
-unistd.h
--
-stdlib.h
--
+/home/coolder/Learning/Programming/C_Cpp/TestProject/2DarrayAlloc/main.c
 stdio.h
 -
-signal.h
--
-setjmp.h
--
-pthread.h
+stdlib.h
 -
 

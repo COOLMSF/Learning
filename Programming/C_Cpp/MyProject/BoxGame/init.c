@@ -5,12 +5,12 @@
 
 int my_x, my_y;
 
-void init(void) {
-
+void init(void)
+{
     for (int i = 0; i < MAX_WIDTH; ++i) {
         for (int j = 0; j < MAX_HIGHT; ++j) {
 
-            // If find myself, save it
+            // Locate position
             if ('w' == map[i][j]) {
                 my_x = i;
                 my_y = j;

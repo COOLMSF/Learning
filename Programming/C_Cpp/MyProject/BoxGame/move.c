@@ -3,7 +3,8 @@
 //
 #include "box.h"
 
-void move_up(void) {
+void move_up(void)
+{
     // If next element is wall('#'), do nothing.
     if ('#' == map[my_x - 1][my_y])
         return;
@@ -18,6 +19,7 @@ void move_up(void) {
         // Replace myself with space
         map[my_x][my_y] = ' ';
     }
+
     /*
      * If next element is box, this has two cases:
      *    1. If the next element of box is wall, then do nothing.
@@ -69,7 +71,8 @@ void move_up(void) {
     my_x--;
 }
 
-void move_down(void) {
+void move_down(void)
+{
     // If next element is wall('#'), do nothing.
     if ('#' == map[my_x + 1][my_y])
         return;
@@ -135,7 +138,8 @@ void move_down(void) {
     my_x++;
 }
 
-void move_left(void) {
+void move_left(void)
+{
     // If next element is wall('#'), do nothing.
     if ('#' == map[my_x][my_y - 1])
         return;
@@ -201,7 +205,8 @@ void move_left(void) {
     my_y--;
 }
 
-void move_right(void) {
+void move_right(void)
+{
     // If next element is wall('#'), do nothing.
     if ('#' == map[my_x][my_y + 1])
         return;

@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/coolder/Learning/Programming/C_Cpp/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/coolder/Learning/Programming/C_Cpp/MyProject/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cf353/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf353.dir/build.make CMakeFiles/cmTC_cf353.dir/build
-make[1]: Entering directory '/home/coolder/Learning/Programming/C_Cpp/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf353.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -std=gnu99 -o CMakeFiles/cmTC_cf353.dir/src.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_cf353
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf353.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_cf353.dir/src.c.o -o cmTC_cf353 
-/usr/bin/ld: CMakeFiles/cmTC_cf353.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_96f69/fast && /usr/bin/make  -f CMakeFiles/cmTC_96f69.dir/build.make CMakeFiles/cmTC_96f69.dir/build
+make[1]: Entering directory '/home/coolder/Learning/Programming/C_Cpp/MyProject/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96f69.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -std=gnu99 -o CMakeFiles/cmTC_96f69.dir/src.c.o -c /home/coolder/Learning/Programming/C_Cpp/MyProject/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_96f69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96f69.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_96f69.dir/src.c.o -o cmTC_96f69 
+/usr/bin/ld: CMakeFiles/cmTC_96f69.dir/src.c.o: in function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x67): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_cf353.dir/build.make:106: cmTC_cf353] Error 1
-make[1]: Leaving directory '/home/coolder/Learning/Programming/C_Cpp/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:140: cmTC_cf353/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_96f69.dir/build.make:106: cmTC_96f69] Error 1
+make[1]: Leaving directory '/home/coolder/Learning/Programming/C_Cpp/MyProject/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_96f69/fast] Error 2
 
 
 Source file was:
@@ -39,22 +39,4 @@ int main(void)
 
   return 0;
 }
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/coolder/Learning/Programming/C_Cpp/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_14f41/fast && /usr/bin/make  -f CMakeFiles/cmTC_14f41.dir/build.make CMakeFiles/cmTC_14f41.dir/build
-make[1]: Entering directory '/home/coolder/Learning/Programming/C_Cpp/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14f41.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu99 -o CMakeFiles/cmTC_14f41.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
-Linking C executable cmTC_14f41
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14f41.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_14f41.dir/CheckFunctionExists.c.o -o cmTC_14f41  -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_14f41.dir/build.make:106: cmTC_14f41] Error 1
-make[1]: Leaving directory '/home/coolder/Learning/Programming/C_Cpp/MyFind/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:140: cmTC_14f41/fast] Error 2
-
-
 

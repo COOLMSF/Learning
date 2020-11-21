@@ -3,11 +3,10 @@
 //
 #include "allheaders.h"
 
-void sig_handler(void) {
-
+void sig_handler(void)
+{
     puts("SIGINT caught");
     puts("Exited");
 
     exit(EXIT_SUCCESS);
 }
-

@@ -16,9 +16,10 @@ int
 main()
 {
     int status;
+    char new_line = 0;
+
     system ("clear");
     signal(SIGINT, sigintHandler);
-    char new_line = 0;
     using_history();
 
     do {
