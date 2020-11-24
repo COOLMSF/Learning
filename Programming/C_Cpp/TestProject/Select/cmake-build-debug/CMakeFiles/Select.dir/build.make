@@ -98,6 +98,7 @@ Select_EXTERNAL_OBJECTS =
 
 Select: CMakeFiles/Select.dir/main.c.o
 Select: CMakeFiles/Select.dir/build.make
+Select: /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a
 Select: CMakeFiles/Select.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/TestProject/Select/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Select"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Select.dir/link.txt --verbose=$(VERBOSE)
