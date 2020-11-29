@@ -30,15 +30,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TestProject/2DarrayAlloc" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RunManager">
     <configuration name="MyShell" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyShell" TARGET_NAME="MyShell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyShell" RUN_TARGET_NAME="MyShell">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -86,6 +81,7 @@
       <workItem from="1605863496921" duration="2462000" />
       <workItem from="1605952664262" duration="13000" />
       <workItem from="1606554638835" duration="22000" />
+      <workItem from="1606579846139" duration="558000" />
     </task>
     <servers />
   </component>
@@ -130,13 +126,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="220" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1604199253634" />
+    <state x="162" y="-10" key="SettingsEditor" timestamp="1606580377938">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="162" y="-10" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606580377938" />
     <state x="362" y="24" width="628" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603875022018">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="362" y="24" width="628" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1603875022018" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605865720077">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606579860561">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1605865720077" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1606579860561" />
   </component>
 </project>

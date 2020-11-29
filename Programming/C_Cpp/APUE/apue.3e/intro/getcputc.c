@@ -3,7 +3,7 @@
 int
 main(void)
 {
-	int		c;
+	int c;
 
 	while ((c = getc(stdin)) != EOF)
 		if (putc(c, stdout) == EOF)
