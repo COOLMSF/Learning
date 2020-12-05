@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/getch.c" "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/getch.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/init.c" "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/init.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/main.c" "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/main.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/move.c" "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/move.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_map.c" "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/print_map.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/print_usage.c" "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/print_usage.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/sig_handler.c" "/home/coolder/Learning/Programming/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/sig_handler.c.o"
+  "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/getch.c" "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/getch.c.o"
+  "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/init.c" "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/init.c.o"
+  "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/main.c" "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/main.c.o"
+  "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/move.c" "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/move.c.o"
+  "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/print_map.c" "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/print_map.c.o"
+  "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/print_usage.c" "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/print_usage.c.o"
+  "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/sig_handler.c" "/home/coolder/CLionProjects/C_Cpp/MyProject/BoxGame/cmake-build-debug/CMakeFiles/BoxGame.dir/sig_handler.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

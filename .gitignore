@@ -8,4 +8,4 @@
 Documents/Ebooks/*
 
 # ignore Linux source code
-System/Linux/Kernel/linux-2.6.11.1/*
+System/Linux/Kernel/*
