@@ -5,7 +5,7 @@
 *.docx
 
 # ignore directory
-Documents/Ebooks/*
+Documents/Ebooks/
 
 # ignore Linux source code
-System/Linux/Kernel/*
+System/Linux/Kernel/
