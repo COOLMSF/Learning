@@ -33,11 +33,6 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="cal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cal" TARGET_NAME="cal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cal" RUN_TARGET_NAME="cal">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -59,6 +54,7 @@
       <updated>1606731298377</updated>
       <workItem from="1606731299529" duration="3037000" />
       <workItem from="1607407658506" duration="17000" />
+      <workItem from="1607788956531" duration="41000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ public class Cel2Far {
         this.celsius = celsius;
     }
 
-    public double getFahrenheit() {
+    public double getFar() {
         return (celsius * 9 / 5.0) + 32;
     }
 }
