@@ -220,7 +220,7 @@ cmd::unescape	/home/coolder/Learning/Documents/Navi/navi/src/cmd.sh	/^cmd::unesc
 cmd::loop	/home/coolder/Learning/Documents/Navi/navi/src/cmd.sh	/^cmd::loop() {$/;"	f
 cmd::finish	/home/coolder/Learning/Documents/Navi/navi/src/cmd.sh	/^cmd::finish() {$/;"	f
 Learning	/home/coolder/Learning/README.md	/^# Learning$/;"	c
-All my learning files including programming, hacking, networking and etc..	/home/coolder/Learning/README.md	/^# All my learning files including programming, hacking, networking and etc..$/;"	c
+All my learning files including programming, hacking, networking and others.	/home/coolder/Learning/README.md	/^# All my learning files including programming, hacking, networking and others.$/;"	c
 intro	/home/coolder/Learning/Programming/Malware/Virus/ELF/HowToCodeAnELFVirus.html	/^}<\/style><\/head><body class="sect1" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#84/;"	a
 1. Introduction	/home/coolder/Learning/Programming/Malware/Virus/ELF/HowToCodeAnELFVirus.html	/^}<\/style><\/head><body class="sect1" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#84/;"	h
 intro	/home/coolder/Learning/Programming/Malware/Virus/ELF/HowToCodeAnELFVirus.html	/^  <\/p><\/i><\/td><\/tr><tr><td width="45%">&nbsp;<\/td><td width="45%" align="RIGHT" valign="TO/;"	a
@@ -471,116 +471,4 @@ ip_sum	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_sho
 ip_src	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	struct  in_addr ip_src,ip_dst;	\/* source and dest address *\/$/;"	m	struct:sniff_ip	typeref:struct:in_addr
 ip_dst	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	struct  in_addr ip_src,ip_dst;	\/* source and dest address *\/$/;"	m	struct:sniff_ip	typeref:struct:in_addr
 sniff_tcp	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^struct sniff_tcp {$/;"	s
-th_sport	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_short th_sport;				\/* source port *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_short
-th_dport	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_short th_dport;				\/* destination port *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_short
-th_seq	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_int th_seq;					\/* sequence number *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_int
-th_ack	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_int th_ack;					\/* acknowledgement number *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_int
-th_offx2	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_char  th_offx2;				\/* data offset, rsvd *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_char
-TH_OFF	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_OFF(/;"	d
-th_flags	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_char  th_flags;$/;"	m	struct:sniff_tcp	typeref:typename:u_char
-TH_FIN	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_FIN /;"	d
-TH_SYN	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_SYN /;"	d
-TH_RST	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_RST /;"	d
-TH_PUSH	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_PUSH /;"	d
-TH_ACK	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_ACK /;"	d
-TH_URG	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_URG /;"	d
-TH_ECE	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_ECE /;"	d
-TH_CWR	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_CWR /;"	d
-TH_FLAGS	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	#define TH_FLAGS /;"	d
-th_win	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_short th_win;					\/* window *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_short
-th_sum	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_short th_sum;					\/* checksum *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_short
-th_urp	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_short th_urp;					\/* urgent pointer *\/$/;"	m	struct:sniff_tcp	typeref:typename:u_short
-IP_HL	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^#define IP_HL(/;"	d
-SIZE_ETHERNET	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^#define SIZE_ETHERNET /;"	d
-_GNU_SOURCE	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/client.c	/^#define _GNU_SOURCE$/;"	d	file:
-PORT	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/client.c	/^#define PORT /;"	d	file:
-old_socket	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/client.c	/^static int (*old_socket)(int domain, int type, int protocol);$/;"	v	typeref:typename:int (*)(int domain,int type,int protocol)	file:
-socket	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/client.c	/^int socket(int domain, int type, int protocol) {$/;"	f	typeref:typename:int
-nsbfcf0cf60101	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/pom.xml	/^	xsi:schemaLocation="http:\/\/maven.apache.org\/POM\/4.0.0 http:\/\/maven.apache.org\/xsd\/maven/;"	n	uri:http://maven.apache.org/POM/4.0.0
-xsi	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/pom.xml	/^	xsi:schemaLocation="http:\/\/maven.apache.org\/POM\/4.0.0 http:\/\/maven.apache.org\/xsd\/maven/;"	n	uri:http://www.w3.org/2001/XMLSchema-instance
-ge.vakho	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/pom.xml	/^	<groupId>ge.vakho<\/groupId>$/;"	g
-keylogger	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/pom.xml	/^	<artifactId>keylogger<\/artifactId>$/;"	a	groupId:ge.vakho
-project.build.sourceEncoding	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/pom.xml	/^		<project.build.sourceEncoding>UTF-8<\/project.build.sourceEncoding>$/;"	p
-maven.compiler.target	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/pom.xml	/^		<maven.compiler.target>1.8<\/maven.compiler.target>$/;"	p
-maven.compiler.source	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/pom.xml	/^		<maven.compiler.source>1.8<\/maven.compiler.source>$/;"	p
-groupId	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/target/maven-archiver/pom.properties	/^groupId=ge.vakho$/;"	k
-artifactId	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/target/maven-archiver/pom.properties	/^artifactId=keylogger$/;"	k
-version	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/target/maven-archiver/pom.properties	/^version=1.0-SNAPSHOT$/;"	k
-Java-Keylogger	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/README.md	/^# Java-Keylogger$/;"	c
-How to Build and Run Project	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/README.md	/^## How to Build and Run Project$/;"	s
-P.S.	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/README.md	/^## P.S.$/;"	s
-ge.vakho	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^package ge.vakho;$/;"	p
-KeyLogger	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^public class KeyLogger implements NativeKeyListener {$/;"	c
-file	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^	private static final Path file = Paths.get("keys.txt");$/;"	f	class:KeyLogger	file:
-logger	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^	private static final Logger logger = LoggerFactory.getLogger(KeyLogger.class);$/;"	f	class:KeyLogger	file:
-main	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^	public static void main(String[] args) {$/;"	m	class:KeyLogger
-init	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^	private static void init() {$/;"	m	class:KeyLogger	file:
-nativeKeyPressed	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^	public void nativeKeyPressed(NativeKeyEvent e) {$/;"	m	class:KeyLogger
-nativeKeyReleased	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^	public void nativeKeyReleased(NativeKeyEvent e) {$/;"	m	class:KeyLogger
-nativeKeyTyped	/home/coolder/Learning/Programming/Malware/Keylogger/java-keylogger/src/main/java/ge/vakho/KeyLogger.java	/^	public void nativeKeyTyped(NativeKeyEvent e) {$/;"	m	class:KeyLogger
-isPalinddromeNumber	/home/coolder/Learning/Programming/C_Cpp/Useful/isPalindromeNumber.c	/^bool isPalinddromeNumber(int number) {$/;"	f	typeref:typename:bool
-main	/home/coolder/Learning/Programming/C_Cpp/Useful/show_local_time.c	/^int main() {$/;"	f	typeref:typename:int
-_XOPEN_SOURCE	/home/coolder/Learning/Programming/C_Cpp/Useful/nftw.c	/^#define _XOPEN_SOURCE /;"	d	file:
-MAXLEVEL	/home/coolder/Learning/Programming/C_Cpp/Useful/nftw.c	/^#define MAXLEVEL /;"	d	file:
-display_info	/home/coolder/Learning/Programming/C_Cpp/Useful/nftw.c	/^static int display_info(const char *fpath, const struct stat *sb,$/;"	f	typeref:typename:int	file:
-main	/home/coolder/Learning/Programming/C_Cpp/Useful/nftw.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
-TRUE	/home/coolder/Learning/Programming/C_Cpp/Useful/bracePair.c	/^#define TRUE /;"	d	file:
-FALSE	/home/coolder/Learning/Programming/C_Cpp/Useful/bracePair.c	/^#define FALSE /;"	d	file:
-sockMerchant	/home/coolder/Learning/Programming/C_Cpp/Useful/bracePair.c	/^int sockMerchant(int n, int* ar) {$/;"	f	typeref:typename:int
-main	/home/coolder/Learning/Programming/C_Cpp/Useful/bracePair.c	/^main(void) {$/;"	f	typeref:typename:int
-FLAG_A	/home/coolder/Learning/Programming/C_Cpp/Useful/set_del_flag.c	/^#define FLAG_A /;"	d	file:
-FLAG_B	/home/coolder/Learning/Programming/C_Cpp/Useful/set_del_flag.c	/^#define FLAG_B /;"	d	file:
-FLAG_C	/home/coolder/Learning/Programming/C_Cpp/Useful/set_del_flag.c	/^#define FLAG_C /;"	d	file:
-FLAG_D	/home/coolder/Learning/Programming/C_Cpp/Useful/set_del_flag.c	/^#define FLAG_D /;"	d	file:
-FLAG_INIT	/home/coolder/Learning/Programming/C_Cpp/Useful/set_del_flag.c	/^#define FLAG_INIT /;"	d	file:
-main	/home/coolder/Learning/Programming/C_Cpp/Useful/set_del_flag.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
-main	/home/coolder/Learning/Programming/C_Cpp/Useful/strtok.c	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
-itoa	/home/coolder/Learning/Programming/C_Cpp/Useful/itoa.c	/^char *itoa(uint32_t number, uint8_t len, char* array) {$/;"	f	typeref:typename:char *
-UNTITLED2_ITOA_H	/home/coolder/Learning/Programming/C_Cpp/Useful/itoa.h	/^#define UNTITLED2_ITOA_H$/;"	d
-UNTITLED2_PALINDROMENUMBER_H	/home/coolder/Learning/Programming/C_Cpp/Useful/PalindromeNumber.h	/^#define UNTITLED2_PALINDROMENUMBER_H$/;"	d
-MAX_LEN_OF_STRING	/home/coolder/Learning/Programming/C_Cpp/Useful/split.c	/^#define MAX_LEN_OF_STRING /;"	d	file:
-MAX_LEN_OF_EACH_ELEMENT	/home/coolder/Learning/Programming/C_Cpp/Useful/split.c	/^#define MAX_LEN_OF_EACH_ELEMENT /;"	d	file:
-MAX_ELEMENT	/home/coolder/Learning/Programming/C_Cpp/Useful/split.c	/^#define MAX_ELEMENT /;"	d	file:
-split	/home/coolder/Learning/Programming/C_Cpp/Useful/split.c	/^char **split (const char *string, const char *delim) {$/;"	f	typeref:typename:char **
-listdir	/home/coolder/Learning/Programming/C_Cpp/Useful/listDir.c	/^void listdir(const char *name, int indent)$/;"	f	typeref:typename:void
-main	/home/coolder/Learning/Programming/C_Cpp/Useful/listDir.c	/^int main(void) {$/;"	f	typeref:typename:int
-get_num_len	/home/coolder/Learning/Programming/C_Cpp/Useful/get_num_len.c	/^uint8_t get_num_len(uint32_t number) {$/;"	f	typeref:typename:uint8_t
-78c91005-e25e-4c07-91c6-978e3e7ceab6	/home/coolder/Learning/Programming/C_Cpp/Useful/.idea/workspace.xml	/^    <list default="true" id="78c91005-e25e-4c07-91c6-978e3e7ceab6" name="Default Changelist" com/;"	i
-1irBO52snJo2GggM5bf5Sxc5usB	/home/coolder/Learning/Programming/C_Cpp/Useful/.idea/workspace.xml	/^  <component name="ProjectId" id="1irBO52snJo2GggM5bf5Sxc5usB" \/>$/;"	i
-Default	/home/coolder/Learning/Programming/C_Cpp/Useful/.idea/workspace.xml	/^    <task active="true" id="Default" summary="Default task">$/;"	i
-78c91005-e25e-4c07-91c6-978e3e7ceab6	/home/coolder/Learning/Programming/C_Cpp/Useful/.idea/workspace.xml	/^      <changelist id="78c91005-e25e-4c07-91c6-978e3e7ceab6" name="Default Changelist" comment=""/;"	i
-MAX	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/swap.c	/^#define MAX /;"	d	file:
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/swap.c	/^main(void) {$/;"	f	typeref:typename:int
-swap	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/swap.c	/^swap(int *a, int *b) {$/;"	f	typeref:typename:void
-swap_1	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/swap.c	/^swap_1(int *a, int *b) {$/;"	f	typeref:typename:void
-reverse_array	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/swap.c	/^reverse_array(int a[], int cnt) {$/;"	f	typeref:typename:void
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/show_byte_1.c	/^main(void) {$/;"	f	typeref:typename:int
-show_byte	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/show_byte_1.c	/^show_byte(char *p, int len) {$/;"	f	typeref:typename:void
-byte_pointer	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/show_byte.c	/^typedef unsigned char *byte_pointer;$/;"	t	typeref:typename:unsigned char *	file:
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/show_byte.c	/^main(void) {$/;"	f	typeref:typename:int
-show_byte	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.11/show_byte.c	/^show_byte(byte_pointer p, int len) {$/;"	f	typeref:typename:void
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.59/a.c	/^main(void) {$/;"	f	typeref:typename:int
-fun	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.59/a.c	/^fun(unsigned int x, unsigned int y) {$/;"	f	typeref:typename:unsigned int
-MAX	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.10/swap.c	/^#define MAX /;"	d	file:
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.10/swap.c	/^main (void)$/;"	f	typeref:typename:int
-swap	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.10/swap.c	/^swap (int *a, int *b)$/;"	f	typeref:typename:void
-swap_1	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.10/swap.c	/^swap_1 (int *a, int *b)$/;"	f	typeref:typename:void
-reverse_array	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.10/swap.c	/^reverse_array (int a[], int cnt)$/;"	f	typeref:typename:void
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.65/a.c	/^main(void) {$/;"	f	typeref:typename:int
-odd_ones	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.65/a.c	/^odd_ones(unsigned int x) {$/;"	f	typeref:typename:int
-is_odd	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.65/a.c	/^is_odd(unsigned int x) {$/;"	f	typeref:typename:int
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.64/a.c	/^main(void) {$/;"	f	typeref:typename:int
-odd_ones	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.64/a.c	/^odd_ones(unsigned int x) {$/;"	f	typeref:typename:int
-is_odd	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.64/a.c	/^is_odd(unsigned int x) {$/;"	f	typeref:typename:int
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.62/int_shifts_are_arithmetic.c	/^main(void) {$/;"	f	typeref:typename:int
-int_shifts_are_arithmetic	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.62/int_shifts_are_arithmetic.c	/^int_shifts_are_arithmetic(void) {$/;"	f	typeref:typename:int
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.12/a.c	/^main(void) {$/;"	f	typeref:typename:int
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.12/b.c	/^main(void) {$/;"	f	typeref:typename:int
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.12/c.c	/^main(void) {$/;"	f	typeref:typename:int
-byte_pointer	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.58/is_little_endian_1.c	/^typedef unsigned char *byte_pointer;$/;"	t	typeref:typename:unsigned char *	file:
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.58/is_little_endian_1.c	/^main(void) {$/;"	f	typeref:typename:int
-is_little_endian	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.58/is_little_endian_1.c	/^is_little_endian(void) {$/;"	f	typeref:typename:int
-byte_pointer	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.60/a.c	/^typedef unsigned char * byte_pointer;$/;"	t	typeref:typename:unsigned char *	file:
-main	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.60/a.c	/^main(void) {$/;"	f	typeref:typename:int
-replace_byte	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.60/a.c	/^replace_byte(unsigned int x, unsigned int n_byte,$/;"	f	typeref:typename:unsigned int
-byte_pointer	/home/coolder/Learning/Programming/C_Cpp/Homework/Book/DeepUnderstandComputerSystem/2/2.60/b.c	/^typedef unsigned char * byte_pointer;$/;"	t	
+th_sport	/home/coolder/Learning/Programming/Malware/Rootkit/azazel/pcap.h	/^	u_short th_sport;				\/* source port *\/$/;"	m	struct:sniff_tcp	t

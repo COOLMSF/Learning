@@ -7,12 +7,12 @@ public class Student extends Person implements Comparable<Student> {
     final private String stuClass;
 
     // Every student has 3 subjects
-    public Subject[] stuSubjects = new Subject[3];
+    final Subject[] stuSubjects = new Subject[3];
 
     Student(String stuName, String stuGender, int stuAge,
             String stuId, String stuClass) {
 
-        super(stuName, stuGender, stuAge);
+        super(stuAge, stuName, stuGender);
 
         this.stuId = stuId;
         this.stuClass = stuClass;

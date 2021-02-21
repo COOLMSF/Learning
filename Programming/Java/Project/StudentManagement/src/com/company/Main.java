@@ -8,10 +8,15 @@ public class Main {
     public static void main(String[] args) {
         Student[] studentGroup = new Student[3];
 
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        double b = scanner.nextDouble();
+
         studentGroup[0] = new Student("coolder", "male", 22, "1831625232", "Network");
-        studentGroup[1] = new Student("COLMSF", "female", 18, "1831615242", "Clould");
+        studentGroup[1] = new Student("COLMSF", "female", 18, "1831615242", "Cloud");
         studentGroup[2] = new Student("coolme", "female", 17, "183161522", "Security");
 
+        // aaa
         //for (Student stu :
         //        studentGroup) {
         //    stu.stuSubject.chinese.setScore(new Random().nextDouble() * 100);
