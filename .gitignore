@@ -8,4 +8,6 @@
 Documents/Ebooks/
 
 # ignore Linux source code
-System/Linux/Kernel/
+System/Linux/Kernel/linux
+System/Linux/Kernel/vmlinux
+System/Linux/Kernel/ramdisk.img
