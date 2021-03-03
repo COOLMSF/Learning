@@ -1,0 +1,288 @@
+menu "Console options"
+
+# TODO: Rename to SERIAL_CONSOLE once Kconfig transition is complete.
+config CONSOLE_SERIAL8250
+	bool "Serial port console output"
+	default y
+	help
+	  Send coreboot debug output to a serial port console.
+
+choice
+	prompt "Serial port"
+	default CONSOLE_SERIAL_COM1
+	depends on CONSOLE_SERIAL8250
+
+config CONSOLE_SERIAL_COM1
+	bool "COM1/ttyS0, I/O port 0x3f8"
+	help
+	  Serial console on COM1/ttyS0 at I/O port 0x3f8.
+config CONSOLE_SERIAL_COM2
+	bool "COM2/ttyS1, I/O port 0x2f8"
+	help
+	  Serial console on COM2/ttyS1 at I/O port 0x2f8.
+config CONSOLE_SERIAL_COM3
+	bool "COM3/ttyS2, I/O port 0x3e8"
+	help
+	  Serial console on COM3/ttyS2 at I/O port 0x3e8.
+config CONSOLE_SERIAL_COM4
+	bool "COM4/ttyS3, I/O port 0x2e8"
+	help
+	  Serial console on COM4/ttyS3 at I/O port 0x2e8.
+
+endchoice
+
+config TTYS0_BASE
+	hex
+	depends on CONSOLE_SERIAL8250
+	default 0x3f8 if CONSOLE_SERIAL_COM1
+	default 0x2f8 if CONSOLE_SERIAL_COM2
+	default 0x3e8 if CONSOLE_SERIAL_COM3
+	default 0x2e8 if CONSOLE_SERIAL_COM4
+	help
+	  Map the COM port names to the respective I/O port.
+
+choice
+	prompt "Baud rate"
+	default CONSOLE_SERIAL_115200
+	depends on CONSOLE_SERIAL8250
+
+config CONSOLE_SERIAL_115200
+	bool "115200"
+	help
+	  Set serial port Baud rate to 115200.
+config CONSOLE_SERIAL_57600
+	bool "57600"
+	help
+	  Set serial port Baud rate to 57600.
+config CONSOLE_SERIAL_38400
+	bool "38400"
+	help
+	  Set serial port Baud rate to 38400.
+config CONSOLE_SERIAL_19200
+	bool "19200"
+	help
+	  Set serial port Baud rate to 19200.
+config CONSOLE_SERIAL_9600
+	bool "9600"
+	help
+	  Set serial port Baud rate to 9600.
+
+endchoice
+
+config TTYS0_BAUD
+	int
+	default 115200 if CONSOLE_SERIAL_115200
+	default 57600 if CONSOLE_SERIAL_57600
+	default 38400 if CONSOLE_SERIAL_38400
+	default 19200 if CONSOLE_SERIAL_19200
+	default 9600 if CONSOLE_SERIAL_9600
+	help
+	  Map the Baud rates to an integer.
+
+# TODO: Allow user-friendly selection of settings other than 8n1.
+config TTYS0_LCS
+	int
+	default 3
+	depends on CONSOLE_SERIAL8250
+
+config SERIAL_POST
+	bool "Show POST codes on the serial port console"
+	depends on CONSOLE_SERIAL8250
+	default n
+	help
+	  If enabled, coreboot will additionally print POST codes (which are
+	  usually displayed using a so-called "POST card" ISA/PCI/PCI-E
+	  device) on the serial console.
+
+# TODO: FIX DEPENDENCY HERE
+config USBDEBUG_DIRECT
+	bool "USB 2.0 EHCI debug dongle support"
+	default n
+	help
+	  This option allows you to use a so-called USB EHCI Debug device
+	  to retrieve the coreboot debug messages (instead, or in addition
+	  to, a serial port).
+
+	  This feature is NOT supported on all chipsets in coreboot!
+
+	  It also requires a USB2 controller which supports the EHCI
+	  Debug Port capability. Controllers which are known to work:
+	
+	    * 10b9:5239 ALi Corporation USB 2.0 (USB PCI card)
+	    * 8086:24cd Intel ICH4/ICH4-M
+	    * 8086:24dd Intel ICH5
+	    * 8086:265c Intel ICH6
+	    * 8086:268c Intel 631xESB/632xESB/3100
+	    * 8086:27cc Intel ICH7
+	    * 8086:2836 Intel ICH8
+	    * 8086:283a Intel ICH8
+	    * 8086:293a Intel ICH9
+	    * 10de:0088 NVIDIA MCP2A
+	    * 10de:005b NVIDIA CK804
+	    * 10de:026e NVIDIA MCP51
+	    * 10de:036d NVIDIA MCP55
+	    * 10de:03f2 NVIDIA MCP61
+	    * 1002:4386 ATI/AMD SB600
+	    * 1106:3104 VIA VX800
+
+	  See http://www.coreboot.org/EHCI_Debug_Port for an up-to-date list.
+
+config CONSOLE_VGA
+	bool "Use VGA console once initialized"
+	default n
+
+# TODO: Deps?
+# TODO: Improve description.
+config CONSOLE_VGA_ONBOARD_AT_FIRST
+	bool "Use onboard VGA as primary video device"
+	default n
+	help
+	  If not selected, the last adapter found will be used.
+
+choice
+	prompt "Maximum console log level"
+	default MAXIMUM_CONSOLE_LOGLEVEL_8
+
+config MAXIMUM_CONSOLE_LOGLEVEL_8
+	bool "8: SPEW"
+	help
+	  Way too many details.
+config MAXIMUM_CONSOLE_LOGLEVEL_7
+	bool "7: DEBUG"
+	help
+	  Debug-level messages.
+config MAXIMUM_CONSOLE_LOGLEVEL_6
+	bool "6: INFO"
+	help
+	  Informational messages.
+config MAXIMUM_CONSOLE_LOGLEVEL_5
+	bool "5: NOTICE"
+	help
+	  Normal but significant conditions.
+config MAXIMUM_CONSOLE_LOGLEVEL_4
+	bool "4: WARNING"
+	help
+	  Warning conditions.
+config MAXIMUM_CONSOLE_LOGLEVEL_3
+	bool "3: ERR"
+	help
+	  Error conditions.
+config MAXIMUM_CONSOLE_LOGLEVEL_2
+	bool "2: CRIT"
+	help
+	  Critical conditions.
+config MAXIMUM_CONSOLE_LOGLEVEL_1
+	bool "1: ALERT"
+	help
+	  Action must be taken immediately.
+config MAXIMUM_CONSOLE_LOGLEVEL_0
+	bool "0: EMERG"
+	help
+	  System is unusable.
+
+endchoice
+
+config MAXIMUM_CONSOLE_LOGLEVEL
+	int
+	default 0 if MAXIMUM_CONSOLE_LOGLEVEL_0
+	default 1 if MAXIMUM_CONSOLE_LOGLEVEL_1
+	default 2 if MAXIMUM_CONSOLE_LOGLEVEL_2
+	default 3 if MAXIMUM_CONSOLE_LOGLEVEL_3
+	default 4 if MAXIMUM_CONSOLE_LOGLEVEL_4
+	default 5 if MAXIMUM_CONSOLE_LOGLEVEL_5
+	default 6 if MAXIMUM_CONSOLE_LOGLEVEL_6
+	default 7 if MAXIMUM_CONSOLE_LOGLEVEL_7
+	default 8 if MAXIMUM_CONSOLE_LOGLEVEL_8
+	help
+	  Map the log level config names to an integer.
+
+choice
+	prompt "Default console log level"
+	default DEFAULT_CONSOLE_LOGLEVEL_8
+
+config DEFAULT_CONSOLE_LOGLEVEL_8
+	bool "8: SPEW"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8)
+	help
+	  Way too many details.
+config DEFAULT_CONSOLE_LOGLEVEL_7
+	bool "7: DEBUG"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8 || MAXIMUM_CONSOLE_LOGLEVEL_7)
+	help
+	  Debug-level messages.
+config DEFAULT_CONSOLE_LOGLEVEL_6
+	bool "6: INFO"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8 || MAXIMUM_CONSOLE_LOGLEVEL_7 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_6)
+	help
+	  Informational messages.
+config DEFAULT_CONSOLE_LOGLEVEL_5
+	bool "5: NOTICE"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8 || MAXIMUM_CONSOLE_LOGLEVEL_7 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_6 || MAXIMUM_CONSOLE_LOGLEVEL_5)
+	help
+	  Normal but significant conditions.
+config DEFAULT_CONSOLE_LOGLEVEL_4
+	bool "4: WARNING"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8 || MAXIMUM_CONSOLE_LOGLEVEL_7 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_6 || MAXIMUM_CONSOLE_LOGLEVEL_5 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_4)
+	help
+	  Warning conditions.
+config DEFAULT_CONSOLE_LOGLEVEL_3
+	bool "3: ERR"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8 || MAXIMUM_CONSOLE_LOGLEVEL_7 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_6 || MAXIMUM_CONSOLE_LOGLEVEL_5 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_4 || MAXIMUM_CONSOLE_LOGLEVEL_3)
+	help
+	  Error conditions.
+config DEFAULT_CONSOLE_LOGLEVEL_2
+	bool "2: CRIT"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8 || MAXIMUM_CONSOLE_LOGLEVEL_7 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_6 || MAXIMUM_CONSOLE_LOGLEVEL_5 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_4 || MAXIMUM_CONSOLE_LOGLEVEL_3 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_2)
+	help
+	  Critical conditions.
+config DEFAULT_CONSOLE_LOGLEVEL_1
+	bool "1: ALERT"
+	depends on (MAXIMUM_CONSOLE_LOGLEVEL_8 || MAXIMUM_CONSOLE_LOGLEVEL_7 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_6 || MAXIMUM_CONSOLE_LOGLEVEL_5 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_4 || MAXIMUM_CONSOLE_LOGLEVEL_3 ||\
+		    MAXIMUM_CONSOLE_LOGLEVEL_2 || MAXIMUM_CONSOLE_LOGLEVEL_1)
+	help
+	  Action must be taken immediately.
+config DEFAULT_CONSOLE_LOGLEVEL_0
+	bool "0: EMERG"
+	help
+	  System is unusable.
+
+endchoice
+
+config DEFAULT_CONSOLE_LOGLEVEL
+	int
+	default 0 if DEFAULT_CONSOLE_LOGLEVEL_0
+	default 1 if DEFAULT_CONSOLE_LOGLEVEL_1
+	default 2 if DEFAULT_CONSOLE_LOGLEVEL_2
+	default 3 if DEFAULT_CONSOLE_LOGLEVEL_3
+	default 4 if DEFAULT_CONSOLE_LOGLEVEL_4
+	default 5 if DEFAULT_CONSOLE_LOGLEVEL_5
+	default 6 if DEFAULT_CONSOLE_LOGLEVEL_6
+	default 7 if DEFAULT_CONSOLE_LOGLEVEL_7
+	default 8 if DEFAULT_CONSOLE_LOGLEVEL_8
+	help
+	  Map the log level config names to an integer.
+
+endmenu
+
+config CONSOLE_BTEXT
+	bool
+	default n
+
+config CONSOLE_SROM
+	bool
+	default n
+
+config CONSOLE_LOGBUF
+	bool
+	default n

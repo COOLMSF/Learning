@@ -1,0 +1,63 @@
+config BOARD_VIA_PC2500E
+	bool "pc2500e"
+	select ARCH_X86
+	select CPU_VIA_C7
+	select NORTHBRIDGE_VIA_CN700
+	select SOUTHBRIDGE_VIA_VT8237R
+	select SUPERIO_ITE_IT8716F
+	select HAVE_PIRQ_TABLE
+	select HAVE_MP_TABLE
+	select SMP
+	select UDELAY_TSC
+	select BOARD_ROMSIZE_KB_512
+
+config MAINBOARD_DIR
+	string
+	default via/pc2500e
+	depends on BOARD_VIA_PC2500E
+
+config MAINBOARD_PART_NUMBER
+	string
+	default "pc2500e"
+	depends on BOARD_VIA_PC2500E
+
+config DCACHE_RAM_BASE
+	hex
+	default 0xc0000
+	depends on BOARD_VIA_PC2500E
+
+config DCACHE_RAM_SIZE
+	hex
+	default 0x1000
+	depends on BOARD_VIA_PC2500E
+
+config RAMBASE
+	hex
+	default 0x4000
+	depends on BOARD_VIA_PC2500E
+
+config IRQ_SLOT_COUNT
+	int
+	default 10
+	depends on BOARD_VIA_PC2500E
+
+config MAINBOARD_PCI_SUBSYSTEM_VENDOR_ID
+	hex
+	default 0x1019
+	depends on BOARD_VIA_PC2500E
+
+config MAINBOARD_PCI_SUBSYSTEM_DEVICE_ID
+	hex
+	default 0xaa51
+	depends on BOARD_VIA_PC2500E
+
+config FALLBACK_VGA_BIOS_FILE
+	string
+	default "M14CRT.ROM"
+	depends on BOARD_VIA_PC2500E
+
+config FALLBACK_VGA_BIOS_ID
+	string
+	default "1106,3344"
+	depends on BOARD_VIA_PC2500E
+

@@ -1,0 +1,111 @@
+config BOARD_ASUS_A8V_E_SE
+	bool "A8V-E SE"
+	select ARCH_X86
+	select CPU_AMD_SOCKET_939
+	select K8_HT_FREQ_1G_SUPPORT
+	select NORTHBRIDGE_AMD_AMDK8
+	select NORTHBRIDGE_AMD_AMDK8_ROOT_COMPLEX
+	select SOUTHBRIDGE_VIA_VT8237R
+	select SOUTHBRIDGE_VIA_K8T890
+	select SUPERIO_WINBOND_W83627EHG
+	select USE_PRINTK_IN_CAR
+	select USE_DCACHE_RAM
+	select HAVE_ACPI_TABLES
+	select HAVE_MP_TABLE
+	select BOARD_ROMSIZE_KB_512
+
+config MAINBOARD_DIR
+	string
+	default asus/a8v-e_se
+	depends on BOARD_ASUS_A8V_E_SE
+
+config DCACHE_RAM_BASE
+	hex
+	default 0xcc000
+	depends on BOARD_ASUS_A8V_E_SE
+
+config DCACHE_RAM_SIZE
+	hex
+	default 0x4000
+	depends on BOARD_ASUS_A8V_E_SE
+
+config DCACHE_RAM_GLOBAL_VAR_SIZE
+	hex
+	default 0x1000
+	depends on BOARD_ASUS_A8V_E_SE
+
+config APIC_ID_OFFSET
+	hex
+	default 0x10
+	depends on BOARD_ASUS_A8V_E_SE
+
+config SB_HT_CHAIN_ON_BUS0
+	int
+	default 1
+	depends on BOARD_ASUS_A8V_E_SE
+
+config SB_HT_CHAIN_UNITID_OFFSET_ONLY
+	bool
+	default n
+	depends on BOARD_ASUS_A8V_E_SE
+
+config LB_CKS_RANGE_END
+	int
+	default 122
+	depends on BOARD_ASUS_A8V_E_SE
+
+config LB_CKS_LOC
+	int
+	default 123
+	depends on BOARD_ASUS_A8V_E_SE
+
+config MAINBOARD_PART_NUMBER
+	string
+	default "A8V-E SE"
+	depends on BOARD_ASUS_A8V_E_SE
+
+config HW_MEM_HOLE_SIZEK
+	hex
+	default 0
+	depends on BOARD_ASUS_A8V_E_SE
+
+config MAX_CPUS
+	int
+	default 2
+	depends on BOARD_ASUS_A8V_E_SE
+
+config MAX_PHYSICAL_CPUS
+	int
+	default 1
+	depends on BOARD_ASUS_A8V_E_SE
+
+config HEAP_SIZE
+	hex
+	default 0x40000
+	depends on BOARD_ASUS_A8V_E_SE
+
+config HT_CHAIN_END_UNITID_BASE
+	hex
+	default 0x20
+	depends on BOARD_ASUS_A8V_E_SE
+
+config HT_CHAIN_UNITID_BASE
+	hex
+	default 0x0
+	depends on BOARD_ASUS_A8V_E_SE
+
+config USE_INIT
+	bool
+	default n
+	depends on BOARD_ASUS_A8V_E_SE
+
+config HAVE_OPTION_TABLE
+	bool
+	default n
+	depends on BOARD_ASUS_A8V_E_SE
+
+config MAINBOARD_PCI_SUBSYSTEM_VENDOR_ID
+	hex
+	default 0x1043
+	depends on BOARD_ASUS_A8V_E_SE
+

@@ -1,0 +1,49 @@
+source src/cpu/amd/Kconfig
+source src/cpu/emulation/Kconfig
+source src/cpu/intel/Kconfig
+source src/cpu/via/Kconfig
+source src/cpu/x86/Kconfig
+
+config USE_DCACHE_RAM
+	bool
+	default n
+
+config DCACHE_RAM_BASE
+	hex
+	default 0xffdf8000 if CPU_INTEL_CORE
+
+config DCACHE_RAM_SIZE
+	hex
+	default 0x8000 if CPU_INTEL_CORE
+
+config DCACHE_RAM_GLOBAL_VAR_SIZE
+	hex
+	default 0x0
+
+config MAX_PHYSICAL_CPUS
+	int
+	default 1
+
+config SMP
+	bool
+	default y if MAX_CPUS != 1
+	default n
+	help
+	  This option is used to enable certain functions to make coreboot
+	  work correctly on symmetric multi processor (SMP) systems.
+
+# Set MMX and SSE in socket or model if the CPU has them.
+# If all CPUs for the socket have MMX or SSE, set them there.
+# These options are only needed for boards compiled with romcc.
+config	MMX
+	bool
+
+config SSE
+	bool
+
+config VAR_MTRR_HOLE
+	bool
+	default y
+	help
+		Unset this if you don't want the MTRR code to use
+		subtractive MTRRs

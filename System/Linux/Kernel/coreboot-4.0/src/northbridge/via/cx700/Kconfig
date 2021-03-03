@@ -1,0 +1,18 @@
+config NORTHBRIDGE_VIA_CX700
+	bool
+	select HAVE_HIGH_TABLES
+	select HAVE_HARD_RESET
+	select IOAPIC
+	select SMP
+
+# this is done by the northbridge's vgabios.c already
+config VGA_ROM_RUN
+	bool
+	default n
+	depends on NORTHBRIDGE_VIA_CX700
+
+config PCI_ROM_RUN
+	bool
+	default n
+	depends on NORTHBRIDGE_VIA_CX700
+

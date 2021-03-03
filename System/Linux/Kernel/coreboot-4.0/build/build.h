@@ -1,0 +1,12 @@
+#define COREBOOT_VERSION "4.0"
+#define COREBOOT_EXTRA_VERSION ""
+#define COREBOOT_BUILD "Fri Jan 29 23:31:57 CST 2021"
+
+#define COREBOOT_COMPILER "gcc (GCC) 10.2.0"
+#define COREBOOT_ASSEMBLER "GNU assembler (GNU Binutils) 2.35.1"
+#define COREBOOT_LINKER "GNU ld (GNU Binutils) 2.35.1"
+#define COREBOOT_COMPILE_TIME "23:31:57"
+#define COREBOOT_COMPILE_BY "coolder"
+#define COREBOOT_COMPILE_HOST "Thinkpad-T480"
+#define COREBOOT_COMPILE_DOMAIN ""
+#include "config.h"

@@ -1,0 +1,8 @@
+choice
+	prompt "Mainboard model"
+	depends on VENDOR_KONTRON
+
+source "src/mainboard/kontron/986lcd-m/Kconfig"
+source "src/mainboard/kontron/kt690/Kconfig"
+
+endchoice

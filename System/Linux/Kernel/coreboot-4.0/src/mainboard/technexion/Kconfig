@@ -1,0 +1,9 @@
+choice
+	prompt "Mainboard model"
+	depends on VENDOR_TECHNEXION
+        
+source "src/mainboard/technexion/tim8690/Kconfig"
+source "src/mainboard/technexion/tim5690/Kconfig"
+
+endchoice
+
