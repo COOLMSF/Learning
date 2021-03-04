@@ -14,37 +14,41 @@ entry:
     mov $msg_coolderOS, %di
     call puts
 
-    // Start to read sector
-
-    // Dst addr es:bx
-    // The segment of dst addr(es)
-    mov $0x820, %ax
-    mov %ax, %es
-    // The offset of dst addr(bx)
-    mov $0, %bx
-
-    // Cylinder
-    mov $0, %ch
-    // Head
-    mov $0, %dh
-    // Sector
-    mov $1, %cl
-    // Read sector to mem
-    mov $0x2, %ah
-    // Sectors to read count
-    // Read one more sector may fail
-    mov $2, %al
-    // Drive
-    mov $0, %dl
-    // Interrutp
-    int $0x13
+    call read_sector
     jc int_error
+
+/*
+ *  read_sector(dst_seg, dst_offset, drive, head, cylinder, sector, count)
+ *  dst_seg:ax
+ *  dst_offset:bx
+ *  drive:dl
+ *  head:dh
+ *  cylinder:ch
+ *  sector:cl
+ *  count:al
+ */
+read_sector:
+    push %bp
+    mov %sp, %bp
+    // Put the stack data into specify registers
+    mov -0x2(%bp), %al
+    mov -0x4(%bp), %cl
+    mov -0x6(%bp), %ch
+    mov -0x8(%bp), %dh
+    mov -0xa(%bp), %dl
+    mov -0xc(%bp), %bx
+    mov -0xe(%bp), %ax
+    // Read sector for int 0x13
+    mov $0x2, %ah
+    int 0x13
 
     mov $msg_read_sector_done, %di
     call puts
 
     jmp end
 
+// puts(str)
+// str:di
 puts:
     push %bp
     mov %sp, %bp
