@@ -38,12 +38,14 @@ entry:
     mov $0, %dl
     // Interrutp
     int $0x13
-    jc int_error
+    // Error
+    jc puts_error
 
     mov $msg_read_sector_done, %di
     call puts
 
-    jmp end
+    hlt
+
 
 puts:
     push %bp
@@ -61,22 +63,18 @@ puts:
     leave
     ret
 
-int_error:
+puts_error:
     mov $msg_int_err, %di
     call puts
 
-end:
-    hlt
-    jmp end
-
 msg_coolderOS:
-    .asciz "\r\n\n\rWelcome to coolderOS"
+    .asciz "Welcome to coolderOS"
 msg_read_sector_done:
-    .asciz "\r\n\n\rRead sector done"
+    .asciz "Read sector done"
 msg_int_err:
-    .asciz "\r\n\n\rInterrupt error"
+    .asciz "Interrupt error"
 msg_err:
-    .asciz "\r\n\n\rError occured"
+    .asciz "Error occured"
 
 .org 510
 .word 0xaa55
