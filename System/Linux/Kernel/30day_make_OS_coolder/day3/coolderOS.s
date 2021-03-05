@@ -4,19 +4,6 @@
 start:
     jmp entry
 
-entry:
-    mov $0, %ax
-    mov %ax, %ss
-    mov %ax, %ds
-    mov %ax, %es
-    mov $0x7c00, %sp
-
-    mov $msg_coolderOS, %di
-    call puts
-
-    call read_sector
-    jc int_error
-
 /*
  *  read_sector(dst_seg, dst_offset, drive, head, cylinder, sector, count)
  *  dst_seg:ax
@@ -40,12 +27,7 @@ read_sector:
     mov -0xe(%bp), %ax
     // Read sector for int 0x13
     mov $0x2, %ah
-    int 0x13
-
-    mov $msg_read_sector_done, %di
-    call puts
-
-    jmp end
+    int $0x13
 
 // puts(str)
 // str:di
@@ -67,6 +49,24 @@ puts:
 
 int_error:
     mov $msg_int_err, %di
+    call puts
+
+entry:
+    mov $msg_coolderOS, %di
+    call puts
+
+    // read_sector(dst_seg, dst_offset, drive, head, cylinder, sector, count)
+    push $0x1
+    push $0x1
+    push $0x0
+    push $0x0
+    push $0x0
+    push $0x0
+    push $0x820
+    call read_sector
+    jc int_error
+
+    mov $msg_read_sector_done, %di
     call puts
 
 end:
