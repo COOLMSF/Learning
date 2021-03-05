@@ -1,1 +1,1 @@
-This program will read the first sector from disk.
+This program reads more sectors on disk and implement read_sector function.

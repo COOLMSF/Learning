@@ -9,7 +9,9 @@ make=make -r
 # 	$(make) build
 # 	qemu-system-i386 $(sys)
 
-run:$(sys)
+run:
+	$(make) -r build
+	$(make) -r img
 	qemu-system-i386 -drive file=$(img),if=floppy
 
 build:
