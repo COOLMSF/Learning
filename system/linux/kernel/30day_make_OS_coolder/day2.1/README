@@ -1,0 +1,2 @@
+This program will try to read sector 5 times if it fails.
+Implement it as function.

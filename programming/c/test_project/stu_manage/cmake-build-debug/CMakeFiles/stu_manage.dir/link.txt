@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/stu_manage.dir/main.c.o CMakeFiles/stu_manage.dir/stu_info_op.c.o -o stu_manage 
