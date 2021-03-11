@@ -1,4 +1,4 @@
-# Install script for directory: /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist
+# Install script for directory: /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

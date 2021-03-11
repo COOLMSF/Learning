@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/main.c" "/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/stu_mangement_linkedlist.dir/main.c.o"
-  "/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/stu_info_fun.c" "/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o"
+  "/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/main.c" "/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/stu_mangement_linkedlist.dir/main.c.o"
+  "/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/stu_info_fun.c" "/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist
+CMAKE_SOURCE_DIR = /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug
+CMAKE_BINARY_DIR = /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stu_mangement_linkedlist.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/stu_mangement_linkedlist.dir/flags.make
 
 CMakeFiles/stu_mangement_linkedlist.dir/main.c.o: CMakeFiles/stu_mangement_linkedlist.dir/flags.make
 CMakeFiles/stu_mangement_linkedlist.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stu_mangement_linkedlist.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stu_mangement_linkedlist.dir/main.c.o -c /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stu_mangement_linkedlist.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stu_mangement_linkedlist.dir/main.c.o -c /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/main.c
 
 CMakeFiles/stu_mangement_linkedlist.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stu_mangement_linkedlist.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/main.c > CMakeFiles/stu_mangement_linkedlist.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/main.c > CMakeFiles/stu_mangement_linkedlist.dir/main.c.i
 
 CMakeFiles/stu_mangement_linkedlist.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stu_mangement_linkedlist.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/main.c -o CMakeFiles/stu_mangement_linkedlist.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/main.c -o CMakeFiles/stu_mangement_linkedlist.dir/main.c.s
 
 CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o: CMakeFiles/stu_mangement_linkedlist.dir/flags.make
 CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o: ../stu_info_fun.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o -c /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/stu_info_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o -c /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/stu_info_fun.c
 
 CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/stu_info_fun.c > CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/stu_info_fun.c > CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.i
 
 CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/stu_info_fun.c -o CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/stu_info_fun.c -o CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.s
 
 # Object files for target stu_mangement_linkedlist
 stu_mangement_linkedlist_OBJECTS = \
@@ -114,7 +114,7 @@ stu_mangement_linkedlist: CMakeFiles/stu_mangement_linkedlist.dir/main.c.o
 stu_mangement_linkedlist: CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o
 stu_mangement_linkedlist: CMakeFiles/stu_mangement_linkedlist.dir/build.make
 stu_mangement_linkedlist: CMakeFiles/stu_mangement_linkedlist.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable stu_mangement_linkedlist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable stu_mangement_linkedlist"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stu_mangement_linkedlist.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/stu_mangement_linkedlist.dir/clean:
 .PHONY : CMakeFiles/stu_mangement_linkedlist.dir/clean
 
 CMakeFiles/stu_mangement_linkedlist.dir/depend:
-	cd /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug /home/coolder/Learning/Programming/C_Cpp/TestProject/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/stu_mangement_linkedlist.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug /home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/stu_mangement_linkedlist.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stu_mangement_linkedlist.dir/depend
 
