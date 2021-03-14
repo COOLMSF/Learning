@@ -4,11 +4,11 @@
 
 int main()
 {
-	struct struct_stu_info *stu_info0 = NULL;
-	struct struct_stu_info *stu_info1 = NULL;
-	struct struct_stu_info *stu_info2 = NULL;
-	struct struct_node *head = NULL;
-	struct struct_node *new_node0, *new_node1, *new_node2;
+	struct stu_info_t *stu_info0 = NULL;
+	struct stu_info_t *stu_info1 = NULL;
+	struct stu_info_t *stu_info2 = NULL;
+	struct node_t *head = NULL;
+	struct node_t *new_node0, *new_node1, *new_node2;
 
 	head = init_node();
 
@@ -70,10 +70,10 @@ int main()
 	add_node(new_node1, head);
 	add_node(new_node2, head);
 
-	struct struct_node *node_return;
+	struct node_t *node_return;
 	node_return = query_node_by_id("185", head);
 
-	struct struct_node *p = head->next;
+	struct node_t *p = head->next;
 	while (p) {
 		print_data_node(p);
 		p = p->next;

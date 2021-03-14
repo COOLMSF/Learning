@@ -6,12 +6,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct struct_node *init_node()
+struct node_t *init_node()
 {
-	struct struct_node *head;
+	struct node_t *head;
 
 	// Alloc memory for head node
-	head = (struct struct_node *) malloc(sizeof (struct struct_node));
+	head = (struct node_t *) malloc(sizeof (struct node_t));
 
 	// This is head, we don't use it's value
 
@@ -21,9 +21,9 @@ struct struct_node *init_node()
 	return head;
 }
 
-struct struct_node *query_node_by_id(char *id, struct struct_node *head)
+struct node_t *query_node_by_id(char *id, struct node_t *head)
 {
-	struct struct_node *p = head;
+	struct node_t *p = head;
 
 	while (p != NULL) {
 		p = p->next;
@@ -35,7 +35,7 @@ struct struct_node *query_node_by_id(char *id, struct struct_node *head)
 	return NULL;
 }
 
-int print_data_node(struct struct_node *node)
+int print_data_node(struct node_t *node)
 {
 	printf("Age:%s\n", node->struct_stu_info_ptr->age);
 	printf("Name:%s\n", node->struct_stu_info_ptr->name);
@@ -48,12 +48,12 @@ int print_data_node(struct struct_node *node)
 }
 
 // Insert node0 after node1
-int insert_node(struct struct_node *node0, struct struct_node *node1,
-	struct struct_node *head)
+int insert_node(struct node_t *node0, struct node_t *node1,
+	struct node_t *head)
 {
-	struct struct_node *cur_p = head;
-	struct struct_node *prev_p = NULL;
-	struct struct_node *next_p = NULL;
+	struct node_t *cur_p = head;
+	struct node_t *prev_p = NULL;
+	struct node_t *next_p = NULL;
 
 	// Traverse the list
 	while (cur_p != NULL) {
@@ -73,11 +73,11 @@ int insert_node(struct struct_node *node0, struct struct_node *node1,
 	return 1;
 }
 
-int del_node(struct struct_node *node, struct struct_node *head)
+int del_node(struct node_t *node, struct node_t *head)
 {
-	struct struct_node *cur_p = head;
-	struct struct_node *prev_p = NULL;
-	struct struct_node *next_p = NULL;
+	struct node_t *cur_p = head;
+	struct node_t *prev_p = NULL;
+	struct node_t *next_p = NULL;
 
 	// Traverse the list
 	while (cur_p != NULL) {
@@ -98,18 +98,18 @@ int del_node(struct struct_node *node, struct struct_node *head)
 	return 1;
 }
 
-struct struct_node *mk_node(struct struct_stu_info *stu_info)
+struct node_t *mk_node(struct stu_info_t *stu_info)
 {
-	struct struct_node *new_node;
+	struct node_t *new_node;
 
 	// Alloc new node
-	new_node = (struct struct_node *) malloc(sizeof (struct struct_node));
+	new_node = (struct node_t *) malloc(sizeof (struct node_t));
 	if (!new_node)
 		return NULL;
 
 	// Alloc struct stu_info
-	stu_info = (struct struct_stu_info *) malloc(sizeof
-		(struct struct_stu_info));
+	stu_info = (struct stu_info_t *) malloc(sizeof
+		(struct stu_info_t));
 	if (!stu_info)
 		return NULL;
 
@@ -119,10 +119,10 @@ struct struct_node *mk_node(struct struct_stu_info *stu_info)
 	return new_node;
 }
 
-struct struct_node *add_node(struct struct_node *node, struct struct_node *head)
+struct node_t *add_node(struct node_t *node, struct node_t *head)
 {
 	// Scan all the list
-	struct struct_node *tail = head;
+	struct node_t *tail = head;
 	while (tail->next != NULL) {
 		tail = tail->next;
 	}
@@ -135,7 +135,7 @@ struct struct_node *add_node(struct struct_node *node, struct struct_node *head)
 	return node;
 }
 
-int save_to_disk(struct struct_node *head, FILE *p)
+int save_to_disk(struct node_t *head, FILE *p)
 {
 	return 1;
 }

@@ -14,7 +14,7 @@
 #define MAX_STR 10
 #define MAX_ITEM 10
 
-struct struct_stu_info {
+struct stu_info_t {
     char id[MAX_STR];
     char age[MAX_STR];
     char name[MAX_STR];
@@ -23,28 +23,27 @@ struct struct_stu_info {
     char class_id[MAX_STR];
 };
 
-struct struct_node {
-    struct struct_stu_info *struct_stu_info_ptr;
-    struct struct_node *next;
+struct node_t {
+    struct stu_info_t *struct_stu_info_ptr;
+    struct node_t *next;
 };
 
-struct struct_stu_info_op {
+struct stu_info_op_t {
     void (*init)(void);
     int (*del)(char *id);
     int (*query_node)(char *id);
-    int (*add)(struct struct_stu_info info);
-    int (*save_to_disk)(struct struct_stu_info info);
+    int (*add)(struct stu_info_t *info);
+    int (*save_to_disk)(struct stu_info_t *info);
 };
 
 // Functions of student info operations
-struct struct_node *init_node();
-struct struct_node *mk_node(struct struct_stu_info *stu_info);
-struct struct_node *add_node(struct struct_node *node, struct struct_node *head);
-// Delete node0 after node1
-int del_node(struct struct_node *node, struct struct_node *head);
+struct node_t *init_node();
+struct node_t *mk_node(struct stu_info_t *stu_info);
+struct node_t *add_node(struct node_t *node, struct node_t *head);
+int del_node(struct node_t *node, struct node_t *head);
 // Insert node0 after node1
-int insert_node(struct struct_node *node0, struct struct_node *node1,
-	struct struct_node *head);
-struct struct_node *query_node_by_id(char *id, struct struct_node *head);
-int print_data_node(struct struct_node *node);
-int save_to_disk(struct struct_node *head, FILE *p);
+int insert_node(struct node_t *node0, struct node_t *node1,
+	struct node_t *head);
+struct node_t *query_node_by_id(char *id, struct node_t *head);
+int print_data_node(struct node_t *node);
+int save_to_disk(struct node_t *head, FILE *p);
