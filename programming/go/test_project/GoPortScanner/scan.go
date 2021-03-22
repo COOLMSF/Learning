@@ -40,8 +40,20 @@ func scanPort(portStart , portStop int, host string, c chan int) {
 }
 
 func fetchOpenPort(portList []int, c chan int) {
-	for {
+	for true {
 		i := <-c
 		openPortList = append(openPortList, i)
 	}
+}
+
+func unique(intSlice []int) []int {
+    keys := make(map[int]bool)
+	var list []int
+	for _, entry := range intSlice {
+        if _, value := keys[entry]; !value {
+            keys[entry] = true
+            list = append(list, entry)
+        }
+    }    
+    return list
 }

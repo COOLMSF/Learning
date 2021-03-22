@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"sort"
 	"time"
 )
 
@@ -26,10 +27,11 @@ func main() {
 	newStartPort = startPort
 
 	// Make N threads, every thread do its own job
+	// There is a bug, port can't be split averagely!!!
 	for i := 0; i < nThreads + 1; i++ {
 		newStopPort = startPort + (stopPort - startPort) / nThreads * i
 		go scanPortConcurrency(newStartPort, newStopPort, host, channel)
-		// fmt.Printf("start port:%d stop port %d\n", newStartPort, newStopPort)
+		fmt.Printf("thread %d start port:%d stop port %d\n", i, newStartPort, newStopPort)
 		newStartPort = newStopPort
 	}
 
@@ -44,5 +46,7 @@ func main() {
 
 	// Give time to fetchOpenPort, this might not work
 	time.Sleep(time.Second * 3)
+	openPortList = unique(openPortList)
+	sort.Ints(openPortList)
 	fmt.Print(openPortList)
 }
