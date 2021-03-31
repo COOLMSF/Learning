@@ -29,7 +29,6 @@ func main() {
 	// Make N threads, every thread do its own job
 	// There is a bug, port can't be split averagely!!!
 	for i := 0; i < nThreads + 1; i++ {
-		newStopPort = startPort + (stopPort - startPort) / nThreads * i
 		go scanPortConcurrency(newStartPort, newStopPort, host, channel)
 		fmt.Printf("thread %d start port:%d stop port %d\n", i, newStartPort, newStopPort)
 		newStartPort = newStopPort
