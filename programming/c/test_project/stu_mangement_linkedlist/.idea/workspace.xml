@@ -31,18 +31,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Learning/Programming/C_Cpp/TestProject1" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration name="stu_mangement_linkedlist" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stu_mangement_linkedlist" TARGET_NAME="stu_mangement_linkedlist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stu_mangement_linkedlist" RUN_TARGET_NAME="stu_mangement_linkedlist">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="stu_mangement_linkedlist" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stu_mangement_linkedlist" TARGET_NAME="stu_mangement_linkedlist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stu_mangement_linkedlist" RUN_TARGET_NAME="stu_mangement_linkedlist">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -58,6 +58,8 @@
       <workItem from="1615437407780" duration="11162000" />
       <workItem from="1615452698738" duration="2399000" />
       <workItem from="1615538837834" duration="635000" />
+      <workItem from="1617257086080" duration="2215000" />
+      <workItem from="1617280041561" duration="2716000" />
     </task>
     <servers />
   </component>

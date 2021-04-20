@@ -107,12 +107,6 @@ struct node_t *mk_node(struct stu_info_t *stu_info)
 	if (!new_node)
 		return NULL;
 
-	// Alloc struct stu_info
-	stu_info = (struct stu_info_t *) malloc(sizeof
-		(struct stu_info_t));
-	if (!stu_info)
-		return NULL;
-
 	new_node->struct_stu_info_ptr = stu_info;
 
 

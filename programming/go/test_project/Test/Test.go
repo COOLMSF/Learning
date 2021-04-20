@@ -1,18 +1,25 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
-	"log"
-	"net"
+	"io"
 )
 
-func main() {
-	mx, err := net.LookupMX("8.8.8.8")
-	if err != nil {
-		log.Fatal(err)
-	}
+type UpperWriter struct {
+	io.Writer
+}
 
-	for i := range mx {
-		fmt.Println(i)
+func (p *UpperWriter)Write(data []byte) (n int, err error) {
+	return p.Writer.Write(bytes.ToUpper(data))
+}
+
+func test(args ...interface{}) {
+	for _, i := range args{
+		fmt.Print(i)
 	}
+}
+
+func main() {
+	test(1, 2, 3, "Hello")
 }

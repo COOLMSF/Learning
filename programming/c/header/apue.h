@@ -1,1 +1,1 @@
-../APUE/apue.3e/include/apue.h
+../apue/apue.3e/include/apue.h
