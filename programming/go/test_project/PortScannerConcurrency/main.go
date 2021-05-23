@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"os"
+	"log"
 	"sort"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 )
@@ -20,16 +21,25 @@ func main() {
 	// 	stopPort = startPort
 	// }
 
-	// handle multiple port (-p 100-200)
-	_, err := fmt.Sscanf(portRange, "%d-%d", &startPort, &stopPort)
-
-	if err != nil {
-		_, _ = fmt.Fprint(os.Stderr, "port format error")
-		os.Exit(-1)
+	if strings.Contains(portRange, "-") {
+		// handle multiple port (-p 100-200)
+		_, err := fmt.Sscanf(portRange, "%d-%d", &startPort, &stopPort)
+		if err != nil {
+			log.Fatalf("fmt.Sscanf:%v", err)
+		}
+	} else if strings.Contains(portRange, ",") {
+		// multiple port 100, 300, 500, may use slice
+	} else {
+		// single port
+		_, err := fmt.Sscanf(portRange, "%d", &startPort)
+		stopPort = startPort
+		if err != nil {
+			log.Fatalf("fmt.Sscanf:%v", err)
+		}
 	}
 
-	// Generate port array, we need convert integer into ascii, because DataAverage needs asscii
-	for i := startPort; i < stopPort; i++ {
+	// Generate port array, we need convert integer into ascii, because DataAverage needs ascii
+	for i := startPort; i <= stopPort; i++ {
 		portArray = append(portArray, strconv.Itoa(i))
 	}
 

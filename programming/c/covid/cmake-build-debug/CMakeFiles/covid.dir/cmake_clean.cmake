@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/covid.dir/main.c.o"
+  "CMakeFiles/covid.dir/main.c.o.d"
   "covid"
   "covid.pdb"
 )

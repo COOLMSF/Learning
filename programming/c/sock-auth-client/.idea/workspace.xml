@@ -35,11 +35,6 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sock_auth_client" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="a localhost" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sock_auth_client" TARGET_NAME="sock_auth_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sock_auth_client" RUN_TARGET_NAME="sock_auth_client">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -58,6 +53,7 @@
       <workItem from="1618998185673" duration="19000" />
       <workItem from="1618998757897" duration="6000" />
       <workItem from="1619097014820" duration="776000" />
+      <workItem from="1619844633732" duration="342000" />
     </task>
     <servers />
   </component>

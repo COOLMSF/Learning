@@ -1,0 +1,20 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/coolder/learning/programming/c/pcap-test
+CMake Error at CMakeLists.txt:8 (find_package):
+  By not providing "FindPCAP.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "PCAP", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "PCAP" with any of
+  the following names:
+
+    PCAPConfig.cmake
+    pcap-config.cmake
+
+  Add the installation prefix of "PCAP" to CMAKE_PREFIX_PATH or set
+  "PCAP_DIR" to a directory containing one of the above files.  If "PCAP"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/coolder/learning/programming/c/pcap-test/cmake-build-debug/CMakeFiles/CMakeOutput.log".

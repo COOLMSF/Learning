@@ -56,5 +56,7 @@ char *itoa(uint32_t number, uint8_t len, char* array) {
         number -= quotient * pow(10, num_len - i - 1);
     }
 
+	array[len] = '\0';
+
     return array;
 }

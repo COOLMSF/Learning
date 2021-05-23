@@ -179,6 +179,10 @@ void save_to_file_ll()
 		/*
 		 * formatted print
 		 */
+
+		/*
+		 * It can be shorten to fprintf(fp, "%s, %s", p->user.....)
+		 */
 		sprintf(buf, "%s, %s", p->user_ptr->name,
 		        p->user_ptr->venue);
 		fwrite(buf, strlen(buf), 1, fp);

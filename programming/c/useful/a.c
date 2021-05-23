@@ -1,23 +1,14 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include "itoa.h"
 
-int main(int argc, char *argv[])
+int main(void)
 {
-	char *buf[3];
+	int a = 1234;
+	char buf[10];
 
-	/*
-	 * Alloc memory for string array
-	 */
-
-	for (int i = 0; i < 3; ++i) {
-		buf[i] = (char *)malloc(20);
+	for (int i = 0; i < 100; i++) {
+		itoa(i, get_num_len(i), buf);
+		puts(buf);
 	}
 
-	for (int i = 0; i < 3; ++i) {
-		scanf("%s", buf[i]);
-	}
-
-	for (int i = 0; i < 3; i++) {
-		printf("%s", buf[i]);
-	}
 }
