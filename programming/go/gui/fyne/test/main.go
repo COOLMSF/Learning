@@ -1,24 +1,22 @@
 package main
 
 import (
-	"log"
+	"fmt"
 
 	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/widget"
 )
 
 func main() {
 	myApp := app.New()
-	myWindow := myApp.NewWindow("Entry Widget")
+	myWindow := myApp.NewWindow("Hello")
+	myWindow.SetContent(widget.NewLabel("Hello"))
 
-	input := widget.NewEntry()
-	input.SetPlaceHolder("Enter text...")
+	myWindow.Show()
+	myApp.Run()
+	tidyUp()
+}
 
-	content := container.NewVBox(input, widget.NewButton("Save", func() {
-		log.Println("Content was:", input.Text)
-	}))
-
-	myWindow.SetContent(content)
-	myWindow.ShowAndRun()
+func tidyUp() {
+	fmt.Println("Exited")
 }

@@ -35,11 +35,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pcap_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcap_test" TARGET_NAME="pcap_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcap_test" RUN_TARGET_NAME="pcap_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -60,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619844976316</updated>
       <workItem from="1619844977955" duration="20364000" />
+      <workItem from="1621841681711" duration="6000" />
     </task>
     <servers />
   </component>
