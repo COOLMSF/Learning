@@ -2,8 +2,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "addressbook.h"
+// #include "addressbook.h"
 
+#define DEBUG
+#define NAME_LEN 32
+#define NUMBER_LEN 32
+
+typedef struct contact_person{
+	char number[NUMBER_LEN];
+	char name[NAME_LEN];
+	struct contact_person *next;
+}Node, *LinkList;
 
 int main(int argc, char *argv[])
 {

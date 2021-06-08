@@ -1,45 +1,61 @@
 package pkg
 
 import (
-    "github.com/gin-contrib/sessions"
-    "github.com/gin-contrib/sessions/cookie"
+    "github.com/gin-gonic/contrib/sessions"
     "github.com/gin-gonic/gin"
+    "log"
     "net/http"
 )
 
 // gin session key
-const KEY = "AEN233"
+// const userkey = "user"
 
 func EnableCookieSession() gin.HandlerFunc {
-    store := cookie.NewStore([]byte(KEY))
+    // store := sessions.NewCookieStore([]byte("secret"))
+    // store, _ := redis.NewStore(10, "tcp", "localhost:6379", "", []byte("secret"))
+    store, err := sessions.NewRedisStore(10, "tcp", "localhost:6379", "", []byte("secret"))
+    if err != nil {
+        log.Fatalf("sessions.NewRedisStore: %v", err)
+    }
     return sessions.Sessions("mysession", store)
 }
 
-func AuthSessionMiddle() gin.HandlerFunc {
-    return func(c *gin.Context) {
-        session := sessions.Default(c)
-        sessionValue := session.Get("userId")
-        if sessionValue == nil {
-            c.JSON(http.StatusUnauthorized, gin.H{
-                "error": "Unauthorized",
-            })
-            c.Abort()
-            return
-        }
-        c.Set("userId", sessionValue.(uint))
-
-        c.Next()
+func AuthSessionMiddle(c *gin.Context) {
+    session := sessions.Default(c)
+    sessionValue := session.Get("user")
+    if sessionValue == nil {
+        c.JSON(http.StatusUnauthorized, gin.H{
+            "error": "Unauthorized",
+        })
+        c.Abort()
         return
     }
+    c.Next()
+    return
 }
 
-func SaveAuthSession(c *gin.Context, id uint) {
+// func AuthRequired(c *gin.Context) {
+//     session := sessions.Default(c)
+//     user := session.Get("user")
+//     if user == nil {
+//         // Abort the request with the appropriate error code
+//         c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"error": "unauthorized"})
+//         return
+//     }
+//     // Continue down the chain to handler etc
+//     c.Next()
+// }
+
+func SaveAuthSession(c *gin.Context, username string) {
     session := sessions.Default(c)
-    session.Set("userId", id)
-    session.Save()
+    session.Set("user", username)
+    err := session.Save()
+    if err != nil {
+        c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to save session"})
+    }
+    c.JSON(http.StatusOK, gin.H{"message": "save session ok"})
 }
 
-// 退出时清除session
 func ClearAuthSession(c *gin.Context) {
     session := sessions.Default(c)
     session.Clear()

@@ -39,7 +39,7 @@ func engine() *gin.Engine {
 	r.GET("/view/playground.html", get.RenderPlayground)
 	r.GET("/logout", pkg.Logout)
 
-	r.POST("/login", post.Login)
+	r.POST("/login", pkg.Login)
 	r.POST("/playground", post.Playground)
 	r.POST("/gif", post.Gif)
 	r.POST("/create", post.Create)

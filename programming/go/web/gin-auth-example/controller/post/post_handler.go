@@ -5,115 +5,17 @@ import (
 	"crypto/md5"
 	"database/sql"
 	"fmt"
-	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"net/http"
 	"os/exec"
 	"strings"
-	"time"
 )
 
 const (
 	userkey = "user"
 )
-
-func Login(c *gin.Context) {
-	session := sessions.Default(c)
-
-	tableName := "user_passwd"
-	username := c.PostForm("username")
-	password := c.PostForm("password")
-	passwordMd5Form := fmt.Sprintf("%x", md5.Sum([]byte(password)))
-
-	db, err := sql.Open("mysql", "root:hushanglai@tcp(localhost:3306)/web")
-	if err != nil {
-		log.Printf("sql.Open: %v", err)
-	}
-	defer func(db *sql.DB) {
-		err := db.Close()
-		if err != nil {
-			log.Printf("Fail to close db:%v", err)
-		}
-	}(db)
-
-	// Query password for a specified username
-	sqlString := fmt.Sprintf("select password from %s where username=\"%s\"",
-		tableName, username)
-
-	res, err := db.Query(sqlString)
-	defer func(res *sql.Rows) {
-		err := res.Close()
-		if err != nil {
-			log.Printf("res.Close: %v", err)
-		}
-	}(res)
-	if err != nil {
-		log.Printf("db.Query: %v", err)
-	}
-
-	var passwordMd5Mysql string
-	for res.Next() {
-		err = res.Scan(&passwordMd5Mysql)
-		if err != nil {
-			c.String(http.StatusUnauthorized, "username or password wrong!")
-		}
-	}
-	if passwordMd5Mysql != passwordMd5Form {
-		c.String(http.StatusUnauthorized, "username or password wrong!")
-		return
-	}
-
-	// Save the username in the session
-	// session.Set(userkey, username) // In real world usage you'd set this to the users ID
-	// if err := session.Save(); err != nil {
-	// 	c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save session"})
-	// 	return
-	// }
-	// c.String(http.StatusOK, "Successfully authenticated user")
-
-	// Save the username in the session
-	session.Set(userkey, username) // In real world usage you'd set this to the users ID
-	if err := session.Save(); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save session"})
-		return
-	}
-	c.String(http.StatusOK, "Login successful\n")
-	c.String(http.StatusOK, "Redirect to home page")
-	time.Sleep(1)
-	c.Redirect(http.StatusMovedPermanently, "https://localhost:3333/")
-}
-
-// login is a handler that parses a form and checks for specific data
-// func Login(c *gin.Context) {
-// 	session := sessions.Default(c)
-// 	username := c.PostForm("username")
-// 	password := c.PostForm("password")
-//
-// 	// Validate form input
-// 	if strings.Trim(username, " ") == "" || strings.Trim(password, " ") == "" {
-// 		c.JSON(http.StatusBadRequest, gin.H{"error": "Parameters can't be empty"})
-// 		return
-// 	}
-//
-// 	// Check for username and password match, usually from a database
-// 	if username != "hello" || password != "itsme" {
-// 		c.JSON(http.StatusUnauthorized, gin.H{"error": "Authentication failed"})
-// 		return
-// 	}
-//
-// 	// Save the username in the session
-// 	session.Set(userkey, username) // In real world usage you'd set this to the users ID
-// 	if err := session.Save(); err != nil {
-// 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save session"})
-// 		return
-// 	}
-// 	c.JSON(http.StatusOK, gin.H{"message": "Successfully authenticated user"})
-// }
-
-func Logout(c *gin.Context) {
-}
 
 func Create(c *gin.Context) {
 	err := c.Request.ParseForm()
