@@ -1,7 +1,7 @@
 package post
 
 import (
-	"../../pkg"
+	"../../model"
 	"crypto/md5"
 	"database/sql"
 	"fmt"
@@ -150,7 +150,7 @@ func WebShell(c *gin.Context) {
 }
 
 func Gif(c *gin.Context) {
-	pkg.Lissajous(c.Writer)
+	model.Lissajous(c.Writer)
 }
 
 func Playground(c *gin.Context) {

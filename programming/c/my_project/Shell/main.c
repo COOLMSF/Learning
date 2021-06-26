@@ -1,14 +1,5 @@
 /* Main function begins here */
 
-/*
- * The original project is here:
- * https://github.com/souravaich/shell.git
- *
- * This program is modified by coolder, I was just read the source code,
- * and add some features.
- *
- */
-
 #include "allheaders.h"
 #include "shell.h"
 

@@ -12,9 +12,9 @@ shell_prompt()
 {
     if (getcwd(cwd, sizeof(cwd)) != NULL) {
 
-        strcpy(prompt, "Our_Shell: ");
-        strcat(prompt, cwd);
-        strcat(prompt, "$ ");
+        strcpy(prompt, "cjliaoOSshell");
+        // strcat(prompt, cwd);
+        strcat(prompt, ">");
     }
     else {
 

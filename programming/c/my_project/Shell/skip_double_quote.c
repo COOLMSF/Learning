@@ -12,13 +12,13 @@ skip_double_quote(char *str)
 {
     int i = 0, j = 0;
     char *temp;
+
     if (NULL == (temp = (char *) malloc(sizeof(str)*sizeof(char)))) {
         perror("Memory Error: ");
         return NULL;
     }
 
     while(str[i++]) {
-
         if (str[i-1] != '"')
             temp[j++] = str[i-1];
     }

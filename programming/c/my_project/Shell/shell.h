@@ -22,7 +22,7 @@ extern int bckgrnd_flag;
 extern pid_t pid;
 extern int no_of_lines;
 extern int environmment_flag;
-extern int flag_without_pipe,  output_redirection, input_redirection;
+extern int flag_without_pipe, output_redirection, input_redirection;
 extern int status;
 extern char *input_redirection_file;
 extern char *output_redirection_file;

@@ -1,47 +1,15 @@
-package pkg
+package model
 
 import (
 	"crypto/md5"
 	"database/sql"
 	"fmt"
 	"github.com/gin-gonic/contrib/sessions"
-"github.com/gin-gonic/gin"
-"log"
-"net/http"
+	"github.com/gin-gonic/gin"
+	"log"
+	"net/http"
 	"time"
 )
-
-const (
-	userkey = "user"
-)
-
-// gin session key
-// const userkey = "user"
-
-func EnableCookieSession() gin.HandlerFunc {
-	// store := sessions.NewCookieStore([]byte("secret"))
-	// store, _ := redis.NewStore(10, "tcp", "localhost:6379", "", []byte("secret"))
-	store, err := sessions.NewRedisStore(10, "tcp",
-		"localhost:6379", "", []byte("secret"))
-	if err != nil {
-		log.Fatalf("sessions.NewRedisStore: %v", err)
-	}
-	return sessions.Sessions("mysession", store)
-}
-
-func AuthSessionMiddle(c *gin.Context) {
-	session := sessions.Default(c)
-	sessionValue := session.Get("user")
-	if sessionValue == nil {
-		c.JSON(http.StatusUnauthorized, gin.H{
-			"error": "Unauthorized",
-		})
-		c.Abort()
-		return
-	}
-	c.Next()
-	return
-}
 
 // func AuthRequired(c *gin.Context) {
 //     session := sessions.Default(c)
@@ -102,7 +70,37 @@ func GetSessionUserId(c *gin.Context) uint {
 //     return data
 // }
 
+const (
+	userkey = "user"
+)
 
+// gin session key
+// const userkey = "user"
+
+func EnableCookieSession() gin.HandlerFunc {
+	// store := sessions.NewCookieStore([]byte("secret"))
+	// store, _ := redis.NewStore(10, "tcp", "localhost:6379", "", []byte("secret"))
+	store, err := sessions.NewRedisStore(10, "tcp",
+		"localhost:6379", "", []byte("secret"))
+	if err != nil {
+		log.Fatalf("sessions.NewRedisStore: %v", err)
+	}
+	return sessions.Sessions("mysession", store)
+}
+
+func AuthSessionMiddle(c *gin.Context) {
+	session := sessions.Default(c)
+	sessionValue := session.Get("user")
+	if sessionValue == nil {
+		c.JSON(http.StatusUnauthorized, gin.H{
+			"error": "Unauthorized",
+		})
+		c.Abort()
+		return
+	}
+	c.Next()
+	return
+}
 // AuthRequired is a simple middleware to check the session
 func AuthRequired(c *gin.Context) {
 	session := sessions.Default(c)
@@ -115,7 +113,6 @@ func AuthRequired(c *gin.Context) {
 	// Continue down the chain to handler etc
 	c.Next()
 }
-
 func Login(c *gin.Context) {
 	session := sessions.Default(c)
 

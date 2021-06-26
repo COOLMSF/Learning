@@ -3,13 +3,12 @@ package main
 import (
 	"./controller/get"
 	"./controller/post"
-	"./pkg"
+	"./model"
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
 )
-
 
 func main() {
 	r := engine()
@@ -28,6 +27,7 @@ func engine() *gin.Engine {
 	// }
 	r.Use(sessions.Sessions("mysession", sessions.NewCookieStore([]byte("secret"))))
 	// r.Use(sessions.Sessions("mysession", store))
+
 	r.LoadHTMLGlob("view/*")
 
 	r.GET("/", get.RenderIndex)
@@ -37,20 +37,20 @@ func engine() *gin.Engine {
 	r.GET("/view/gif.html", get.RenderGif)
 	r.GET("/view/webshell.html", get.RenderWebshell)
 	r.GET("/view/playground.html", get.RenderPlayground)
-	r.GET("/logout", pkg.Logout)
+	r.GET("/logout", model.Logout)
 
-	r.POST("/login", pkg.Login)
+	r.POST("/login", model.Login)
 	r.POST("/playground", post.Playground)
 	r.POST("/gif", post.Gif)
 	r.POST("/create", post.Create)
 
 	private := r.Group("/private")
 	// private.Use(AuthRequired)
-	private.Use(pkg.AuthSessionMiddle)
+	private.Use(model.AuthSessionMiddle)
 	{
-		private.GET("/status", pkg.Status)
-		private.GET("/me", pkg.Me)
-		private.GET("/logout", pkg.Logout)
+		private.GET("/status", model.Status)
+		private.GET("/me", model.Me)
+		private.GET("/logout", model.Logout)
 		private.POST("/upload", post.Upload)
 		private.POST("/webshell", post.WebShell)
 		private.StaticFS("/download", http.Dir("download"))
