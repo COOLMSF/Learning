@@ -7,7 +7,9 @@ int main(void)
 	char buf[10];
 
 	for (int i = 0; i < 100; i++) {
-		itoa(i, get_num_len(i), buf);
+		// use sprintf(i, "%d", buf) instead
+		// itoa(i, get_num_len(i), buf);
+		sprintf(buf, "%d", i);
 		puts(buf);
 	}
 

@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/coolder/learning/programming/c/test Select CMakeLists.txt
