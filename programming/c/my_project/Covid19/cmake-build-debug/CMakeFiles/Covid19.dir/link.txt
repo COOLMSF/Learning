@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Covid19.dir/main.c.o CMakeFiles/Covid19.dir/func.c.o -o Covid19 

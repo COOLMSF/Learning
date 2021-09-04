@@ -1,0 +1,7 @@
+#mount skills
+
+mount -o loop linux.iso /mnt
+mount -t ext4 /dev/sda1 /mnt
+
+mount -t iso9660 -o ro /mnt
+mount -o remount,rw /

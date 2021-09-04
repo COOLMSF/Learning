@@ -1,0 +1,91 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}{\f2\fnil\fcharset0 Courier New;}{\f3\froman\fcharset0 Times New Roman;}}
+{\colortbl ;\red238\green103\blue100;\red139\green108\blue230;\red0\green0\blue255;\red119\green119\blue255;\red4\green4\blue255;\red238\green129\blue117;\red0\green0\blue0;\red228\green51\blue31;\red128\green128\blue192;}
+\viewkind4\uc1\pard\f0\fs16\line\line\cf1\f1\fs28 Solution for SysCalo's Linux crackme Ritzcrackme1  by OorjaHalT\cf0\fs20\line\line\line\line\cf2 =========================================================================================\line\cf0\line\cf3\ul Contents\cf0\ulnone\line\line 1. Crackme information\line 2. Tools used\line 3. Preface\line 4. Solution\line 5. Greetz\line\line\line\cf4 =========================================================================================\line\line\cf0\line\cf5 1. Crackme information\cf0\line\line\tab Name \tab\tab : Ritzcrackme1\line\tab Author\tab\tab : syscalo\line\tab Code\tab\tab : assembler\line\tab Task\tab\tab : Create a valid keyfile and input a valid serial \line\tab Level\tab\tab : one\line\tab Target\tab\tab : Newbies\line\line\cf4 =========================================================================================\line\cf0\line\cf5 2. Preface\cf0\line\line\tab This crackme requires a valid keyfile that should have a required nos. of bytes which when used with the user input\line\tab as serial involved in an algo should generate  5 dwords that should be equal to 5 hard coded dwords.\line\tab No anti-debugging or anti-ptrace codes are used\line\tab No packers/crypters used.\line\line\cf4 =========================================================================================\line\cf0\line\cf5 3. Tools used\cf0\line\line\tab 1. Dasm2   disassembler coded in perl that uses ptrace to generate disassembly\line\tab 2. DDD      X-interface to native debugger GDB \line\line\cf4 =========================================================================================\line\cf0\line\cf5 4. Solution\cf0\line\line\tab As there is no anti-debugger/anti p-trace codes we can dissassemble the exe using\line\tab Dasm2     <input file>       <Output file>\line\line\tab this will generate an output file containing the exe in  assembly language>\line\line\tab Browsing through the dissass. codes we should tke notice of the following code snippets.\line\line\f2   \cf6 08048440  push    $80496fa                        ;  \par
+  08048445  push    $80496b8                        ;  \par
+  0804844a  call    0804830c                        ;  call to scanf //call to read user input \tab\tab\tab\tab\tab\tab\tab\tab\tab  in memory loc. 80496fa\line\cf0\line   \tab Next is the manipulation of user input\line   \tab\line   \cf6 0804844f  add     $8,%esp                         ;  \par
+  08048455  pushl   80496fa                         ;  \par
+  0804845b  pop     %eax                            ; serial char 1..4 in eax \par
+  0804845c  pushl   80496ff                         ;  \par
+  08048462  pop     %ebx                            ; serial char 5..9 in ebx \par
+  08048463  pushl   8049704                         ;  \par
+  08048469  pop     %ecx                            ;  \par
+  0804846a  pushl   8049709                         ; serial char 10..13 in ecx \par
+  08048470  pop     %edx                            ;  \par
+  08048471  xor     %ebx,%eax                       ; serial char 15..18 in edx  \par
+  08048473  xor     %edx,%ecx                       ;  \par
+  08048475  xor     %ecx,%eax                       ;  \par
+  08048477  push    %eax                            ;  \par
+  08048478  popl    80496fa                         ;  \par
+  0804847e  push    %ecx                            ;  \par
+  0804847f  popl    8049704                         ;  \par
+  08048485  mov     804973d,%cl                     ;  in cl we have a const 0x98 \par
+  0804848b  rol     %cl,%eax                        ;  \par
+  0804848d  rol     %cl,%ebx                        ;  \par
+  0804848f  xor     %ebx,%eax                       ;  \par
+  08048491  push    %eax                            ;  \par
+  08048492  popl    804973e                         ;  \par
+  08048498  pushl   80496ff                         ;  \par
+  0804849e  pop     %eax                            ;  \par
+  0804849f  pushl   8049709                         ;  \par
+  080484a5  pop     %ebx                            ;  \par
+  080484a6  mov     8049741,%cl                     ;  \par
+  080484ac  ror     %cl,%eax                        ;  \par
+  080484ae  ror     %cl,%ebx                        ;  \par
+  080484b0  xor     %ebx,%eax                       ;  \par
+  080484b2  rol     %cl,%eax                        ;  \par
+  080484b4  push    %eax                            ;  \par
+  080484b5  popl    804971a                         ; \line\cf0\line\tab Next we have this code.\line\tab But before this a bit of primer about syscall.\line\tab syscall in linux are like interrupt call in Dos\line\tab in EAX we have the service reresenting integer and other parameters are passed through\line\tab other registers like EBX,ECX depending on the service required. And finnaly int 80 would \tab be call to execute that service\line\line   \cf6 080484bb  mov     $5,%eax                         ;  \par
+  080484c0  mov     $80496bf,%ebx                   ;  \par
+  080484c5  xor     %ecx,%ecx                       ;  \par
+  080484c7  xor     %edx,%edx                       ;  \par
+  080484c9  int     $80                              \par
+\cf0\tab\line\pard\sb100\sa100   \tab here parameters passed are in EAX (5) which represent \f3\fs24 sys_open  \cf3\ul fs/open.c\cf0\ulnone  (parameter required are    \tab const char * ,int ,int ) here const char* (ebx) represent  file name and other two int parameters are file attribute in ecx\line\tab and edx. \line\tab Looking at the memory location using command p/x *0x80496bf we find that the required file name is "keykey" .\line\tab So the above code is trying to open a file keykey.And if found eax will have the file handle\par
+    \cf6\f2\fs20 080484cb  mov     %eax,80496bb  //file handle is saved here\par
+\cf0\f3\fs24\tab Further \line\tab\line\pard\f2\fs20   \cf6 080484d0  mov     $3,%eax                         ; //service \par
+  080484d5  pushl   80496bb                         ;  \par
+  080484db  pop     %ebx                            ;  \par
+  080484dc  mov     $80496da,%ecx                   ;  \par
+  080484e1  mov     $14,%edx                        ;  \par
+  080484e6  int     $80                             ;  \cf0\par
+\pard\sb100\sa100\f3\fs24\tab service 3 is called through int 80 which is\line\tab\line\tab sys_read   \cf3\ul fs/read_write.c \cf0\ulnone unsigned int,  char * ,  \cf7  size_t,  \cf3\line            \cf7  unsigned int is the file handle saved earlier  passed through ebx ,char* is the buffer to read/copy file values passed in ecx\line\tab and size_t is the int value representing the length of the file bytes to be read passed through edx\line\line\tab So the above code is used to read 14h bytes from the file "keykey" and copied at 80496da\cf3\line\line\tab Further\line\line\pard\cf0\f2\fs20   \cf6 080484e8  mov     $6,%eax                         ;  //service no for int 80 \par
+  080484ed  pushl   80496bb                         ;  \par
+  080484f3  pop     %ebx                            ;  \par
+  080484f4  int     $80                             ;  \cf3\f3\fs24\tab\line\pard\sb100\sa100\tab\cf0\par
+      \tab service 6 is called through int80 which is\line\line\tab sys_close \cf3\ul fs/open.c \cf0\ulnone  unsigned int\line\tab unsigned int is the file handle passed through EBX and used to closed the open file>\line\tab So the above codes are used to closed the open key file\line\line\tab Further\line\line\pard\f2\fs20   \cf6 080484f6  pushl   80496da                 ; //this location have the bytes from the keyfile \par
+  080484fc  pop     %eax                            ; and stored in eax  \par
+  080484fd  cltd                                    ;  \par
+  080484fe  idivl   804971a                         ;  //this loc. have the value from serial \tab\tab\tab\tab\tab\tab\tab\tab\tab    char algo saved earlier \par
+  08048504  xor     %ecx,%ecx                       ;  \par
+  08048506  pushl   80496da(%ecx)                   ; //ecx have the loc 80496da \par
+\par
+  0804850c  pop     %ebx                            ; //ebx have the value from 80496da \par
+  0804850d  xor     %edx,%ebx                       ; //and that is xored with reminder from \tab\tab\tab\tab\tab\tab\tab\tab\tab above divison ( keyfile dword divided \tab\tab\tab\tab\tab\tab\tab\tab\tab with serial char algo )\par
+  0804850f  push    %ebx                            ;  \par
+  08048510  popl    80496da(%ecx)                   ;  \par
+  08048516  add     $4,%ecx                         ;  \par
+  0804851c  cmp     $14,%ecx                        ;  \par
+  08048522  jl      08048506                        ;//A loop is used to xor all the 5 dword \tab\tab\tab\tab\tab\tab\tab\tab\tab from the keyfile from serial char algo \tab\tab\tab\tab\tab\tab\tab\tab\tab and saved in the serial memory location  \par
+  08048524  mov     $80496da,%esi                   ;  \par
+  08048529  mov     $80496c6,%edi                   ;  \par
+  0804852e  mov     $14,%ecx                        ;  \par
+  08048533  repz    cmpsb                           ; And that is compared with hardcoded value \tab\tab\tab\tab\tab\tab\tab\tab\tab stored at 80496C6  \par
+  08048535  jne     08048550                        ; //if not equal we get wrong serial msg \par
+  08048537  push    $8049654                        ;  \par
+  0804853c  call    0804833c                        ; //else compliments msg call to printf\par
+\cf0\par
+\pard\sb100\sa100\f3\fs24     so the important here is value at 804971A .\line\line    Looking/back tracking we try to find how this value is found\line\line    And this is the algo that sets the value at 804971A\line\line\pard\f2\fs20   \cf6 08048498  pushl   80496ff                         ;  \par
+  0804849e  pop     %eax                            ; //eax have the serial char 5..8 \par
+  0804849f  pushl   8049709                         ;  \par
+  080484a5  pop     %ebx                            ; //ebx have the serial char 15..18 \par
+  080484a6  mov     8049741,%cl                     ;  \par
+  080484ac  ror     %cl,%eax                        ;  \par
+  080484ae  ror     %cl,%ebx                        ;  \par
+  080484b0  xor     %ebx,%eax                       ;  \par
+  080484b2  rol     %cl,%eax                        ;  \par
+  080484b4  push    %eax                            ;  \par
+\pard\sb100\sa100   080484b5  popl    804971a                          //and the value is saved at 8049741\line\cf0\line\tab so this algo is\line       ((serial 5..8)ror cl)^((serial 15..18)ror cl))rol cl\line\tab which is simplified as (serial 5..8) ^ (serial 15..18)\par
+\line\tab\cf8\{ A BIG THANX TO KAO FOR POINTING THIS OUT .GUESS I WAS TOO DEEPLY INVOVED WITH BRUTER            \tab\tab AND/OR ALGO TO OVERLOOK SUCH A SIMPLE INFERENCE := Or maybe i am too naive to \tab\tab           \tab\tab\tab\tab notice it \tab\tab\tab\tab\tab\tab\tab   )\f3\fs24\line\cf0\line\tab Right so we know and can have a desired value at 804971a.\line\line\tab The values that is stored/and checked with hardcoded values are result of xoring the keyfile values with a value equal to \tab the reminder from the divison of 1st dword from keyfile with *804971a \line\tab This is possible if  the keyfile values are equal to hardcoded values \line\tab And that is possibleif the reminder from divison is 0\line\tab And that is possible if the first dword from keyfile is exactly divible with *804971\line\tab therefore the simlplest solution is having *804971a=1\line\tab We can have  this  if (serial char 5..8) ^ (serial char 15..18) = = 1\line\tab for example (5432^4432)\line\tab\line\tab so for serial we can use\cf9  9999-5432-9999-4432-9999 \cf0 and the keyfile values are as contained in the enclosed keyfile\line\line\tab Guess thats all for this tutorial\par
+\cf4 ===================================================================================\cf0\line\line\line\cf5 5. Greetz\cf0\line\tab Obiviously first one goes out Kao \line\tab and elfz , .bonfobia,and zeron\line\line\cf4 ===================================================================================\line\cf0\line OorjaHalT\line the 31st January 2005\line\ul India\tab\ulnone\line\tab\tab\tab\par
+     \line\line\line             \f2\fs20     \line\pard\tab\tab\f1\tab\line\line\tab  \f0\par
+}
+ 

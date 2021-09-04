@@ -1,0 +1,3 @@
+#This file show what can cut do.
+echo "1 2 3 4 5" | cut -d ' ' -f 2-5    //it will print from second to fifth
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/BoxGame.dir/main.c.o CMakeFiles/BoxGame.dir/init.c.o CMakeFiles/BoxGame.dir/sig_handler.c.o CMakeFiles/BoxGame.dir/getch.c.o CMakeFiles/BoxGame.dir/print_usage.c.o CMakeFiles/BoxGame.dir/print_map.c.o CMakeFiles/BoxGame.dir/move.c.o -o BoxGame 

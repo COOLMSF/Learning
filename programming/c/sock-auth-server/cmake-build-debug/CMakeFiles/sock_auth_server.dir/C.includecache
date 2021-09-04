@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coolder/learning/programming/c/sock-auth-server/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+transfer.h
+/home/coolder/learning/programming/c/sock-auth-server/transfer.h
+
+/home/coolder/learning/programming/c/sock-auth-server/transfer.h
+

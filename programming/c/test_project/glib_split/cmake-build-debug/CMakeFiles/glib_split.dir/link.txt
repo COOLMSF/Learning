@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/glib_split.dir/main.c.o -o glib_split  -lglib-2.0 

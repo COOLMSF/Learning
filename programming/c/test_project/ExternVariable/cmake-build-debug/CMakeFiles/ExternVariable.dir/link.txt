@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ExternVariable.dir/main.c.o CMakeFiles/ExternVariable.dir/fun.c.o -o ExternVariable 

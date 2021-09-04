@@ -1,0 +1,3 @@
+/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/coolder/learning/programming/c/test_project/stu_mangement_linkedlist/cmake-build-debug/CMakeFiles/stu_mangement_linkedlist.dir

@@ -1,0 +1,3 @@
+/home/coolder/learning/programming/c/Covid19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/coolder/learning/programming/c/Covid19/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/coolder/learning/programming/c/Covid19/cmake-build-debug/CMakeFiles/Covid19.dir

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coolder/learning/programming/c/Covid19/AVLTree.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/coolder/learning/programming/c/Covid19/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

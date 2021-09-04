@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled1" targetName="untitled1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c65faa3-9bc9-4f84-86e0-4486695732c6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1iRceSBrsHzjh2hjIlEr2COOb0p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="untitled1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled1" TARGET_NAME="untitled1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled1" RUN_TARGET_NAME="untitled1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c65faa3-9bc9-4f84-86e0-4486695732c6" name="Default Changelist" comment="" />
+      <created>1601873939410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601873939410</updated>
+      <workItem from="1601873940509" duration="1829000" />
+      <workItem from="1602563093276" duration="7513000" />
+      <workItem from="1602589833789" duration="3421000" />
+      <workItem from="1602643686299" duration="10085000" />
+      <workItem from="1602895141587" duration="7385000" />
+      <workItem from="1602915928416" duration="42000" />
+      <workItem from="1602931852791" duration="11060000" />
+      <workItem from="1603107558053" duration="1586000" />
+      <workItem from="1603619600555" duration="1053000" />
+      <workItem from="1603639052486" duration="46000" />
+      <workItem from="1603691551277" duration="738000" />
+      <workItem from="1603692303622" duration="657000" />
+      <workItem from="1603694120399" duration="747000" />
+      <workItem from="1604245872357" duration="858000" />
+      <workItem from="1605169466166" duration="163000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="-107" width="428" height="476" key="FileChooserDialogImpl" timestamp="1605169610070">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="442" y="-107" width="428" height="476" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605169610070" />
+    <state width="622" height="207" key="GridCell.Tab.0.bottom" timestamp="1604246729881">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="622" height="207" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604246729881" />
+    <state width="622" height="207" key="GridCell.Tab.0.center" timestamp="1604246729880">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="622" height="207" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604246729880" />
+    <state width="622" height="207" key="GridCell.Tab.0.left" timestamp="1604246729880">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="622" height="207" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604246729880" />
+    <state width="622" height="207" key="GridCell.Tab.0.right" timestamp="1604246729881">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="622" height="207" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604246729881" />
+    <state width="1320" height="240" key="GridCell.Tab.1.bottom" timestamp="1603006730808">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603006730808" />
+    <state width="1320" height="240" key="GridCell.Tab.1.center" timestamp="1603006730807">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1603006730807" />
+    <state width="1320" height="240" key="GridCell.Tab.1.left" timestamp="1603006730807">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1603006730807" />
+    <state width="1320" height="240" key="GridCell.Tab.1.right" timestamp="1603006730808">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="240" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1603006730808" />
+    <state x="150" y="-80" width="1043" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602898468392">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="150" y="-80" width="1043" height="760" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1602898468392" />
+    <state x="8" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602603338892">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="8" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1602603338892" />
+  </component>
+</project>

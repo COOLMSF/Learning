@@ -1,0 +1,8 @@
+again the input needs to be 16 characters long
+
+3 char must be 'B', 3rd to last must be 'Q' (these are 2 hard-coded CMPs before the check_with_mod function is called)  
+
+ABBDEFGHIJKLMQOP
+
+the check_with_mod func is doing some funky stuff I need to figure out
+

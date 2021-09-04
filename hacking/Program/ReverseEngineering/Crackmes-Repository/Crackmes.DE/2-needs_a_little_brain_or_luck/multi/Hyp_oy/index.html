@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Fun with && and ||</title>
+<script type="text/javascript">
+function f(s,C,m)
+{
+return (!C && !s[m]) || (C && s[m] && s[m++] == String.fromCharCode(96+C) && f(s,((++C*C++)+(C++*++C)>>++m),--m));
+}
+/*
+javascript crackme v2.1
+it's easy to get password but u be surprised at how it works
+Hint: Password is 7 letters.
+there's NOTHING to check the password length. BUT! IT'S JUST THERE!!!
+
+another hint:
+when using
+func1() && func2()
+if func1 returns false then func2 will not be called at all!
+
+1 more hint:
+
+when using
+func1() || func2()
+if func1 returns true then func2 will not be called at all!
+
+*/
+</script>
+</head>
+<body style="text-align: center;">
+<form onsubmit="alert((f(pass.value,1,0) ? 'Correct! The password is ' : 'Wrong! not ')+pass.value); return false;">
+<div>
+<input type="text" name="pass" />
+<input type="submit" value="Login" />
+</div>
+</form>
+</body>
+</html>

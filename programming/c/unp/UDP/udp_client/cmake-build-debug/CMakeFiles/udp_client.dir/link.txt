@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/udp_client.dir/main.c.o -o udp_client  /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a 

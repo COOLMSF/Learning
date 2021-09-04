@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ReadFile.dir/main.c.o -o ReadFile  /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a 

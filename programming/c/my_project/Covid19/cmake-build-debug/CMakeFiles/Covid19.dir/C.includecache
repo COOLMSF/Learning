@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coolder/Learning/Programming/C_Cpp/TestProject/Covid19/func.c
+user_info.h
+/home/coolder/Learning/Programming/C_Cpp/TestProject/Covid19/user_info.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/coolder/Learning/Programming/C_Cpp/TestProject/Covid19/user_info.h
+stdio.h
+-
+

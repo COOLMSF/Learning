@@ -1,0 +1,254 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+
+
+/* struct for the linked list*/
+
+struct user{
+
+  char name[100];
+
+  int places[100];
+
+  int n_places_visited;
+
+  struct user *next;
+
+};
+
+
+
+/* struct for the Binary tree*/
+
+struct user_bt{
+
+  char name[100];
+
+  int places[100];
+
+  int n_places_visited;
+
+  struct user_bt *left;
+
+  struct user_bt *right;
+
+};
+
+
+
+struct user *head=0;
+
+struct user_bt *root=0;
+
+
+
+/* This function inserts a new user in the linked list */
+
+void insert_user_ll(char *name)
+
+ {
+
+   struct user *tmp, *new_node;
+
+   new_node=(struct user*)malloc(sizeof(struct user));
+
+   strcpy(new_node->name, name);
+
+   if(head==0)
+
+    {
+
+     /*first node, we just need head poiting to it */
+
+    }
+
+   else
+
+    {
+
+      tmp=head;
+
+      while(/*condition needed here*/)
+
+        {
+
+          tmp=tmp->next;
+
+        }
+
+      /* We found the right place, let's insert*/
+
+    }
+
+ }
+
+void remove_user_ll(char *name)
+
+ {
+
+
+
+ }
+
+void insert_visit_ll(char *name, int place_number)
+
+ {
+
+
+
+ }
+
+void save_to_file_ll(FILE *f)
+
+ {
+
+
+
+ }
+
+void read_from_file_ll(FILE *f)
+
+ {
+
+
+
+ }
+
+
+
+void insert_user_bt(char *name)
+
+ {
+
+
+
+ }
+
+void remove_user_bt(char *name)
+
+ {
+
+
+
+ }
+
+void insert_visit_bt(char *name)
+
+ {
+
+
+
+ }
+
+void save_to_file_bt(FILE *f)
+
+ {
+
+
+
+ }
+
+void read_from_file_bt(FILE *f)
+
+ {
+
+
+
+ }
+
+
+
+int main(int argc, char *argv[]) {
+
+  int mode=0; /* 0 for linked list, 1 for binary tree */
+
+  int option;
+
+  FILE *fp;
+
+  char user_name[100];
+
+  int place;
+
+
+
+  printf("Welcome to the Covid app\n");
+
+
+
+  /* Set up mode variable depending on argv */
+
+
+
+  do{
+
+     printf("Menu\n");
+
+     printf("1-...");
+
+     scanf("%d",&option);
+
+     switch(option)
+
+       {
+
+         case 1: /* Introduce  user */
+
+                printf("Enter user name\n");
+
+                scanf("%s",user_name);
+
+                if(mode==0)
+
+                  insert_userll(user_name);
+
+                else
+
+                  insert_user_bt(user_name);
+
+                break;
+
+         case 2: /*2) Introduce visit to venue*/
+
+                break;
+
+         case 3: /* Remove user*/
+
+                break;
+
+         case 4: /*Check users have been in a place*/
+
+                break;
+
+         case 5: /* Save to file */
+
+                break;
+
+         case 6: /* Retrieve data from file*/
+
+                break;
+
+         case 7: /* Exit */
+
+                printf("Goodbye\n");
+
+                break;
+
+         default:
+
+       }
+
+  }
+
+  while(option!=7);
+
+
+
+  return 0;
+
+}
+

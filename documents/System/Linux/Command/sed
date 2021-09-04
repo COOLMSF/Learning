@@ -1,0 +1,26 @@
+#Here are some strategies for sed
+
+#substitution
+echo "123" | sed 's/123/qwe/g'
+
+#cut
+
+Text:
+
+123123
+Thelo
+
+sadss
+adsd
+
+sddsds
+ds
+
+cat Text | sed '1,4d'   //cut line from 1,4
+
+# Batch comment or uncomment
+sed -i '1,10s/^/#/g'
+sed -i '1,10s/^#/g'
+
+# Delete all comment    
+sed -e -i '/^[ \t ]*#/d' 

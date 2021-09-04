@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="listen"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listen">
+				<Option output="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/listen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/coolder/Learning/Programming/C_Cpp/Header"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 listen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listen/fast">
+				<Option output="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/listen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/coolder/Learning/Programming/C_Cpp/Header"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 listen/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/main.c">
+			<Option target="listen"/>
+		</Unit>
+		<Unit filename="/home/coolder/Learning/Programming/C_Cpp/UNP/TCP/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

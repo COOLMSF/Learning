@@ -1,0 +1,43 @@
+loc_80487B8:
+movzx   ecx, byte ptr [edx] //edx=name_addr
+add     edx, 1
+xor     ecx, 47h	//name[i] xor 47h
+movsx   ecx, cl
+add     ebx, ecx	//sum()->ebx
+cmp     edx, eax
+jnz     short loc_80487B8
+
+loc_80487D8:
+movzx   edx, byte ptr [eax]//eax=code_addr
+add     eax, 1
+xor     edx, 42h	//code[i] xor 42h
+movsx   edx, dl
+add     ecx, edx	//sum()->ecx
+cmp     eax, esi
+jnz     short loc_80487D8
+
+loc_80487EA:
+cmp     ebx, ecx	//
+jz      short loc_8048824
+
+Name:admin
+Code:jjjhj/hjjjj/...
+Name:a
+Code:d
+A registered name corresponds to a lot of registration code, I did not list.I'm just a part of it.
+
+#include<string.h>
+#include<stdio.h>
+int  main(){
+char name[20]={0};
+int i;
+printf("Input a string:");
+scanf("%s",name);
+printf("%d\n",strlen(name));
+for(i=0;i<strlen(name);i++)
+{
+	printf("%c",(name[i]^5));
+}
+printf("\n");
+return 0;
+}

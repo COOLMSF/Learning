@@ -1,0 +1,16 @@
+#Difference between regular expression and wildcard
+
+1.
+    Wildcard is usually to describe file name
+    Regular expression is usually to describe text content
+2.
+    In regular expression:
+    ? means mathching 0 or 1 time of the previous characrter
+    . means any one character
+    * means any characters
+
+    In wildcard:
+    ? means any one character
+    * means matching any time of the previous character(0 or more times)
+
+

@@ -1,0 +1,6 @@
+#Here are some tips about redirect
+
+0, 1, 2, respectively, stands for stdin, stdout, stderr
+
+ls * file_not_found &> message.txt //print all the info into message.txt 
+ls * file_not_found 2> message.txt // print stderr into message.txt

@@ -1,0 +1,7 @@
+ok so first thing I noticed after putting some fuzzy data through is the CMP at <main+50>.  after playing around, I realize that the input string needs to be ABCDEFGHIJKLMNOP characters long so (16) long 
+
+also, according to <main+55> the hex values of my input need to add to 0x6e2
+
+a little trial and error and I arrived at... nnnnnnnnnnnnnnnp as my answer.  
+
+Further practice... this crackme is prime example of a keygen since there should be many values that are 16 characters long whose hex values add to 0x6e2.  I should write a python program to generate valid keys instead of brute forcing such a cumbersome task by hand
