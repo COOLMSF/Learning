@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/FileLock.dir/main.c.o -o FileLock  -pthread 

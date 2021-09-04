@@ -1,5 +1,0 @@
-Description:
-	keygenme
-
-Content of the task:
-	As an solution provide proper key for 'uberadmin' user.

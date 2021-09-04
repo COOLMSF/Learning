@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/CopyFile.dir/main.c.o CMakeFiles/CopyFile.dir/do_copy.c.o CMakeFiles/CopyFile.dir/show_usage.c.o -o CopyFile 

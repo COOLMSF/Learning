@@ -1,4 +1,0 @@
-config CPU_INTEL_CORE2
-	bool
-	select SMP
-	select HAVE_MOVNTI

@@ -1,8 +1,0 @@
-#Task managerment
-
-Firstlty, m, h, dom, mon, dow, respctively, stand for minute, hour, day of month, month of the year, day of the week.
-There's some examples:
-* * * * * ./home/coolder/backup.sh  //Execute backup.sh every minute
-0 17 * * * ./home/coolder/backup.sh //Execute backup.sh at every 5 clock pm
-* * mon,tue,wen * * ./bin/ls //Execute ls every mon tue wen
-0 2 * * sun  [ $(date +%d) -le 07  ] && /script/script.sh //Execute script.sh at the first sun of the every month

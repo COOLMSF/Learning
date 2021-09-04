@@ -1,4 +1,0 @@
-/* GNU ld script
-*/
-OUTPUT_FORMAT(elf64-x86-64)
-GROUP ( /home/coolder/Learning/Programming/C_Cpp/Lib/Libc/lib/libm-2.28.9000.a /home/coolder/Learning/Programming/C_Cpp/Lib/Libc/lib/libmvec.a )

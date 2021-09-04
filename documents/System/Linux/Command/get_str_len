@@ -1,4 +1,0 @@
-#This file is to describe how to get the length of a string
-
-string=12345
-echo ${#string} //built-in command

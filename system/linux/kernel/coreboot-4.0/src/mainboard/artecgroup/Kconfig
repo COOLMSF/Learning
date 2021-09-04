@@ -1,8 +1,0 @@
-choice
-	prompt "Mainboard model"
-	depends on VENDOR_ARTEC_GROUP
-        
-source "src/mainboard/artecgroup/dbe61/Kconfig"
-
-endchoice
-

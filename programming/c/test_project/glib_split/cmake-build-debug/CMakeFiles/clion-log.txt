@@ -1,4 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" /home/coolder/Learning/Programming/C_Cpp/glib_split
--- Configuring done
--- Generating done
--- Build files have been written to: /home/coolder/Learning/Programming/C_Cpp/glib_split/cmake-build-debug

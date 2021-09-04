@@ -1,2 +1,0 @@
-#send post data to server
-curl -d "@data.txt" -X POST http://localhost:3000/data

@@ -1,3 +1,0 @@
-/home/coolder/Learning/Programming/C_Cpp/APUE/process/setjump/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/coolder/Learning/Programming/C_Cpp/APUE/process/setjump/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/coolder/Learning/Programming/C_Cpp/APUE/process/setjump/cmake-build-debug/CMakeFiles/setjump.dir

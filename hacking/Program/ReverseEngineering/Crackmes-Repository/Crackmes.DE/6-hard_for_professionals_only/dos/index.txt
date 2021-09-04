@@ -1,2 +1,0 @@
-_khAttAm_ :: wimp.zip
-sushi :: sushi_dos1.zip

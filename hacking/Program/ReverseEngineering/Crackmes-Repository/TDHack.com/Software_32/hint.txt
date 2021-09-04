@@ -1,5 +1,0 @@
-Description:
-	Register me
-
-Content of the task:
-	Register the program

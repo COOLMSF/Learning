@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/Split.dir/main.c.o CMakeFiles/Split.dir/split_glinked_list_version.c.o CMakeFiles/Split.dir/test.c.o -o Split  -lglib-2.0 

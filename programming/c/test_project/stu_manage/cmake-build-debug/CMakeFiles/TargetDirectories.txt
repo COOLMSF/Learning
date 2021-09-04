@@ -1,3 +1,0 @@
-/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_manage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_manage/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/coolder/Learning/Programming/C_Cpp/TestProject/stu_manage/cmake-build-debug/CMakeFiles/stu_manage.dir

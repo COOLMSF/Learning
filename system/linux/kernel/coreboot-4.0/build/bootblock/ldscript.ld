@@ -1,5 +1,0 @@
-INCLUDE "ldoptions"
- INCLUDE "/home/coolder/Learning/System/Linux/Kernel/coreboot-4.0/src/arch/i386/init/ldscript_failover.lb"
- INCLUDE "/home/coolder/Learning/System/Linux/Kernel/coreboot-4.0/src/cpu/x86/16bit/entry16.lds"
- INCLUDE "/home/coolder/Learning/System/Linux/Kernel/coreboot-4.0/src/cpu/x86/16bit/reset16.lds"
- INCLUDE "/home/coolder/Learning/System/Linux/Kernel/coreboot-4.0/src/arch/i386/lib/id.lds"

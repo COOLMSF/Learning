@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/string_sort.dir/main.c.o -o string_sort 

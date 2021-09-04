@@ -1,3 +1,0 @@
-/home/coolder/Learning/Network/set_get_hostent/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/coolder/Learning/Network/set_get_hostent/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/coolder/Learning/Network/set_get_hostent/cmake-build-debug/CMakeFiles/set_get_hostent.dir

@@ -1,3 +1,0 @@
-/home/coolder/learning/programming/c/pcap-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/coolder/learning/programming/c/pcap-test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/coolder/learning/programming/c/pcap-test/cmake-build-debug/CMakeFiles/pcap_test.dir

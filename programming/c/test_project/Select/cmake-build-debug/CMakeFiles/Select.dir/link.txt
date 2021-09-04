@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/Select.dir/main.c.o -o Select  /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a 

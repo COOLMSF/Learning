@@ -1,3 +1,0 @@
-j4cbo :: confound.tar.gz
-monkey :: crackme-os-1.2.zip
-warsaw :: crackme3.zip

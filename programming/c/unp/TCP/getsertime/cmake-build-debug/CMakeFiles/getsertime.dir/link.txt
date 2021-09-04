@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgetsertime.a CMakeFiles/getsertime.dir/library.c.o
-/usr/bin/ranlib libgetsertime.a

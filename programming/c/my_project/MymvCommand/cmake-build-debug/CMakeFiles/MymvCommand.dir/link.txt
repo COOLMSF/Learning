@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/MymvCommand.dir/main.c.o CMakeFiles/MymvCommand.dir/countDiskUsage.c.o CMakeFiles/MymvCommand.dir/call_mv.c.o CMakeFiles/MymvCommand.dir/call_progress.c.o -o MymvCommand 

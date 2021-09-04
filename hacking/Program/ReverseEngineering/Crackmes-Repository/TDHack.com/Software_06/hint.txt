@@ -1,5 +1,0 @@
-Description:
-	Few passwords at once
-
-Content of the task:
-	Enter first good password to enable each other.

@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/unp_test.dir/main.c.o -o unp_test  /home/coolder/Learning/Programming/C_Cpp/Lib/UNP/libunp.a 

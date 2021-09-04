@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/DirFilesCountRec.dir/main.c.o CMakeFiles/DirFilesCountRec.dir/print_dir_files.c.o CMakeFiles/DirFilesCountRec.dir/nftw.c.o -o DirFilesCountRec 

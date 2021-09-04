@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/GetInterfaceInfo.dir/main.c.o -o GetInterfaceInfo  /home/coolder/CLionProjects/C_Cpp/Lib/UNP/libunp.a 

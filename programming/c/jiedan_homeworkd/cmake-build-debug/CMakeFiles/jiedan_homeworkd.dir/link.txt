@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/jiedan_homeworkd.dir/main.c.o -o jiedan_homeworkd 

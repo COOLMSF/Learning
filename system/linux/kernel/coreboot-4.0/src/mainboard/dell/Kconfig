@@ -1,8 +1,0 @@
-choice
-	prompt "Mainboard model"
-	depends on VENDOR_DELL
-
-source "src/mainboard/dell/s1850/Kconfig"
-
-endchoice
-

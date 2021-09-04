@@ -1,1 +1,0 @@
-readelf -x .rodata a.out //read .rodata session from a.out

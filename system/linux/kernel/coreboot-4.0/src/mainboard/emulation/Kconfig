@@ -1,7 +1,0 @@
-choice
-	prompt "Mainboard model"
-	depends on VENDOR_EMULATION
-
-source "src/mainboard/emulation/qemu-x86/Kconfig"
-
-endchoice

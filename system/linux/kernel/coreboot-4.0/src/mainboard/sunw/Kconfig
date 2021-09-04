@@ -1,8 +1,0 @@
-choice
-	prompt "Mainboard model"
-	depends on VENDOR_SUNW
-	
-source "src/mainboard/sunw/ultra40/Kconfig"
-
-endchoice
-

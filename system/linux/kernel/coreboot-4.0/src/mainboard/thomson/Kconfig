@@ -1,8 +1,0 @@
-choice
-	prompt "Mainboard model"
-	depends on VENDOR_THOMSON
-        
-source "src/mainboard/thomson/ip1000/Kconfig"
-
-endchoice
-

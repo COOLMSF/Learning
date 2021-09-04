@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/untitled2.dir/main.c.o CMakeFiles/untitled2.dir/isPalindromeNumber.c.o CMakeFiles/untitled2.dir/itoa.c.o CMakeFiles/untitled2.dir/get_num_len.c.o -o untitled2  -lm 

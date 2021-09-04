@@ -1,8 +1,0 @@
-#copy skills
-#
-#copy file A on 192.168.43.123 to localhost ~/docs
-scp root@192.168.43.123:/home/coolder/ ~/docs
-
-#use port 12345
-scp -P 12345 root@192.168.43.123:/home/coolder/ ~/docs
-

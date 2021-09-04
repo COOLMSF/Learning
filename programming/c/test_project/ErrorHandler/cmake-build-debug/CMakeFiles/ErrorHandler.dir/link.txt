@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/ErrorHandler.dir/main.c.o CMakeFiles/ErrorHandler.dir/test1.c.o -o ErrorHandler 

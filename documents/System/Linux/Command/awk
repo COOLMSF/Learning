@@ -1,6 +1,0 @@
-#This file show skills of awk
-
-echo "1 2 3 4" | awk '{ print $1 }'
-
-cat a | awk '{ NR <= 2 }'   //print the first two lines
-cat a | awk '{ NR==3, NR==6 }'  //print lines from 3 to 6

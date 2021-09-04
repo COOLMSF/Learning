@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/stu_mangement_linkedlist.dir/main.c.o CMakeFiles/stu_mangement_linkedlist.dir/stu_info_fun.c.o -o stu_mangement_linkedlist 

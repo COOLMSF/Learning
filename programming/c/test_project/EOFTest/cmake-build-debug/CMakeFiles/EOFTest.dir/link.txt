@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/EOFTest.dir/main.c.o -o EOFTest  /home/coolder/Learning/Programming/C_Cpp/Lib/UNP/libunp.a 

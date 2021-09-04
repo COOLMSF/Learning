@@ -1,1 +1,0 @@
-driver-y += model_f0x_init.o

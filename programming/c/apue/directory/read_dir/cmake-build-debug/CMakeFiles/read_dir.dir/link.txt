@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/read_dir.dir/main.c.o CMakeFiles/read_dir.dir/print_files_in_dir.c.o CMakeFiles/read_dir.dir/countDiskUsage.c.o -o read_dir 
